@@ -1,0 +1,369 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;	line order isn't significan outside of battle_vegetation sections, elements with a season can be provided multiple times for each season
+;	colour	<red:0-255> <green:0-255> <blue:0-255>
+;	heat	range 1-4 (zero would mean no armour effects to fatigue at all)
+;	winter|snow_in_winter	indicates if this climate should be snowcovered in winter
+;	mud_color|dust_color <season:summer|winter> <red:0-255> <green:0-255> <blue:0-255> [opt] <season:summer|winter> <red:0-255> <green:0-255> <blue:0-255>	colour used for mud/dust "grunge" effects on units (Note: colour vs color, oops.)
+;
+;	mountain <season:summer|winter> <texture_name>	texture used for distant mountains in battles
+;	coarse_detail <texture_name>	texture used for coarse normal map detailing on the battle terrain (close to/within battle region)
+;	far_coarse_detail <season:summer|winter> <texture_name>	texture used for (much coarser) coarse normal map detailing on the "far" terrain (well beyond battle region)
+;	strategy <season:summer|winter>	<tree_type:sparse_tree|dense_tree|canopy> <filename> <sprite_cell:integer>	Can be repeated multiple times with the same season/tree_type to add additional variety. canopy used inside of forests, sprite_cell usage unclear, may not be used anymore?
+;	battle_[winter_]vegetation	list of vegetation types for forest and scrub for specified season (summer implied). Both types must be specified
+;		dense_forest <forest_type>
+;		dense_scrub  <scrub_type>
+;	env_map <texture>	The environment map for the climate. Unused, we now generate an environment map dynamically based on actual conditions in remastered,.
+;	
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+climates
+{
+	test_climate
+
+	sandy_desert
+	rocky_desert
+	temperate_grassland_fertile
+	temperate_grassland_infertile
+	temperate_forest_open
+	temperate_forest_deep
+	swamp
+	highland
+	alpine
+	sub_arctic
+	semi_arid
+}
+
+climate test_climate
+{
+	colour	236 0 140
+	heat	1
+
+	mountain summer test_summer
+	mountain winter test_summer
+	coarse_detail test_summer
+	far_coarse_detail summer test_summer
+	far_coarse_detail winter test_summer
+
+	strategy	summer	sparse_tree	cypress_a.cas			11
+	strategy	summer	sparse_tree	olive_a.cas				10
+	strategy	summer	dense_tree	olive_a_impassable.cas	10
+	strategy	summer	canopy		olive_a_canopy.cas		12
+
+	battle_vegetation
+	dense_forest		medi_dense_forest
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest		medi_dense_forest
+	dense_scrub		medi_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sandy_desert
+{
+	colour	102 45 145
+	heat	4
+	dust_color summer 175 139 88  winter 175 139 88
+	mud_color  summer 140 109 80  winter 140 109 80
+
+	mountain summer sandy_desert
+	mountain winter sandy_desert
+	coarse_detail sandy_desert
+	far_coarse_detail summer sandy_desert
+	far_coarse_detail winter sandy_desert
+
+	strategy	summer	sparse_tree	palm_a.cas	8
+	strategy	summer	sparse_tree	palm_b.cas	9
+
+	battle_vegetation
+	dense_forest	dense_pine
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	winter_dense_pine
+	dense_scrub		medi_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate rocky_desert
+{
+	colour	146 39 143
+	heat	3
+	dust_color summer 175 139 88  winter 175 139 88
+	mud_color  summer 130 100 75  winter 130 100 75
+
+	mountain summer rocky_desert
+	mountain winter rocky_desert
+	coarse_detail rocky_desert
+	far_coarse_detail summer rocky_desert
+	far_coarse_detail winter rocky_desert
+
+	strategy	summer	sparse_tree	palm_a.cas	8
+	strategy	summer	sparse_tree	palm_b.cas	9
+
+	battle_vegetation
+	dense_forest		rocky_desert_rock
+	dense_scrub		rocky_desert_scrub
+
+	battle_winter_vegetation
+	dense_forest		rocky_desert_rock
+	dense_scrub		rocky_desert_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_fertile
+{
+	colour	237 20 91
+	heat	1
+	winter
+
+	mountain summer temperate_fertile_summer
+	mountain winter temperate_fertile_winter
+	coarse_detail temperate_fertile
+	far_coarse_detail summer temperate_fertile
+	far_coarse_detail winter temperate_fertile
+
+	strategy	summer	sparse_tree	birch_a.cas						1
+	strategy	summer	dense_tree	birch_a_impassable.cas			0
+	strategy	summer	canopy		birch_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		birch_a_canopy_winter.cas		13
+
+	battle_vegetation
+	dense_forest	grass_fert_dense_forest
+	dense_scrub		grass_fert_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	grass_fert_dense_forest_win
+	dense_scrub		grass_fert_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_grassland_infertile
+{
+	colour	237 28 36
+	heat	1
+	winter
+
+	mountain summer temperate_infertile_summer
+	mountain winter temperate_infertile_winter
+	coarse_detail temperate_infertile
+	far_coarse_detail summer temperate_infertile
+	far_coarse_detail winter temperate_infertile
+	
+	strategy	summer	sparse_tree	birch_a.cas						1
+	strategy	summer	dense_tree	birch_a_impassable.cas			0
+	strategy	summer	canopy		birch_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	birch_a_winter.cas				5
+	strategy	winter	dense_tree	birch_a_impassable_winter.cas	4
+	strategy	winter	canopy		birch_a_canopy_winter.cas		13
+
+	battle_vegetation
+	dense_forest	grass_infert_dense_forest
+	dense_scrub		grass_infert_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	grass_infert_dense_forest_win
+	dense_scrub		grass_infert_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_open ; Used as Jungle
+{
+	colour	242 101 34
+	heat	3
+
+	mountain summer forest_open_summer
+	mountain winter forest_open_summer
+	coarse_detail forest_open
+	far_coarse_detail summer forest_open
+	far_coarse_detail winter forest_open
+
+	strategy	summer	sparse_tree	deciduous_a.cas						1
+	strategy	summer	dense_tree	deciduous_a_impassable.cas			0
+	strategy	summer	canopy		deciduous_a_canopy.cas				12
+
+	strategy	winter	sparse_tree	deciduous_a.cas				5
+	strategy	winter	dense_tree	deciduous_a_impassable.cas	4
+	strategy	winter	canopy		deciduous_a_canopy.cas		13
+
+	battle_vegetation
+	dense_forest	grass_fert_dense_forest
+	dense_scrub		grass_fert_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	grass_fert_dense_forest
+	dense_scrub		grass_fert_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate temperate_forest_deep
+{
+	colour	247 148 29
+	heat	1
+	winter
+
+	mountain summer forest_deep_summer
+	mountain winter forest_deep_winter
+	coarse_detail forest_deep
+	far_coarse_detail summer forest_deep
+	far_coarse_detail winter forest_deep
+
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	dense_tree	conifer_a_impassable.cas			3
+	strategy	summer	canopy		conifer_a_canopy.cas				14
+
+	strategy	winter	sparse_tree	conifer_a_winter.cas				7
+	strategy	winter	dense_tree	conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		conifer_a_canopy_winter.cas			15
+
+	battle_vegetation
+	dense_forest	forest_deep_dense_forest
+	dense_scrub		forest_deep_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	forest_deep_dense_forest_win
+	dense_scrub		forest_deep_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate swamp
+{
+	colour	255 242 0
+	heat	1
+
+	mountain summer swamp
+	mountain winter swamp
+	coarse_detail swamp
+	far_coarse_detail summer swamp
+	far_coarse_detail winter swamp
+
+	battle_vegetation
+	dense_forest	dense_pine
+	dense_scrub		medi_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	winter_dense_pine
+	dense_scrub		medi_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate highland
+{
+	colour	141 198 63
+	heat	1
+	winter
+
+	mountain summer highlands_summer
+	mountain winter highlands_winter
+	coarse_detail highland
+	far_coarse_detail summer highland
+	far_coarse_detail winter highland
+
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	dense_tree	conifer_a_impassable.cas			3
+	strategy	summer	canopy		conifer_a_canopy.cas				14
+		
+	strategy	winter	sparse_tree	conifer_a_winter.cas				7
+	strategy	winter	dense_tree	conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		conifer_a_canopy_winter.cas			15
+	
+	battle_vegetation
+	dense_forest	highland_dense_forest
+	dense_scrub		highland_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	highland_dense_forest_win
+	dense_scrub		highland_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate alpine
+{
+	colour	57 181 74
+	heat	1
+	winter
+
+	mountain summer alpine_summer
+	mountain winter alpine_winter
+	coarse_detail alpine
+	far_coarse_detail summer alpine
+	far_coarse_detail winter alpine
+
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	dense_tree	conifer_a_impassable.cas			3
+	strategy	summer	canopy		conifer_a_canopy.cas				14
+
+	strategy	winter	sparse_tree	conifer_a_winter.cas				7
+	strategy	winter	dense_tree	conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		conifer_a_canopy_winter.cas			15
+
+	battle_vegetation
+	dense_forest	alpine_dense_forest
+	dense_scrub		alpine_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	alpine_dense_forest_win
+	dense_scrub		alpine_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate sub_arctic
+{
+	colour	0 166 81
+	heat	1
+	winter
+
+	mountain summer subarctic_summer
+	mountain winter subarctic_winter
+	coarse_detail subarctic
+	far_coarse_detail summer subarctic
+	far_coarse_detail winter subarctic
+
+	strategy	summer	sparse_tree	conifer_a.cas						2
+	strategy	summer	dense_tree	conifer_a_impassable.cas			3
+	strategy	summer	canopy		conifer_a_canopy.cas				14
+
+	strategy	winter	sparse_tree	conifer_a_winter.cas				7
+	strategy	winter	dense_tree	conifer_a_impassable_winter.cas		6
+	strategy	winter	canopy		conifer_a_canopy_winter.cas			15
+
+	battle_vegetation
+	dense_forest	sub_arctic_dense_forest
+	dense_scrub		sub_arctic_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	sub_arctic_dense_forest_win
+	dense_scrub		sub_arctic_dense_scrub_win
+	env_map			data/battlefield/envmaps/grass.dds
+}
+
+climate semi_arid
+{
+	colour	0 114 188
+	heat	2
+	dust_color summer 175 139 88  winter 175 139 88
+	mud_color  summer 45 36 27  winter 45 36 27
+
+	mountain   summer semiarid
+	mountain   winter semiarid
+	coarse_detail semiarid
+	far_coarse_detail   summer semiarid
+	far_coarse_detail   winter semiarid
+
+	strategy	summer	sparse_tree	olive_a.cas				10
+	strategy	summer	dense_tree	olive_a_impassable.cas	10
+	strategy	summer	canopy		olive_a_canopy.cas		12
+
+	battle_vegetation
+	dense_forest	semi_arid_dense_forest
+	dense_scrub		semi_arid_dense_scrub
+
+	battle_winter_vegetation
+	dense_forest	semi_arid_dense_forest
+	dense_scrub		semi_arid_dense_scrub
+	env_map			data/battlefield/envmaps/grass.dds
+}

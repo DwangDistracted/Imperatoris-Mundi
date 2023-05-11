@@ -1,0 +1,18 @@
+[
+	{
+		"filename": "data\/descr_rebel_factions.txt",
+		"checksum": 2007165839
+	},
+	{
+		"filename": "data\/descr_unit_variation.txt",
+		"checksum": 1433395965
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_mercenaries.txt",
+		"checksum": 2742691975
+	},
+	{
+		"filename": "data\/world\/maps\/campaign\/imperial_campaign\/descr_strat.txt",
+		"checksum": 1954032572
+	}
+]

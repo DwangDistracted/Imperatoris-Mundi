@@ -1,0 +1,92 @@
+REGION_NAME,ETHNICITIES,REGIONS
+Brittania,caucasiandark;20;caucasian;80,Hibernia_Septentrionalis;Hibernia_Orientalis;Hibernia_Meridionalis;Hibernia_Occidentalis;Caledonia;Taexalia;Votadinia;Brigantia;Coritania;Cornovia;Icenia;Trinovantia;Cantiacia;Durotrigia;Dumnonia;Dobunnia;Ordovicia;Demetia
+Gaul,caucasiandark;60;caucasian;40,Osisimia;Armorica;Venellia;Eburovicia;Veliocassia;Namnetia;Pictonia;Turonia;Carnutia;Parisia;Aquitania;Santonia;Nitrobrogia;Auscia;Biggeronia;Volcatia;Celtica;Biturigia;Senonia;Haeduia;Cubia;Arvernia;Lemovicia;Ambarria;Sequania;Allobrogia;Alpes_Cottiae;Verbogenia
+Belgium,caucasiandark;40;caucasian;60,Morinia;Bellovacia;Suaeuconia;Nervia;Treveria_Salutaris;Leucia;Eburonia;Treveria;Mediomatricia;Tribocia
+GalloGreek Colonies,caucasiandark;55;caucasian;25;mediterranean;20,Alpes_Maritimae;Vocontia;Narbonensis
+Scandinavia,caucasian;100,Anglia;Cimbrica;Scandia_Insula;Herulia;East_Gothia;West_Gothia;Ultima_Thule
+North Germany,caucasiandark;20;caucasian;80,Frisia;Chasuaria;Chaucia;Bructeria;Sicambria;Langobardia;Chamavia;Baluconia;Pharodenia;Buria;Marsignia;Rugia;Helveconia;Elysia;Lugia;Semnonia
+South Germany,caucasiandark;50;caucasian;50,Vangionia;Chattia;Hermunduria;Marcomannia;Naharvalia;Boioa;Naristia;Noricum;Vindelicia;Latobrigia;Breunia;Helvetia;Ciscarpathia
+Baltics,caucasiandark;30;caucasian;70,Sciria;Chrononia;Turuntia;Venedia_Inferior;Ossioia;Vistulia
+Amazons,mediterranean;100,Hyperboria
+Cisalpine Gaul,caucasiandark;50;caucasian;20;mediterranean;30,Aemilla;Transpadana;Insubria;Cenomannia;Olana;Venetia
+Italy,mediterranean;100,Vallis_Arni;Dodecapolis;Umbria;Tuscia;Latium;Picenum;Aternum;Apulia;Campania;Lucania;Tarentum;Bruttium;Siculia;Syracuse;Sicania;Corsica
+Island Punic Colonies,mediterranean;70;berber;20;arabic;10,Elimia;Sardinia_Australis;Sardinia_Borealis;Balearides
+Coastal North Africa,berber;60;arabic;30;mediterranean;10,Carthago;Zeugitana;Byssatis;Thabracania;Massylia
+Inland North Africa,berber;100,Musulamia;Maxyesia;Zaba;Aurasius;Cirtania;Sitifensia;Gaetulia
+Coastal Mauritania,berber;80;arabic;20,Iolia;Tingitania
+Inland Mauritania,berber;100,Machuria;Massaesylia;Metagonia;Mauretania;Rutubis;Tadla;Mauretania_Ulterior;Lixiane;Madethubadus;Deserta_Mauretania;Furtunatae_Insulae
+Cerne,african;90;arabic;10,Cerne
+Sahara,berber;90;african;10,Leonum_Trahentium;Troglodytia;Ougarta;Deserta_Tripolitania;Phazania;Garamantia_Occidentalis;Garamantia_Citerior;Libyae_Interior
+Tripolitania,berber;90;arabic;10,Tripolitania;Syrtica;Nasamonia
+Sub-Saharan Africa,african;100,Nigritania;Agisymba
+Ibero Greek Colonies,caucasiandark;80;mediterranean;20,Indicetia;Contestania
+Ibero Punic Colonies,caucasiandark;70;berber;20;arabic;10,Baetica_Gaditanus;Mastiania;Bastetania
+Iberia,caucasiandark;100,Edetania;Ilercavonia;Cessetania;Ilergetia;Vasconia;Baetica_Hispalensis;Malacitia;Oretania;Baetica_Cordubensis;Turdetania;Couneia;Turdulia_Occidentalis;Turdulia_Orientalis;Celticia_Minoris;Celticia_Maoioris;Lusitania;Oppidania;Asturia;Aebocosia;Callaecia_Meridionalis;Callaecia_Septentrionalis
+Celtiberia,caucasiandark;80;caucasian;20,Lobetania;Celtiberia_Meridionalis;Celtiberia_Septentrionalis;Celtiberia_Centralis;Carpetania;Vettonia_Meridionalis;Vettonia_Septentrionalis;Vaccaeia_Meridionalis;Vaccaeia_Septentrionalis;Vardulia;Autrigonia;Cantabria
+Coastal Illyria,caucasiandark;20;caucasian;10;mediterranean;70,Histria;Libernia;Dalmatia
+Inland Illyria,caucasiandark;30;caucasian;20;mediterranean;50,Daorsia;Deuria
+Pannonia,caucasiandark;90;caucasian;10,Latobicia;Cataria;Varciania;Pannonia_Prima;Carnuntia;Quadia;Valeria;Hercuniatia;Pannonia_Secunda
+Dacia,caucasian;100,Albocensia;Iazygia;Cotinia;Costobocia;Potulatensia;Porolissensis;Apulensis;Malvensis;Getia;Roxolania
+Moesia,caucasiandark;30;caucasian;10;mediterranean;60,Tricornensia;Dindaria;Dardania;Picensia;Saldensia;Moesia;Crobyzoia;Scythia_Minor
+Celtic Balkans,caucasiandark;60;caucasian;20;mediterranean;20,Scordiscia;Triballia
+Thrace,caucasiandark;10;caucasian;10;mediterranean;80,Haemimontus;Thracia;Rhodope;Propontis;Europa;Paeonia
+Hellas,mediterranean;100,Odomantike;Chalkidiki;Emathia;Pelagonia;Thessalia;Illyria_Graeca;Epirus;Aetolia;Boeotia;Attica;Euboea;Achaea;Arcadia;Laconia;Sporades;Crete
+Crimea,caucasiandark;80;mediterranean;20,Chersonesos_Zenonis;Chersonesos_Heraclea;Taurica;Bosporus_Cimmerius;Sarmatia_Maritima;Scythia_Harpitis
+European Sarmatia,caucasiandark;100,Subcarpathia;Zargidava;Clepia;Sarmatia;Sarmatia_Superioris;Borysthenia;Hypania;Transborysthena;Transhypania;Hypania_Minoris;Bassetia;Vistulia_Inferioris;Amadocia;Neuri;Gelonia
+Asian Sarmatia,caucasiandark;100,Tauroscythia;Cimmero_Scythia;Tanaica;Borysthenia_Maioris;Danaia;Mantessa;Confluenta;Danaia_Superioris;Melanchlenia;Thyssagetae;Stumica;Sarmatia_Ulterior
+Circassia,caucasiandark;100,Maeotia;Sindica;Scythia_Transmontem;Tanaissa;Sarmatia_Hyrcania;Sattara;Hyrcania_Superioris;Alania;Alania_Orientalis;Atara
+Far Sarmatia,caucasiandark;90;eastasian;10,Nesietis;Transhyrcania;Darn;Scythia_Magna;Deserta_Scythia;Abzoa;Alanorsia
+Southern Siberia,caucasiandark;70;eastasian;30,Busu;Septem_Flumina;Sacasene;Hongnia
+Tanim,caucasiandark;40;caucasian;40;eastasian;20,Gushia;Hamich;Agni;Kroraina;Portae_Ferraea;Kushine;Calmadana;Gumo;Kasia;Gosthana;Cadot;Taklamakan_Desertum
+Seres,eastasian;100,Paelex_Porta;Serica;Serica_Asmiraii;Serica_Coconorum;Mons_Emodus
+Jaxarta,caucasiandark;80;eastasian;20,Issedonia;Talas;Chach;Jaxartes_Superior;Jaxartes_Inferior;Dzankath;Mons_Imaus
+Ferghana,mediterranean;15;caucasiandark;50;caucasian;30;eastasian;5,Ferghana;Kyreschata;Pamir
+Northern Parthia,caucasiandark;100,Sakastan;Sogdiana_Deserta;Tigraxauda;Oxia_Deserta;Chorasmia_Ostia;Chorasmia_Inferior;Chorasmia_Superior;Chorasmia_Deserta;Mardastan;Scythia_Ultima;Scythia_Pontica;Dahaestan;Massagetica;Parnia;Siracene
+Margiana,caucasiandark;100,Margiana;Sarmagana;Attene
+Bactria,caucasiandark;60;caucasian;10;mediterranean;30,Bactriana;Chomaria;Candara
+Oxiana,caucasiandark;60;caucasian;20;mediterranean;15;eastasian;5,Transoxus;Sogdiana;Oxiana;Tarmita
+Cyrenaica,mediterranean;50;egyptian;50,Barka;Cyrenaica;Marmarica;Libya;Ammon
+Lower Egypt,mediterranean;30;egyptian;70,Delta_Occidentalis;Delta_Orientalis;Aegyptis;Saracena;Heptanomis
+Upper Egypt,mediterranean;15;egyptian;85,Asyut;Luxor;Aswan
+West Egyptian Desert,egyptian;100,Parva;Farfara;Kharga;Khargana
+Eastern Desert,mediterranean;10;egyptian;60;arabic;20;african;10,Porphyritis_Mons;Troglodytica;Ptolemais_Epithera
+Nubia,egyptian;40;african;60,Nubia_Septentrionalis;Nubia_Centralis;Nubia_Meridionalis;Alana
+Meroe,african;90;egyptian;10,Meroe_Insula;Alut;Atbaras;Attiroia
+Daaamat,african;90;arabic;10,Bega;Tangiatae;Daamat;Punt
+Erythrae,african;90;arabic;10,Asayta;Akridophagia;Rhausae;Barbaria;Cinnamonifora;Aromatica;Elephas;Azania;Barbaria_Interior
+Aethiopia,african;100,Axomitarum;Tiama;Atalmo;Ssasu;Melanokhrotoi;Gambala
+Cyeneum,african;100,Calaa;Astasobas;Golaissae;Artabatita;Syrbotia;Cyeneum
+Arabia Felix,african;5;egyptian;5;arabic;90,Mapharitis;Himyar;Saba;Qataban;Myrrhifera;Hadhramut_Occidentalis;Hadhramut_Orientalis
+Western Arabia,arabic;90;egyptian;10,Taifa;Cinaedocolpitis;Arabia_Ad_Sinus;Iathrippa;Hegra;Arabia_Relicta;Arabia_Petrea;Sinai
+Eastern Arabia,arabic;100,Omanitis_Orientalis;Omanitis_Occidentalis;Gerrha_Orientalis;Tylos_Insula;Gerrha_Occidentalis
+Central Arabia,arabic;100,Dumatha;Arabia_Magna;Arabia_Deserta
+Southern Levant, arabic;70;mediterranean;20;egyptian;10,Rhicocorura;Philistia;Judea;Peraea;Decapolis;Phoeniciae_Meridionalis
+Syria,arabic;40;mediterranean;40;caucasiandark;20,Coele_Syria;Phoeniciae_Septentrionalis;Apamene;Palmyrene;Syria;Commagene
+Assyria,arabic;40;mediterranean;25;caucasiandark;35,Osroene;Coruene;Mesopotamia;Assyria;Apolloniatos;Adiabene;Garamaea
+Babylonia,arabic;50;mediterranean;15;caucasiandark;35,Aramaea;Babylonia;Sittacene;Sumer;Chaldaea;Characene;Susiana
+Aegean Anatolia,mediterranean;85;caucasiandark;15,Bithynia_Inferioris;Mysia_Inferioris;Troad;Mysia_Superioris;Ionia;Caria
+Southern Anatolia,mediterranean;80;caucasiandark;20,Lycia;Pamphylia;Cilicia_Trachea;Cilicia_Pedias;Cyprus
+Western Anatolia,mediterranean;75;caucasiandark;25,Lydia;Phrygia_Ripensis;Pisidia;Phrygia_Parorea;Phyrgia_Minoris;Bithynia_Superioris
+Central Anatolia,mediterranean;40;caucasiandark;45;caucasian;15,Isauria;Lycaonia;Tyanitis;Saravene;Galatia;Phrygia_Maoris
+Northern Anatolia,mediterranean;70;caucasiandark;25;caucasian;5,Mariandynia;Paphlagonia_Superioris;Paphlagonia_Inferioris;Iris_Inferioris;Iris_Supeioris;Helenopontus;Paryadres
+Eastern Anatolia,mediterranean;20;caucasiandark;65;caucasian;15,Cappadocia;Cataonia;Melitene;Armenia_Maioris;Armenia_Minoris;Armenia_Superioris;Sophene
+Armenia,caucasiandark;85;caucasian;15,Tarawn;Vaspurakan;Syracene;Soducene;Ayrarat;Parsatunik;Syunik;Artsakh
+Colchis,mediterranean;10;caucasiandark;85;caucasian;5,Tayk;Colchis;Abasgoi;Suaneti
+Caucasus,caucasiandark;95;caucasian;5,Gugark;Iberia;Kahetia;Arran;Albania
+Atropatene,caucasiandark;90;caucasian;10,Parskahayk;Media_Atropatene;Kadousioi;Paytankert
+Media,caucasiandark;75;arabic;15;caucasian;10,Media;Kossioi;Media_Magna;Media_Choromithrene;Amardioi;Choarene;Gabiene;Artacene
+Persia,caucasiandark;70;arabic;20;caucasian;10,Mardiane;Taocene;Persis;Media_Felix;Paraetacene;Utia;Rudiane
+Parthia,caucasiandark;85;arabic;10;caucasian;5,Articene;Comisene;Hyrcania;Parthia;Tapuria;Traxiane;Desertum_Salinum
+Ariana,caucasiandark;85;caucasian;15,Aria;Pactya;Sagartia;Driangiana;Carmania;Tabiene;Agdinitis
+Arachosia,caucasiandark;85;indian;10;caucasian;5,Paropamisadae;Sattagydia;Arachosia;Paradene;Drangiana;Gedrosia
+Gandhara,indian;65;caucasiandark;20;mediterranean;15,Gandhara;Kasmira;Glausae;Hydaspes;Madra;Panchanada;Sibae;Trigata;Sivi
+Hindu Caucasus,indian;25;caucasiandark;50;caucasian;15;mediterranean;10,India_Alba;Patala_Sindhu;Prasiane;Saranga
+Sindh,indian;75;caucasiandark;15;mediterranean;10,Patalene;Aporapa;Sauvira
+Maru,indian;90;caucasiandark;10,Kaccha;Abhira;Deserta_Indica;Saurashtra_Meridionalis;Saurashtra_Centralis;Saurashtra_Septentrionalis;Maru
+Aparanta,indian;95;caucasiandark;5,Aparanta;Sahyadri_Septentrionalis;Sahyadri_Meridionalis;Mulaka;Vindhya;Anupa,Asika,Kuntala
+Avanti,indian;100,Anartta;Avanti_Meridionalis;Avanti_Septentrionalis;Dasarna;Dahala;Matsya;Shurasena
+Madhyadesa,indian;100,Kamyaka;Bahudhanyaka;Kuru;Pancala;Turvashas;Cedi_Occidentalis;Cedi_Orientalis;Kosala;Kasi;Malla
+Vindhyaprstha,indian;100,Dakshina_Kosala;Mahendragiri;Kalinga;Radha;Andhra;Asmaka;Vidarbha;Fanindrapura
+Pracya,indian;100,Magadha;Anga;Vanga;Pundra;Vrji;Kamata;Kamarupa;Samatata
+Karnata,indian;100,Gomanta;Satiyaputa_Septentrionalis;Satiyaputa_Meridionalis;Keralaputa;Mahismandala_Septentrionalis;Mahismandala_Meridionalis
+Dravida,indian;100,Sriparvata;Tondainadu_Septentrionalis;Tondainadu_Meridionalis;Koda;Malayas;Pandiya;Tambapamni_Septentrionalis;Tambapamni_Meridionalis

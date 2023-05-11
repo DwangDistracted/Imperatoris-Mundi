@@ -1,0 +1,4 @@
+; file - a coastline model
+
+file    data/terrain/campaign/imperial_campaign/coastline/coastline.cas
+file    data/terrain/campaign/imperial_campaign/coastline/coastline_1.cas

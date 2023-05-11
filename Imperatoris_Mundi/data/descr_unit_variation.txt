@@ -1,0 +1,8515 @@
+skin
+{
+	african
+	{
+		male data/characters/skin_textures/african_m_skin.tga 1 6 14
+		female data/characters/skin_textures/african_f_skin.tga 1 10 12
+	}
+	arabic
+	{
+		male data/characters/skin_textures/arabic_m_skin.tga 3 10 15
+		female data/characters/skin_textures/arabic_f_skin.tga 1 5 13
+	}
+	berber
+	{
+		male data/characters/skin_textures/arabic_m_skin.tga 3 10 15
+		female data/characters/skin_textures/arabic_f_skin.tga 1 5 13
+	}
+	caucasian
+	{
+		male data/characters/skin_textures/caucasian_m_skin.tga 3 11 13
+		female data/characters/skin_textures/caucasian_f_skin.tga 1 6 15
+	}
+	eastasian
+	{
+		male data/characters/skin_textures/eastasian_m_skin.tga 1 8 13
+		female data/characters/skin_textures/eastasian_f_skin.tga 1 7 14
+	}
+	egyptian
+	{
+		male data/characters/skin_textures/egyptian_m_skin.tga 0 8 15
+		female data/characters/skin_textures/egyptian_f_skin.tga 1 6 13
+	}
+	indian
+	{
+		male data/characters/skin_textures/indian_m_skin.tga 2 10 15
+		female data/characters/skin_textures/indian_f_skin.tga 2 8 13
+	}
+	mediterranean
+	{
+		male data/characters/skin_textures/mediterranean_m_skin.tga 1 11 15
+		female data/characters/skin_textures/mediterranean_f_skin.tga 1 9 12
+	}
+}
+
+ethnicities
+{
+	african
+	{
+		hair_styles ( 13, 5.0 ), ( 16, 35.0 ), ( 17, 35.0 ), ( -1, 25.0 )
+		female_hair ( 7, 75.0 ), ( -1, 25.0 )
+		beard_styles ( 2, 25.0 ), ( 3, 20.0 ), ( 4, 20.0 ), ( -1, 35.0 )
+		hair_color ( black, 100.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+
+	arabic
+	{
+		hair_styles ( 0, 10.0 ), ( 1, 6.0 ), ( 4, 16.0 ), ( 9, 21.0 ), ( 11, 21.0 ), ( 13, 21.0 ), ( -1, 5.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 5.0 )
+		beard_styles ( 1, 5.0 ), ( 4, 15.0 ), ( 5, 15.0 ), ( 6, 15.0 ), ( 9, 5.0 ), ( 12, 15.0 ), ( 13, 15.0 ), ( -1, 15.0 )
+		hair_color ( black, 80.0 ), ( dark_brown, 20.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+
+	berber
+	{
+		hair_styles ( 0, 10.0 ), ( 1, 6.0 ), ( 4, 16.0 ), ( 9, 21.0 ), ( 11, 21.0 ), ( 13, 21.0 ), ( -1, 5.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 5.0 )
+		beard_styles ( 1, 5.0 ), ( 4, 15.0 ), ( 5, 15.0 ), ( 6, 15.0 ), ( 9, 5.0 ), ( 12, 15.0 ), ( 13, 15.0 ), ( -1, 15.0 )
+		hair_color ( black, 80.0 ), ( dark_brown, 20.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+
+	caucasiandark
+	{
+		hair_styles ( 1, 8.0 ), ( 2, 12.0 ), ( 3, 12.0 ), ( 4, 10.0 ), ( 9, 10.0 ), ( 10, 10.0 ), ( 13, 15.0 ), ( 14, 15.0 ), ( -1, 8.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 8.0 )
+		beard_styles ( 1, 15.0 ), ( 4, 15.0 ), ( 5, 20.0 ), ( 6, 15.0 ), ( 10, 25.0 ), ( -1, 10.0 )
+		hair_color ( black, 25.0 ), ( dark_brown, 55.0 ), ( light_brown, 20.0 )
+		aged_hair_color ( white, 100.0 )
+	}
+
+	berserker
+	{
+		hair_styles ( 1, 8.0 ), ( 2, 12.0 ), ( 3, 12.0 ), ( 4, 10.0 ), ( 9, 10.0 ), ( 10, 10.0 ), ( 13, 15.0 ), ( 14, 15.0 ), ( -1, 8.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 8.0 )
+		beard_styles ( 4, 35.0 ), ( 5, 35.0 ), ( 6, 30.0 )
+		hair_color ( light_brown, 50.0 ), ( blond, 35.0 ), ( ginger, 15.0 )
+		aged_hair_color ( white, 100.0 )
+	}
+
+	caucasian
+	{
+		hair_styles ( 1, 8.0 ), ( 2, 12.0 ), ( 3, 12.0 ), ( 4, 10.0 ), ( 9, 10.0 ), ( 10, 10.0 ), ( 13, 15.0 ), ( 14, 15.0 ), ( -1, 8.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 8.0 )
+		beard_styles ( 1, 15.0 ), ( 4, 15.0 ), ( 5, 20.0 ), ( 6, 15.0 ), ( 10, 25.0 ), ( -1, 10.0 )
+		hair_color ( light_brown, 50.0 ), ( blond, 35.0 ), ( ginger, 15.0 )
+		aged_hair_color ( white, 100.0 )
+	}
+
+	eastasian
+	{
+		hair_styles ( 1, 12.0 ), ( 3, 17.0 ), ( 4, 17.0 ), ( 9, 14.0 ), ( 10, 6.0 ), ( 11, 12.0 ), ( 13, 12.0 ), ( -1, 10.0 )
+		female_hair ( 6, 50.0 ), ( 7, 40.0 ), ( -1, 10.0 )
+		beard_styles ( 1, 10.0 ), ( 4, 10.0 ), ( 7, 5.0 ), ( 8, 20.0 ), ( 9, 15.0 ), ( 11, 20.0 ), ( -1, 20.0 )
+		hair_color ( black, 100.0 )
+		aged_hair_color ( white, 100.0 )
+	}
+
+	egyptian
+	{
+		hair_styles ( 4, 4.0 ), ( 8, 15.0 ), ( 13, 8.0 ), ( 16, 20.0 ), ( 17, 23.0 ), ( -1, 30.0 )
+		female_hair ( 6, 40.0 ), ( 7, 30.0 ), ( -1, 30.0 )
+		beard_styles ( 2, 15.0 ), ( 3, 10.0 ), ( 4, 10.0 ), ( 7, 40.0 ), ( -1, 25.0 )
+		hair_color ( black, 100.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+
+	mediterranean
+	{
+		hair_styles ( 0, 15.0 ), ( 1, 10.0 ), ( 3, 15.0 ), ( 8, 10.0 ), ( 9, 10.0 ), ( 11, 16.0 ), ( 12, 15.0 ), ( -1, 9.0 )
+		female_hair ( 6, 50.0 ), ( 7, 46.0 ), ( -1, 9.0 )
+		beard_styles ( 1, 5.0 ), ( 4, 10.0 ), ( 5, 10.0 ), ( 6, 5.0 ), ( -1, 70.0 )
+		hair_color ( black, 50.0 ), ( dark_brown, 30.0 ), ( light_brown, 20.0 )
+		aged_hair_color ( white, 100.0 )
+	}
+
+	north_african
+	{
+		hair_styles ( 4, 20.0 ), ( 9, 20.0 ), ( 11, 20.0 ), ( 13, 20.0 ), ( 16, 5.0 ), ( 17, 10.0 ), ( -1, 5.0 )
+		female_hair ( 6, 50.0 ), ( 7, 45.0 ), ( -1, 5.0 )
+		beard_styles ( 2, 12.0 ), ( 3, 12.0 ), ( 4, 12.0 ), ( 5, 12.0 ), ( 6, 12.0 ), ( 12, 7.0 ), ( 13, 8.0 ), ( -1, 25.0 )
+		hair_color ( black, 100.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+
+	indian
+	{
+		hair_styles ( 3, 20.0 ), ( 4, 15.0 ), ( 5, 15.0 ), ( 9, 13.0 ), ( 13, 13.0 ), ( 15, 20.0 ), ( -1, 4.0 )
+		female_hair ( 6, 50.0 ), ( 7, 46.0 ), ( -1, 4.0 )
+		beard_styles ( 1, 10.0 ), ( 5, 10.0 ), ( 6, 15.0 ), ( 9, 15.0 ), ( 11, 5.0 ), ( 12, 2.5 ), ( 13, 2.5 ), ( -1, 40.0 )
+		hair_color ( black, 80.0 ), ( dark_brown, 20.0 )
+		aged_hair_color ( grey, 100.0 )
+	}
+}
+
+region
+{
+	Hibernia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Hibernia_Orientalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Hibernia_Meridionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Hibernia_Occidentalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Caledonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Taexalia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Votadinia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Brigantia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Coritania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Cornovia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Icenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Trinovantia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Cantiacia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Durotrigia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Dumnonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Dobunnia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Ordovicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Demetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Osisimia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Armorica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Venellia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Eburovicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Veliocassia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Namnetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Pictonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Turonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Carnutia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Parisia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Aquitania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Santonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Nitrobrogia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Auscia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Biggeronia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Volcatia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Celtica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Biturigia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Senonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Haeduia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Cubia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Arvernia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Lemovicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Ambarria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Sequania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Allobrogia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Alpes_Cottiae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Verbogenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+	}
+	Morinia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Bellovacia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Suaeuconia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Nervia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Treveria_Salutaris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Leucia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Eburonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Treveria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Mediomatricia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Tribocia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 60
+		}
+	}
+	Alpes_Maritimae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 55
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Vocontia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 55
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Narbonensis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 55
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Anglia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Cimbrica
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Scandia_Insula
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Herulia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	East_Gothia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	West_Gothia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Ultima_Thule
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Frisia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Chasuaria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Chaucia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Bructeria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Sicambria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Langobardia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Chamavia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Baluconia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Pharodenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Buria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Marsignia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Rugia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Helveconia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Elysia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Lugia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Semnonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 80
+		}
+	}
+	Vangionia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Chattia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Hermunduria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Marcomannia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Naharvalia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Boioa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Naristia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Noricum
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Vindelicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Latobrigia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Breunia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Helvetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Ciscarpathia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 50
+		}
+	}
+	Sciria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Chrononia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Turuntia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Venedia_Inferior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Ossioia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Vistulia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 70
+		}
+	}
+	Hyperboria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Aemilla
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Transpadana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Insubria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Cenomannia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Olana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Venetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Vallis_Arni
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Dodecapolis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Umbria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Tuscia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Latium
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Picenum
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Aternum
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Apulia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Campania
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Lucania
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Tarentum
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Bruttium
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Siculia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Syracuse
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Sicania
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Corsica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Elimia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Sardinia_Australis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Sardinia_Borealis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Balearides
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Carthago
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Zeugitana
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Byssatis
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Thabracania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Massylia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Musulamia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Maxyesia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Zaba
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Aurasius
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Cirtania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Sitifensia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Gaetulia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Iolia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+	Tingitania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 80
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+	}
+	Machuria
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Massaesylia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Metagonia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Mauretania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Rutubis
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Tadla
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Mauretania_Ulterior
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Lixiane
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Madethubadus
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Deserta_Mauretania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Furtunatae_Insulae
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Cerne
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Leonum_Trahentium
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Troglodytia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Ougarta
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Deserta_Tripolitania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Phazania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Garamantia_Occidentalis
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Garamantia_Citerior
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Libyae_Interior
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Tripolitania
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Syrtica
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Nasamonia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Nigritania
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Agisymba
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Indicetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Contestania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Baetica_Gaditanus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Mastiania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Bastetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Edetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Ilercavonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Cessetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Ilergetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Vasconia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Baetica_Hispalensis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Malacitia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Oretania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Baetica_Cordubensis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Turdetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Couneia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Turdulia_Occidentalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Turdulia_Orientalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Celticia_Minoris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Celticia_Maoioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Lusitania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Oppidania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Asturia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Aebocosia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Callaecia_Meridionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Callaecia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Lobetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Celtiberia_Meridionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Celtiberia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Celtiberia_Centralis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Carpetania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Vettonia_Meridionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Vettonia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Vaccaeia_Meridionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Vaccaeia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Vardulia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Autrigonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Cantabria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Histria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+	}
+	Libernia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+	}
+	Dalmatia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+	}
+	Daorsia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Deuria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Latobicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Cataria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Varciania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Pannonia_Prima
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Carnuntia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Quadia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Valeria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Hercuniatia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Pannonia_Secunda
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Albocensia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Iazygia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Cotinia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Costobocia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Potulatensia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Porolissensis
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Apulensis
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Malvensis
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Getia
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Roxolania
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Tricornensia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Dindaria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Dardania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Picensia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Saldensia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Moesia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Crobyzoia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Scythia_Minor
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 30
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 60
+		}
+	}
+	Scordiscia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Triballia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Haemimontus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Thracia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Rhodope
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Propontis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Europa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Paeonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+	}
+	Odomantike
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Chalkidiki
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Emathia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Pelagonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Thessalia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Illyria_Graeca
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Epirus
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Aetolia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Boeotia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Attica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Euboea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Achaea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Arcadia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Laconia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Sporades
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Crete
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Chersonesos_Zenonis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Chersonesos_Heraclea
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Taurica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Bosporus_Cimmerius
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Sarmatia_Maritima
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Scythia_Harpitis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+	}
+	Subcarpathia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Zargidava
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Clepia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Borysthenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hypania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Transborysthena
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Transhypania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hypania_Minoris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Bassetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Vistulia_Inferioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Amadocia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Neuri
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Gelonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tauroscythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Cimmero_Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tanaica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Borysthenia_Maioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Danaia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Mantessa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Confluenta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Danaia_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Melanchlenia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Thyssagetae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Stumica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia_Ulterior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Maeotia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sindica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Transmontem
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tanaissa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmatia_Hyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sattara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Hyrcania_Superioris
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Alania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Alania_Orientalis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Atara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Nesietis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Transhyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Darn
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Scythia_Magna
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Deserta_Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Abzoa
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Alanorsia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 10
+		}
+	}
+	Busu
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Septem_Flumina
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Sacasene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Hongnia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 30
+		}
+	}
+	Gushia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Hamich
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Agni
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kroraina
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Portae_Ferraea
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kushine
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Calmadana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Gumo
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Kasia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Gosthana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Cadot
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Taklamakan_Desertum
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Paelex_Porta
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica_Asmiraii
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Serica_Coconorum
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Mons_Emodus
+	{
+		variant
+		{
+			ethnicity eastasian
+			distribution 100
+		}
+	}
+	Issedonia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Talas
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Chach
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Jaxartes_Superior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Jaxartes_Inferior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Dzankath
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Mons_Imaus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 20
+		}
+	}
+	Ferghana
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Kyreschata
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Pamir
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 30
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Sakastan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sogdiana_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Tigraxauda
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Oxia_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Ostia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Inferior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Superior
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Chorasmia_Deserta
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Mardastan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Ultima
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia_Pontica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Dahaestan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Massagetica
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Parnia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Siracene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Margiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Sarmagana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Attene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Bactriana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Chomaria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Candara
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Transoxus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Sogdiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Oxiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Tarmita
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 60
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity eastasian
+			distribution 5
+		}
+	}
+	Barka
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 50
+		}
+	}
+	Cyrenaica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 50
+		}
+	}
+	Marmarica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 50
+		}
+	}
+	Libya
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 50
+		}
+	}
+	Ammon
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 50
+		}
+	}
+	Delta_Occidentalis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Delta_Orientalis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Aegyptis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Saracena
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Heptanomis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+	}
+	Asyut
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Luxor
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Aswan
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 85
+		}
+	}
+	Parva
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Farfara
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Kharga
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Khargana
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 100
+		}
+	}
+	Porphyritis_Mons
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Troglodytica
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Ptolemais_Epithera
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity african
+			distribution 10
+		}
+	}
+	Nubia_Septentrionalis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Nubia_Centralis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Nubia_Meridionalis
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Alana
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 40
+		}
+		variant
+		{
+			ethnicity african
+			distribution 60
+		}
+	}
+	Meroe_Insula
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Alut
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Atbaras
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Attiroia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Bega
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Tangiatae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Daamat
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Punt
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Asayta
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Akridophagia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Rhausae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Barbaria
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Cinnamonifora
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Aromatica
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Elephas
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Azania
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Barbaria_Interior
+	{
+		variant
+		{
+			ethnicity african
+			distribution 90
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Axomitarum
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Tiama
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Atalmo
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Ssasu
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Melanokhrotoi
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Gambala
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Calaa
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Astasobas
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Golaissae
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Artabatita
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Syrbotia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Cyeneum
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Mapharitis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Himyar
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Saba
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Qataban
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Myrrhifera
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Hadhramut_Occidentalis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Hadhramut_Orientalis
+	{
+		variant
+		{
+			ethnicity african
+			distribution 5
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 5
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+	}
+	Taifa
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Cinaedocolpitis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Ad_Sinus
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Iathrippa
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Hegra
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Relicta
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Arabia_Petrea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Sinai
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 90
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Omanitis_Orientalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Omanitis_Occidentalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Gerrha_Orientalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Tylos_Insula
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Gerrha_Occidentalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Dumatha
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Arabia_Magna
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Arabia_Deserta
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Rhicocorura
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Philistia
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Judea
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Peraea
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Decapolis
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Phoeniciae_Meridionalis
+	{
+		variant
+		{
+			ethnicity  arabic
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity egyptian
+			distribution 10
+		}
+	}
+	Coele_Syria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Phoeniciae_Septentrionalis
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Apamene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Palmyrene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Syria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Commagene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Osroene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Coruene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Mesopotamia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Assyria
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Apolloniatos
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Adiabene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Garamaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 40
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Aramaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Babylonia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Sittacene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Sumer
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Chaldaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Characene
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Susiana
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 35
+		}
+	}
+	Bithynia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Mysia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Troad
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Mysia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Ionia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Caria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+	}
+	Lycia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Pamphylia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cilicia_Trachea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cilicia_Pedias
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Cyprus
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+	}
+	Lydia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phrygia_Ripensis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Pisidia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phrygia_Parorea
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Phyrgia_Minoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Bithynia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+	}
+	Isauria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Lycaonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tyanitis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Saravene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Galatia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Phrygia_Maoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 40
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 45
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Mariandynia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paphlagonia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paphlagonia_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iris_Inferioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iris_Supeioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Helenopontus
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paryadres
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Cappadocia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Cataonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Melitene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Maioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Minoris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Armenia_Superioris
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Sophene
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tarawn
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Vaspurakan
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Syracene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Soducene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Ayrarat
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Parsatunik
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Syunik
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Artsakh
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tayk
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Colchis
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Abasgoi
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Suaneti
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Gugark
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Iberia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Kahetia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Arran
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Albania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Parskahayk
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Atropatene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Kadousioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Paytankert
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Kossioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Magna
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Choromithrene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Amardioi
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Choarene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Gabiene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Artacene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 75
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 15
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Mardiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Taocene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Persis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Media_Felix
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Paraetacene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Utia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Rudiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 20
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 10
+		}
+	}
+	Articene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Comisene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Hyrcania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Parthia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Tapuria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Traxiane
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Desertum_Salinum
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Aria
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Pactya
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Sagartia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Driangiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Carmania
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Tabiene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Agdinitis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+	}
+	Paropamisadae
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Sattagydia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Arachosia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Paradene
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Drangiana
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Gedrosia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 85
+		}
+		variant
+		{
+			ethnicity indian
+			distribution 10
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 5
+		}
+	}
+	Gandhara
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Kasmira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Glausae
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Hydaspes
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Madra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Panchanada
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Sibae
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Trigata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	Sivi
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 65
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 20
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 15
+		}
+	}
+	India_Alba
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Patala_Sindhu
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Prasiane
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Saranga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 25
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Patalene
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Aporapa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Sauvira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 75
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 15
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+	}
+	Kaccha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Abhira
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Deserta_Indica
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Saurashtra_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Saurashtra_Centralis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Saurashtra_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Maru
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 90
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 10
+		}
+	}
+	Aparanta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Sahyadri_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Sahyadri_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Mulaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Vindhya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Anupa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 95
+		}
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 5
+		}
+	}
+	Anartta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Avanti_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Avanti_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dasarna
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dahala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Matsya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Shurasena
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kamyaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Bahudhanyaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kuru
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pancala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Turvashas
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Cedi_Occidentalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Cedi_Orientalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kosala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kasi
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Malla
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Dakshina_Kosala
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahendragiri
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kalinga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Radha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Andhra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Asmaka
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vidarbha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Fanindrapura
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Magadha
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Anga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vanga
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pundra
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Vrji
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kamata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Kamarupa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Samatata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Gomanta
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Satiyaputa_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Satiyaputa_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Keralaputa
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahismandala_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Mahismandala_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Sriparvata
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tondainadu_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tondainadu_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Koda
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Malayas
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Pandiya
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tambapamni_Septentrionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+	Tambapamni_Meridionalis
+	{
+		variant
+		{
+			ethnicity indian
+			distribution 100
+		}
+	}
+;; ========== FOR UNITS IN VANILLA EXPORT_DESCR_UNIT ===========
+	Berserk
+	{
+
+		variant
+		{
+			ethnicity berserker
+			distribution 100
+		}
+	}
+	Brittania_Superior
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Central_Gaul
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Germania_Superior
+	{
+		variant
+		{
+			ethnicity caucasian
+			distribution 100
+		}
+	}
+	Dacia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Taraconenis
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Scythia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 100
+		}
+	}
+	Thrace
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Numidia
+	{
+		variant
+		{
+			ethnicity berber
+			distribution 100
+		}
+	}
+	Nubia
+	{
+		variant
+		{
+			ethnicity african
+			distribution 100
+		}
+	}
+	Baliares
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Sardinia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 70
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Africa
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 10
+		}
+		variant
+		{
+			ethnicity berber
+			distribution 60
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 30
+		}
+	}
+	Pontus
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 30
+		}
+	}
+	Cappadocia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Cilicia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 50
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 50
+		}
+	}
+	Elymais
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 70
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Nile_Delta
+	{
+		variant
+		{
+			ethnicity egyptian
+			distribution 70
+		}
+		variant
+		{
+			ethnicity mediterranean
+			distribution 20
+		}
+		variant
+		{
+			ethnicity arabic
+			distribution 10
+		}
+	}
+	Macedonia
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Rhodos
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+	Arabia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Phoenicia
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Judaea
+	{
+		variant
+		{
+			ethnicity arabic
+			distribution 100
+		}
+	}
+	Celtiberia
+	{
+		variant
+		{
+			ethnicity caucasiandark
+			distribution 80
+		}
+		variant
+		{
+			ethnicity caucasian
+			distribution 20
+		}
+	}
+	Illyria
+	{
+		variant
+		{
+			ethnicity mediterranean
+			distribution 100
+		}
+	}
+}

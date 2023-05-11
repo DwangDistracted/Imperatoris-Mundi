@@ -1,0 +1,1294 @@
+;; JNF 2021-09-09 - Old format has been preserved, but has warnings. To remove the warnings the old format should be changed to look like this:
+;;culture				roman
+;;info card_mapping		roman
+;;rebel_standard_index	0
+;;max_settlement_level	huge_city
+;;fort_cost				500
+;;watchtower			data/models_strat/residences/watchtower_roman.CAS,					watchtower_roman
+;;watchtower_cost		200
+;;spy					spy.tga				spy_info.tga			spy.tga			350	1	1
+;;assassin				assassin.tga		assassin_info.tga		assassin.tga	500	1	1
+;;diplomat				diplomat.tga		diplomat_info.tga		diplomat.tga	250	1	1
+;;merchant				merchabt.tga		merchant_info.tga		merchant.tga	250	1	1
+;;admiral				admiral.tga			admiral_info.tga		admiral.tga		100	1	1
+
+"cultures":
+[
+	"roman":
+	{
+		"string": "ROMAN",
+
+		"portrait mapping": "roman",
+
+		;;"rebel standard index": 0,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": true,
+
+		"max settlement level": "huge_city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0.5,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/roman/cities/roman_village.tga",
+			"town": "data/ui/roman/cities/roman_town.tga",
+			"large_town": "data/ui/roman/cities/roman_large_town.tga",
+			"city": "data/ui/roman/cities/roman_city.tga",
+			"large_city": "data/ui/roman/cities/roman_large_city.tga",
+			"huge_city": "data/ui/roman/cities/roman_huge_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/roman/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/roman/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_roman.CAS",
+			"aerial map base": "watchtower_roman",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+
+	"barbarian":
+	{
+		"string": "BARBARIAN",
+
+		"portrait mapping": "barbarian",
+
+		;;"rebel standard index": 1,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": false,
+
+		;;barbarians are locked to city sized settlements
+		"max settlement level": "city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0,
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/barbarian/cities/barbarian_village.tga",
+			"town": "data/ui/barbarian/cities/barbarian_town.tga",
+			"large_town": "data/ui/barbarian/cities/barbarian_large_town.tga",
+			"city": "data/ui/barbarian/cities/barbarian_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/barbarian/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/barbarian/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_barb.CAS",
+			"aerial map base": "watchtower_barbarian",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+
+	"carthaginian":
+	{
+		"string": "CARTHAGINIAN",
+
+		"portrait mapping": "eastern",
+
+		;;"rebel standard index": 2,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": true,
+
+		"max settlement level": "huge_city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/carthaginian/cities/carthaginian_village.tga",
+			"town": "data/ui/carthaginian/cities/carthaginian_town.tga",
+			"large_town": "data/ui/carthaginian/cities/carthaginian_large_town.tga",
+			"city": "data/ui/carthaginian/cities/carthaginian_city.tga",
+			"large_city": "data/ui/carthaginian/cities/carthaginian_large_city.tga",
+			"huge_city": "data/ui/carthaginian/cities/carthaginian_huge_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/carthaginian/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/carthaginian/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_eastern.CAS",
+			"aerial map base": "watchtower_eastern",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+
+	"greek":
+	{
+		"string": "GREEK",
+
+		"portrait mapping": "greek",
+
+		;;"rebel standard index": 3,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": true,
+
+		"max settlement level": "huge_city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/greek/cities/greek_village.tga",
+			"town": "data/ui/greek/cities/greek_town.tga",
+			"large_town": "data/ui/greek/cities/greek_large_town.tga",
+			"city": "data/ui/greek/cities/greek_city.tga",
+			"large_city": "data/ui/greek/cities/greek_large_city.tga",
+			"huge_city": "data/ui/greek/cities/greek_huge_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/greek/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/greek/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_roman.CAS",
+			"aerial map base": "watchtower_roman",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+
+	"egyptian":
+	{
+		"string": "EGYPTIAN",
+
+		"portrait mapping": "egyptian",
+
+		;;"rebel standard index": 4,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": true,
+
+		"max settlement level": "huge_city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/egyptian/cities/egyptian_village.tga",
+			"town": "data/ui/egyptian/cities/egyptian_town.tga",
+			"large_town": "data/ui/egyptian/cities/egyptian_large_town.tga",
+			"city": "data/ui/egyptian/cities/egyptian_city.tga",
+			"large_city": "data/ui/egyptian/cities/egyptian_large_city.tga",
+			"huge_city": "data/ui/egyptian/cities/egyptian_huge_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/egyptian/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/egyptian/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_eastern.CAS",
+			"aerial map base": "watchtower_eastern",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+
+	"eastern":
+	{
+		"string": "EASTERN",
+
+		"portrait mapping": "eastern",
+
+		;;"rebel standard index": 5,
+
+		;;used for the InBarbarianLands and InUncivilisedLands scripting commands
+		;;also makes soldiers jump less when charging
+		"civilised": true,
+
+		"max settlement level": "huge_city",
+
+		;;if the AI has less than this percentage of the player's regions give them a boost
+		;;boost entails disabling riots for this faction, and assuming it's not against the player
+		;;or between shadow factions, disabled other AI agression and a 60% chance to automatically
+		;;win autoresolved battles. There is also an additional boost of between 2500 and 0 denarii
+		;;depending on the AI's amount of settlements compared to the player, scaling 1000 by the
+		;;formula ((x*1.55)-1.55)^2, where x is (ai regions / player regions)
+		"ai assist under settlements": 0,
+
+		"unrest factors":
+		{
+			;;how many pops does it take to add 1 squalour
+			"squalor rate": 1600,
+
+			;;how many pops above the max does it take to add and additional 1 squalor
+			"overcrowding rate": 400,
+
+			;;multiplier for perceived distance from capital for calculating unrest
+			"capital distance multiplier": 0.75,
+		},
+
+		"settlement upgrade levels":
+		{
+			"village":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 0,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 1500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 400,
+
+				;;population needed to upgrade to this level
+				"upgrade": 400,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 3500,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 800,
+			},
+			"large_town":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 2000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 2000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 9000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 4000,
+			},
+			"city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 6000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 6000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 24000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 18000,
+			},
+			"large_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 18000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 18000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 40000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 30000,
+			},
+			"huge_city":
+			{
+				;;the base population of this settlement before squalor kicks in
+				"base": 30000,
+
+				;;population needed to upgrade to this level
+				"upgrade": 30000,
+
+				;;minimum population possible in this settlement
+				"min pop": 400,
+
+				;;maximum population before overcrowding
+				"max pop": 72000,
+
+				;;above this population, each extra pop counts double for squalour
+				"squalour pop": 48000,
+			},
+		},
+
+		;;settlement and wall models are now associated with settlement plans
+		;;to allow having unique models for settlements
+		"settlement icons":
+		{
+			"village": "data/ui/eastern/cities/eastern_village.tga",
+			"town": "data/ui/eastern/cities/eastern_town.tga",
+			"large_town": "data/ui/eastern/cities/eastern_large_town.tga",
+			"city": "data/ui/eastern/cities/eastern_city.tga",
+			"large_city": "data/ui/eastern/cities/eastern_large_city.tga",
+			"huge_city": "data/ui/eastern/cities/eastern_huge_city.tga",
+		},
+
+		;;fort models are now also associated with their settlement plans
+		"fort":
+		{
+			"card path": "data/ui/eastern/#fort.tga",
+
+			"cost": 500,
+		},
+
+		"watchtower":
+		{
+			"card path": "data/ui/eastern/#watchtower.tga",
+			"base model": "data/models_strat/residences/watchtower_eastern.CAS",
+			"aerial map base": "watchtower_eastern",
+
+			"cost": 200,
+		},
+
+		"agents":
+		{
+			"spy":
+			{
+				"info card": "spy_info.tga",
+				"unit card": "spy.tga",
+
+				"recruitment cost": 350,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"assassin":
+			{
+				"info card": "assassin_info.tga",
+				"unit card": "assassin.tga",
+
+				"recruitment cost": 500,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"diplomat":
+			{
+				"info card": "diplomat_info.tga",
+				"unit card": "diplomat.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"merchant":
+			{
+				"info card": "merchant_info.tga",
+				"unit card": "merchant.tga",
+
+				"recruitment cost": 250,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+			"admiral":
+			{
+				"info card": "admiral_info.tga",
+				"unit card": "admiral.tga",
+
+				"recruitment cost": 100,
+				"population cost": 1,
+				"recruitment points": 1,
+			},
+		},
+	},
+],

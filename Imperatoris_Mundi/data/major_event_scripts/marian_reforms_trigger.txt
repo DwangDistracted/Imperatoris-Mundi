@@ -1,0 +1,20 @@
+script
+	declare_counter italian_huge_cities
+
+	;;check every settlement in the world
+	for_each settlement in world
+		if		HasResource italy						;;has the italy hidden resource
+			&&	I_SettlementLevel local >= huge_city	;;is a huge city
+			&&	I_SettlementOwnerCulture local == roman	;;the owner is roman
+			&&	not SettlementName Roma					;;the settlement isn't rome
+			
+			inc_counter italian_huge_cities 1
+		end_if
+	end_for
+
+	if I_CompareCounter italian_huge_cities >= 3
+		return true ;;trigger marian reforms
+	end_if
+
+	return false ;;don't trigger marian reforms
+end_script

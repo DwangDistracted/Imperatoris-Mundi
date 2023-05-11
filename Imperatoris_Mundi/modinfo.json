@@ -1,0 +1,14 @@
+{
+	"Description": "Featuring 630* regions, conquer your way across a map that spans the ancient world from dreary Britannia to the faraway reaches of the Indus, Based off the epic Imperator Rome and Imperium Universalis maps, build a truly massive empire that surpasses even Alexander's ambitions!\n\nIn addition to the changed campaign map, this mod increases movement range, increases the population limits and thresholds needed to upgrade cities, and reduces the distance to capital penalties. The Marian reforms have also been modified to require *3* Roman huge Italian cities.\n\nAny modder which wishes to use this map in their projects is welcome to do so, provided that credit is given.\n\nMy heartfelt thanks goes to the Total War modding community for the tools, tutorials, and collective knowledge that I have depended on to develop this project and bring it to fruition as well as the teams behind Imperator Rome and Imperium Universalis which inspired this map. Map Mesh generated with IWTE. Map Texture provided by Lyrecryer.",
+	"Mod Name": "Imperatoris Mundi: Campaign Map Overhaul",
+	"Preview Image": "previewimage.png",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [
+		"Campaign",
+		"Map"
+	],
+	"Visibility": 0,
+	"Workshop ID": 2804301756
+}

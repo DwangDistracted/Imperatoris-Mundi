@@ -1,0 +1,5871 @@
+;Britain
+Hibernia_Septentrionalis
+	Eblania
+	britons
+	Hibernians
+	175 43 30
+	none
+	5
+	2
+
+Hibernia_Orientalis
+	Coriondia
+	britons
+	Hibernians
+	28 84 45
+	none
+	5
+	6
+
+Hibernia_Meridionalis
+	Usdia
+	britons
+	Hibernians
+	14 41 75
+	none
+	5
+	3
+
+Hibernia_Occidentalis
+	Autenia
+	britons
+	Hibernians
+	108 113 86
+	none
+	5
+	9
+
+Caledonia
+	Caledonii
+	britons
+	Brigantes
+	166 94 46
+	none
+	5
+	0
+
+Taexalia
+	Veluniate
+	britons
+	Brigantes
+	127 181 181
+	none
+	5
+	3
+
+Votadinia
+	Fanum_Cocidi
+	britons
+	Brigantes
+	228 160 16
+	none
+	5
+	5
+
+Brigantia
+	Brocavum
+	britons
+	Brigantes
+	108 59 42
+	none
+	5
+	1
+
+Coritania
+	Isurium
+	britons
+	Iceni
+	236 124 38
+	none
+	5
+	3
+
+Cornovia
+	Deva
+	britons
+	Silures
+	49 127 67
+	none
+	5
+	8
+
+Icenia
+	Venta_Icenorum
+	britons
+	Iceni
+	6 57 113
+	none
+	5
+	7
+
+Trinovantia
+	Camulodunum
+	britons
+	Trinovantes
+	237 20 91
+	none
+	5
+	6
+
+Cantiacia
+	Durovernum
+	britons
+	Trinovantes
+	234 137 154
+	none
+	5
+	3
+
+Durotrigia
+	Calleva_Atrebatum
+	britons
+	Trinovantes
+	73 126 118
+	none
+	5
+	10
+
+Dumnonia
+	Isca_Dumnoniorum
+	britons
+	Trinovantes
+	220 157 0
+	none
+	5
+	6
+
+Dobunnia
+	Corinium
+	britons
+	Iceni
+	106 95 49
+	none
+	5
+	13
+
+Ordovicia
+	Levobrinta
+	britons
+	Silures
+	161 35 18
+	none
+	5
+	4
+
+Demetia
+	Glevum
+	britons
+	Silures
+	150 153 146
+	none
+	5
+	2
+
+;Gaul
+Osisimia
+	Tregoritum
+	gauls
+	Veneti
+	207 52 118
+	none
+	5
+	6
+
+Armorica
+	Condate_Redonum
+	gauls
+	Veneti
+	164 58 210
+	none
+	5
+	10
+
+Venellia
+	Crouciaconnum
+	gauls
+	Veneti
+	107 245 255
+	none
+	5
+	9
+
+Eburovicia
+	Lexoviorum
+	gauls
+	Carnutes
+	37 40 80
+	none
+	5
+	9
+
+Namnetia
+	Namnetum
+	gauls
+	Pictones
+	96 219 15
+	none
+	5
+	9
+
+Pictonia
+	Limonum
+	gauls
+	Pictones
+	86 10 58
+	none
+	5
+	8
+
+Turonia
+	Caesarodunum
+	gauls
+	Carnutes
+	124 150 138
+	none
+	5
+	12
+
+Carnutia
+	Cenabum
+	gauls
+	Carnutes
+	32 65 71
+	none
+	5
+	10
+
+Parisia
+	Lutetia
+	gauls
+	Senones
+	227 217 247
+	none
+	5
+	13
+
+Aquitania
+	Burdigala
+	gauls
+	Ausci
+	158 109 141
+	none
+	5
+	4
+
+Santonia
+	Mediolanum_Santonum
+	gauls
+	Pictones
+	124 150 85
+	none
+	5
+	12
+
+Nitrobrogia
+	Aginnum
+	gauls
+	Ausci
+	191 4 224
+	none
+	5
+	11
+
+Auscia
+	Elimberrum
+	gauls
+	Ausci
+	119 103 45
+	none
+	5
+	8
+
+Biggeronia
+	Lugdunum_Convenarum
+	gauls
+	Volcae
+	41 3 68
+	none
+	5
+	10
+
+Volcatia
+	Tolosa
+	gauls
+	Volcae
+	66 85 170
+	none
+	5
+	7
+
+Celtica
+	Andecamulum
+	gauls
+	Bituriges
+	107 112 196
+	none
+	5
+	3
+
+Biturigia
+	Avaricum
+	gauls
+	Bituriges
+	45 36 28
+	none
+	5
+	13
+
+Senonia
+	Bibracte
+	gauls
+	Senones
+	172 181 226
+	none
+	5
+	9
+
+Haeduia
+	Alesia
+	gauls
+	Aedui
+	181 1 91
+	none
+	5
+	6
+
+Cubia
+	Ricomagus
+	gauls
+	Arverni
+	99 88 99
+	none
+	5
+	9
+
+Arvernia
+	Gergovia
+	gauls
+	Arverni
+	255 255 0
+	none
+	5
+	1
+
+Lemovicia
+	Vesunna
+	gauls
+	Arverni
+	211 35 68
+	none
+	5
+	2
+
+Ambarria
+	Decetia
+	gauls
+	Aedui
+	43 19 20
+	none
+	5
+	8
+
+Sequania
+	Vesontio
+	gauls
+	Sequani
+	204 186 53
+	none
+	5
+	6
+
+Allobrogia
+	Vienna
+	gauls
+	Allobroges
+	133 178 134
+	none
+	5
+	10
+
+Vocontia
+	Nemausus
+	gauls
+	Vocontii
+	28 13 30
+	none
+	5
+	13
+
+Narbonensis
+	Narbo
+	gauls
+	Vocontii
+	165 255 185
+	none
+	5
+	8
+
+Alpes_Cottiae
+	Vologatae
+	gauls
+	Vocontii
+	150 155 94
+	none
+	5
+	4
+
+Verbogenia
+	Lausonna
+	gauls
+	Allobroges
+	71 70 107
+	none
+	5
+	0
+
+Leucia
+	Divodurum
+	gauls
+	Sequani
+	20 34 107
+	none
+	5
+	3
+
+Tribocia
+	Brocomagus
+	gauls
+	Helvetii
+	63 83 99
+	none
+	5
+	0
+
+;Belgae
+Veliocassia
+	Samarobriva
+	gauls
+	Belgae
+	220 53 34
+	none
+	5
+	9
+
+Morinia
+	Tarvenna
+	gauls
+	Belgae
+	6 41 56
+	none
+	5
+	9
+
+Bellovacia
+	Bagacum
+	gauls
+	Belgae
+	185 124 204
+	none
+	5
+	3
+
+Suaeuconia
+	Durocortorum
+	gauls
+	Belgae
+	140 175 79
+	none
+	5
+	0
+
+Treveria_Salutaris
+	Verodunum
+	gauls
+	Nervii
+	88 137 81
+	none
+	5
+	0
+
+Nervia
+	Aduatuca
+	gauls
+	Nervii
+	62 124 113
+	none
+	5
+	5
+
+Eburonia
+	Asciburgium
+	gauls
+	Treveri
+	10 110 204
+	none
+	5
+	7
+
+Treveria
+	Treveria
+	gauls
+	Treveri
+	214 137 122
+	none
+	5
+	10
+
+Mediomatricia
+	Rouphiniana
+	gauls
+	Treveri
+	48 3 6
+	none
+	5
+	7
+
+;Germania
+Frisia
+	Flevum
+	germans
+	Batavi
+	58 17 23
+	none
+	5
+	6
+
+Chasuaria
+	Corbulonis
+	germans
+	Batavi
+	24 0 45
+	none
+	5
+	5
+
+Bructeria
+	Dulgia
+	germans
+	Batavi
+	165 132 150
+	none
+	5
+	5
+
+Sicambria
+	Aquae_Mattiacorum
+	germans
+	Chatti
+	184 216 173
+	none
+	5
+	5
+
+Chaucia
+	Treva
+	germans
+	Saxones
+	244 70 17
+	none
+	5
+	5
+
+Anglia
+	Avionia
+	germans
+	Saxones
+	192 69 204
+	none
+	5
+	5
+
+Langobardia
+	Leuphana
+	germans
+	Saxones
+	32 216 176
+	none
+	5
+	9
+
+Cimbrica
+	Teutonia
+	germans
+	Saxones
+	6 66 59
+	none
+	5
+	3
+
+Scandia_Insula
+	Reudingia
+	germans
+	Goths
+	196 190 196
+	none
+	5
+	7
+
+Herulia
+	Uppakra
+	germans
+	Goths
+	102 44 21
+	none
+	5
+	5
+
+East_Gothia
+	Theustia
+	germans
+	Goths
+	178 178 178
+	none
+	5
+	1
+
+West_Gothia
+	Konghelle
+	germans
+	Goths
+	99 255 221
+	none
+	5
+	0
+
+Ultima_Thule
+	Lingum
+	germans
+	Goths
+	160 153 123
+	none
+	5
+	0
+
+Chamavia
+	Tulisurgium
+	germans
+	Chatti
+	14 186 32
+	none
+	5
+	7
+
+Baluconia
+	Galaegia
+	germans
+	Marcomanni
+	211 88 127
+	none
+	5
+	11
+
+Semnonia
+	Calancorum
+	germans
+	Suebi
+	154 244 102
+	none
+	5
+	6
+
+Pharodenia
+	Virunum
+	germans
+	Suebi
+	214 57 99
+	none
+	5
+	10
+
+Buria
+	Stragona
+	germans
+	Suebi
+	111 217 252
+	none
+	5
+	7
+
+Marsignia
+	Srevinta
+	germans
+	Suebi
+	93 170 20
+	none
+	5
+	7
+
+Rugia
+	Rhugium
+	germans
+	Suebi
+	194 206 86
+	none
+	5
+	6
+
+Helveconia
+	Scurgum
+	germans
+	Lugians
+	173 24 69
+	none
+	5
+	5
+
+Elysia
+	Setidava
+	germans
+	Lugians
+	252 54 40
+	none
+	5
+	4
+
+Lugia
+	Calisia
+	germans
+	Lugians
+	100 224 179
+	none
+	5
+	1
+
+Ciscarpathia
+	Asanca
+	germans
+	Lugians
+	101 124 0
+	none
+	5
+	8
+
+Vangionia
+	Lopodunum
+	germans
+	Chatti
+	188 30 43
+	none
+	5
+	4
+
+Chattia
+	Bergium
+	germans
+	Chatti
+	206 121 24
+	none
+	5
+	5
+
+Hermunduria
+	Bibacum
+	germans
+	Marcomanni
+	232 223 99
+	none
+	5
+	7
+
+Marcomannia
+	Setuacatum
+	germans
+	Marcomanni
+	226 161 63
+	none
+	5
+	5
+
+;Boihaemia
+Naharvalia
+	Nomisterium
+	gauls
+	Boii
+	183 69 49
+	none
+	5
+	4
+
+Boioa
+	Budorgis
+	gauls
+	Boii
+	11 127 229
+	none
+	5
+	2
+
+Naristia
+	Abilunum
+	gauls
+	Boii
+	42 191 74
+	none
+	5
+	2
+
+;Raetia et Noricum
+Noricum
+	Artobriga
+	gauls
+	Boii
+	133 76 186
+	none
+	5
+	10
+
+Vindelicia
+	Augusta_Vindelicorum
+	gauls
+	Helvetii
+	252 100 189
+	none
+	5
+	9
+
+Latobrigia
+	Sumelocenna
+	gauls
+	Helvetii
+	43 188 41
+	none
+	5
+	7
+
+Breunia
+	Cambobunum
+	gauls
+	Helvetii
+	179 209 83
+	none
+	5
+	8
+
+Helvetia
+	Vindonissa
+	gauls
+	Helvetii
+	86 65 204
+	none
+	5
+	0
+
+;Venedia
+Sciria
+	Anacureta
+	germans
+	Venedae
+	96 36 181
+	none
+	5
+	2
+
+Chrononia
+	Venedia
+	germans
+	Venedae
+	183 36 41
+	none
+	5
+	5
+
+Turuntia
+	Veltaea
+	germans
+	Venedae
+	160 31 224
+	none
+	5
+	0
+
+Venedia_Inferior
+	Kunegria
+	germans
+	Gepids
+	226 247 66
+	none
+	5
+	3
+
+Ossioia
+	Sentia
+	germans
+	Gepids
+	194 8 211
+	none
+	5
+	2
+
+Vistulia
+	Gorideva
+	germans
+	Gepids
+	198 106 13
+	none
+	5
+	6
+
+;Western Greek Colonies
+Alpes_Maritimae
+	Massalia
+	greek_cities
+	Massaliote
+	23 102 102
+	none
+	5
+	4
+
+Indicetia
+	Emporion
+	greek_cities
+	Emporiote
+	47 112 1
+	none
+	5
+	3
+
+Contestania
+	Imeroskopeion
+	greek_cities
+	Hemeroskopeiote
+	186 85 13
+	none
+	5
+	3
+
+;Amazonia
+Hyperboria
+	Themiskyra
+	greek_cities
+	Amazons
+	146 39 143
+	sparta
+	5
+	5
+
+;Italy
+Liguria
+	Genua
+	gauls
+	Ligurians
+	224 11 195
+	italy
+	5
+	4
+
+Aemilla
+	Mutina
+	gauls
+	Boii
+	44 206 22
+	italy
+	5
+	2
+
+Transpadana
+	Taurasia
+	gauls
+	Ligurians
+	204 12 41
+	italy
+	5
+	5
+
+Insubria
+	Mediolanum
+	gauls
+	Insubres
+	224 136 85
+	italy
+	5
+	6
+
+Cenomannia
+	Verona
+	gauls
+	Insubres
+	216 93 179
+	italy
+	5
+	9
+
+Olana
+	Patavium
+	gauls
+	Veneti
+	209 39 59
+	italy
+	5
+	9
+
+Venetia
+	Altinum
+	gauls
+	Veneti
+	247 76 173
+	italy
+	5
+	3
+
+Vallis_Arni
+	Pisna
+	romans_julii
+	Etruscans
+	244 68 103
+	italy
+	5
+	7
+
+Dodecapolis
+	Arretium
+	romans_julii
+	Etruscans
+	75 221 17
+	italy
+	5
+	10
+
+Umbria
+	Ariminum
+	romans_julii
+	Umbrians
+	39 221 167
+	italy
+	5
+	6
+
+Tuscia
+	Spoletium
+	romans_julii
+	Etruscans
+	252 108 178
+	italy
+	5
+	9
+
+Latium
+	Roma
+	romans_senate
+	Latins
+	242 101 34
+	italy, rome
+	5
+	11
+
+Picenum
+	Ankon
+	romans_brutii
+	Umbrians
+	122 55 173
+	italy
+	5
+	7
+
+Aternum
+	Corfinium
+	romans_brutii
+	Campanians
+	115 244 51
+	italy
+	5
+	7
+
+;Magna Graecia
+Apulia
+	Canusium
+	romans_brutii
+	Calabrians
+	205 224 65
+	italy
+	5
+	13
+
+Campania
+	Capua
+	romans_scipii
+	Campanians
+	140 11 4
+	italy
+	5
+	9
+
+Lucania
+	Metapontum
+	romans_scipii
+	Lucanians
+	131 242 58
+	italy
+	5
+	4
+
+Bruttium
+	Croton
+	romans_scipii
+	Calabrians
+	232 189 71
+	italy
+	5
+	4
+
+Tarentum
+	Taras
+	greek_cities
+	Tarantine
+	198 88 33
+	italy
+	5
+	12
+
+;Sicily
+Siculia
+	Messana
+	greek_cities
+	Mamertine
+	2 127 56
+	italy
+	5
+	2
+
+Syracuse
+	Syrakousai
+	greek_cities
+	Syracusans
+	13 32 145
+	italy
+	5
+	8
+
+Sicania
+	Akragas
+	greek_cities
+	Sicani
+	178 105 8
+	italy
+	5
+	4
+
+Elimia
+	Lilybaeum
+	carthage
+	Sicani
+	49 109 1
+	italy
+	5
+	3
+
+;West Mediterranean Islands
+Sardinia_Meridionalis
+	Karalis
+	carthage
+	SardoPunic
+	220 226 43
+	none
+	5
+	9
+
+Sardinia_Septentrionalis
+	Olbia_Rasna
+	carthage
+	SardoPunic
+	237 104 234
+	none
+	5
+	9
+
+Corsica
+	Alalia
+	romans_julii
+	Etruscans
+	226 107 9
+	none
+	5
+	3
+
+Balearides
+	Palma
+	carthage
+	Beronicensis
+	231 69 249
+	none
+	5
+	5
+
+;Africa
+Carthago
+	Qart_Hadasht
+	carthage
+	Poeni
+	244 12 51
+	none
+	5
+	12
+
+Zeugitana
+	Karash
+	carthage
+	Poeni
+	104 216 75
+	none
+	5
+	12
+
+Byssatis
+	Tapsa
+	carthage
+	Poeni
+	199 214 66
+	none
+	5
+	14
+
+Thabracania
+	Tabarkon
+	carthage
+	Poeni
+	82 229 131
+	none
+	5
+	3
+
+Massylia
+	Rushikad
+	numidia
+	Massylian
+	29 121 155
+	none
+	5
+	6
+
+Musulamia
+	Mactaris
+	numidia
+	Musulamian
+	229 211 18
+	none
+	5
+	0
+
+Maxyesia
+	Tabira
+	numidia
+	Musulamian
+	178 68 32
+	none
+	5
+	0
+
+Zaba
+	Thamugadi
+	numidia
+	Gaetuli
+	94 198 219
+	none
+	5
+	0
+
+Aurasius
+	Ammaedara
+	numidia
+	Massylian
+	244 122 97
+	none
+	5
+	0
+
+Cirtania
+	Kirta
+	numidia
+	Massylian
+	216 177 4
+	none
+	5
+	5
+
+Sitifensia
+	Sitifis
+	numidia
+	Massylian
+	149 8 214
+	none
+	5
+	4
+
+Gaetulia
+	Gemellae
+	numidia
+	Gaetuli
+	204 20 35
+	none
+	5
+	2
+
+Iolia
+	Iol
+	carthage
+	Poeni
+	188 141 47
+	none
+	5
+	3
+
+Machuria
+	Auzia
+	numidia
+	Massaesylian
+	120 135 13
+	none
+	5
+	0
+
+Massaesylia
+	Qartan
+	numidia
+	Massaesylian
+	249 178 62
+	none
+	5
+	2
+
+Metagonia
+	Siga
+	numidia
+	Massaesylian
+	151 170 5
+	none
+	5
+	1
+
+Tingitania
+	Tinga
+	carthage
+	Mauretanian
+	121 226 95
+	none
+	5
+	2
+
+Mauretania
+	Volubilis
+	numidia
+	Mauretanian
+	95 194 216
+	none
+	5
+	1
+
+Rutubis
+	Rutubis
+	numidia
+	Mauretanian
+	252 47 160
+	none
+	5
+	0
+
+Tadla
+	Tiflet
+	numidia
+	Mauretanian
+	76 211 78
+	none
+	5
+	0
+
+Mauretania_Ulterior
+	Essaoria
+	numidia
+	Mauretanian
+	255 135 195
+	none
+	5
+	0
+
+Lixiane
+	Gytta
+	numidia
+	Mauretanian
+	229 188 255
+	none
+	5
+	0
+
+Furtunatae_Insulae
+	Sertoria
+	numidia
+	Mauretanian
+	239 134 141
+	none
+	5
+	0
+
+Cerne
+	Kerne
+	carthage
+	Poeni
+	86 112 1
+	none
+	5
+	2
+
+Deserta_Mauretania
+	Mulucha
+	numidia
+	Mauretanian
+	11 142 116
+	none
+	5
+	0
+
+Madethubadus
+	Dimmidi
+	numidia
+	Gaetuli
+	12 91 122
+	none
+	5
+	0
+
+;Libya
+Emporia
+	Takapes
+	carthage
+	Liby_Phoenician
+	6 122 101
+	none
+	5
+	6
+
+Tripolitania
+	Oyat
+	carthage
+	Liby_Phoenician
+	165 4 34
+	none
+	5
+	4
+
+Syrtica
+	Macomada
+	carthage
+	Nasamones
+	95 10 135
+	none
+	5
+	2
+
+Nasamonia
+	Augila
+	numidia
+	Nasamones
+	211 113 14
+	none
+	5
+	1
+
+;Sahara
+Leonum_Trahentium
+	Alasi
+	numidia
+	Troglodytian
+	12 33 124
+	none
+	5
+	0
+
+Nigritania
+	Tondidaru
+	numidia
+	Nigritae
+	3 124 17
+	none
+	5
+	4
+
+Ougarta
+	Ougartoum
+	numidia
+	Troglodytian
+	135 150 4
+	none
+	5
+	0
+
+Deserta_Tripolitania
+	Myd
+	numidia
+	Garamantian
+	78 127 8
+	none
+	5
+	1
+
+Phazania
+	Baracum
+	numidia
+	Garamantian
+	221 203 6
+	none
+	5
+	1
+
+Garamantia_Citerior
+	Cydamus
+	numidia
+	Garamantian
+	211 16 159
+	none
+	5
+	1
+
+Garamantia_Ulterior
+	Garama
+	numidia
+	Garamantian
+	165 165 165
+	none
+	5
+	3
+
+Agisymba
+	Magium
+	numidia
+	Agisymban
+	135 39 1
+	none
+	5
+	5
+
+Troglodytia
+	Kossedaoum
+	numidia
+	Troglodytian
+	132 195 190
+	none
+	5
+	0
+
+;Iberia
+Baetica_Gaditanus
+	Agadir
+	carthage
+	Poeni
+	54 14 142
+	none
+	5
+	4
+
+Mastiania
+	Mastia
+	carthage
+	Poeni
+	221 200 6
+	none
+	5
+	6
+
+Bastetania
+	Urki
+	carthage
+	Poeni
+	7 127 103
+	none
+	5
+	2
+
+Edetania
+	Arse
+	spain
+	Iberians
+	116 147 11
+	none
+	5
+	8
+
+Ilercavonia
+	Hibera
+	spain
+	Iberians
+	211 6 102
+	none
+	5
+	6
+
+Cessetania
+	Kesse
+	spain
+	Iberians
+	130 147 2
+	none
+	5
+	6
+
+Ilergetia
+	Iltrida
+	spain
+	Iberians
+	216 95 8
+	none
+	5
+	3
+
+Vasconia
+	Osca
+	spain
+	Iberians
+	62 104 0
+	none
+	5
+	5
+
+Baetica_Hispalensis
+	Karmo
+	spain
+	Turdetanian
+	121 130 2
+	none
+	5
+	11
+
+Malacitia
+	Malaka
+	spain
+	Turdetanian
+	17 170 76
+	none
+	5
+	5
+
+Oretania
+	Kastilo
+	spain
+	Turdetanian
+	145 43 2
+	none
+	5
+	2
+
+Baetica_Cordubensis
+	Kartuba
+	spain
+	Turdetanian
+	166 12 209
+	none
+	5
+	11
+
+Turdetania
+	Orippo
+	spain
+	Turdetanian
+	193 3 196
+	none
+	5
+	11
+
+Couneia
+	Onuba
+	spain
+	Turdetanian
+	72 150 12
+	none
+	5
+	10
+
+Turdulia_Occidentalis
+	Varna
+	spain
+	Turdetanian
+	163 53 6
+	none
+	5
+	9
+
+Turdulia_Orientalis
+	Oretum
+	spain
+	Turdetanian
+	216 17 107
+	none
+	5
+	9
+
+Lobetania
+	Mentesa
+	spain
+	Celtiberian
+	77 242 154
+	none
+	5
+	10
+
+Celtiberia_Meridionalis
+	Valeria
+	spain
+	Celtiberian
+	224 47 209
+	none
+	5
+	11
+
+Celtiberia_Septentrionalis
+	Salduie
+	spain
+	Celtiberian
+	81 221 26
+	none
+	5
+	7
+
+Celtiberia_Centralis
+	Segontia
+	spain
+	Celtiberian
+	239 206 16
+	none
+	5
+	11
+
+Carpetania
+	Toletum
+	spain
+	Celtiberian
+	12 209 74
+	none
+	5
+	10
+
+Vettonia_Meridionalis
+	Augustobriga
+	spain
+	Celtiberian
+	219 119 48
+	none
+	5
+	6
+
+Vettonia_Septentrionalis
+	Avila
+	spain
+	Celtiberian
+	77 34 158
+	none
+	5
+	4
+
+Vaccaeia_Meridionalis
+	Segovia
+	spain
+	Cantabrian
+	188 53 50
+	none
+	5
+	10
+
+Vaccaeia_Septentrionalis
+	Palantia
+	spain
+	Cantabrian
+	244 36 223
+	none
+	5
+	9
+
+Vardulia
+	Pompelo
+	spain
+	Cantabrian
+	25 252 59
+	none
+	5
+	5
+
+Autrigonia
+	Vindeleia
+	spain
+	Cantabrian
+	216 65 135
+	none
+	5
+	6
+
+Cantabria
+	Lancia
+	spain
+	Cantabrian
+	86 234 70
+	none
+	5
+	6
+
+Celticia_Minoris
+	Ebora
+	spain
+	Lusitanian
+	145 0 229
+	none
+	5
+	10
+
+Celticia_Maoioris
+	Augusta_Emerita
+	spain
+	Lusitanian
+	67 183 9
+	none
+	5
+	11
+
+Lusitania
+	Mirobriga
+	spain
+	Lusitanian
+	252 90 198
+	none
+	5
+	7
+
+Oppidania
+	Conimbriga
+	spain
+	Lusitanian
+	219 138 87
+	none
+	5
+	8
+
+Asturia
+	Lucus_Asturum
+	spain
+	Asturian
+	247 235 74
+	none
+	5
+	4
+
+Aebocosia
+	Argentiolum
+	spain
+	Asturian
+	209 89 41
+	none
+	5
+	12
+
+Callaecia_Meridionalis
+	Bracara_Augusta
+	spain
+	Asturian
+	28 206 94
+	none
+	5
+	3
+
+Callaecia_Septentrionalis
+	Assegonia
+	spain
+	Asturian
+	237 28 36
+	none
+	5
+	11
+
+;Illyria
+Histria
+	Polai
+	dacia
+	Histrian
+	216 56 47
+	none
+	5
+	5
+
+Libernia
+	Iader
+	dacia
+	Libernian
+	221 97 159
+	none
+	5
+	8
+
+Dalmatia
+	Salona
+	dacia
+	Delmatae
+	66 237 4
+	none
+	5
+	9
+
+Daorsia
+	Delminion
+	dacia
+	Daorsian
+	205 234 86
+	none
+	5
+	2
+
+Deuria
+	Segestika
+	dacia
+	Breuci
+	120 221 86
+	none
+	5
+	2
+
+;Pannonia
+Latobicia
+	Carnium
+	gauls
+	Tauriscian
+	244 207 95
+	none
+	5
+	2
+
+Cataria
+	Varianis
+	gauls
+	Tauriscian
+	35 186 90
+	none
+	5
+	5
+
+Varciania
+	Vindobona
+	gauls
+	Tauriscian
+	196 13 187
+	none
+	5
+	2
+
+Pannonia_Prima
+	Aquincum
+	gauls
+	Eraviscian
+	90 255 35
+	none
+	5
+	0
+
+Carnuntia
+	Felicia
+	gauls
+	Eraviscian
+	36 183 112
+	none
+	5
+	5
+
+Quadia
+	Amatria
+	dacia
+	Eraviscian
+	107 26 165
+	none
+	5
+	3
+
+Valeria
+	Sopianai
+	gauls
+	Pannonian
+	212 237 71
+	none
+	5
+	8
+
+Hercuniatia
+	Iazygiana
+	dacia
+	Pannonian
+	65 198 125
+	none
+	5
+	9
+
+Pannonia_Secunda
+	Sirmium
+	gauls
+	Scordisci
+	211 81 42
+	none
+	5
+	10
+
+;Dacia
+Albocensia
+	Lixisis
+	dacia
+	Pannonian
+	149 168 23
+	none
+	5
+	10
+
+Iazygia
+	Crisia
+	dacia
+	Pannonian
+	101 160 24
+	none
+	5
+	0
+
+Cotinia
+	Oratis
+	dacia
+	Pannonian
+	216 67 181
+	none
+	5
+	2
+
+Costobocia
+	Vidava
+	dacia
+	Carpi
+	165 51 16
+	none
+	5
+	3
+
+Potulatensia
+	Apulum
+	dacia
+	Daci
+	211 52 198
+	none
+	5
+	0
+
+Porolissensis
+	Potaissa
+	dacia
+	Daci
+	122 160 16
+	none
+	5
+	4
+
+Apulensis
+	Media
+	dacia
+	Daci
+	242 188 53
+	none
+	5
+	2
+
+Malvensis
+	Buridava
+	dacia
+	Daci
+	91 132 10
+	none
+	5
+	5
+
+Getia
+	Popesti
+	dacia
+	Getae
+	191 1 131
+	none
+	5
+	6
+
+Roxolania
+	Polondava
+	dacia
+	Getae
+	198 57 21
+	none
+	5
+	3
+
+;Western Moesia
+Scordiscia
+	Singidunum
+	gauls
+	Scordisci
+	232 2 166
+	none
+	5
+	10
+
+Tricornensia
+	Naissus
+	gauls
+	Scordisci
+	203 78 244
+	none
+	5
+	9
+
+Dindaria
+	Risitia
+	gauls
+	Dardanian
+	71 232 181
+	none
+	5
+	5
+
+Dardania
+	Skoupoi
+	thrace
+	Dardanian
+	46 186 11
+	none
+	5
+	4
+
+;Eastern Moesia
+Picensia
+	Ratiaria
+	dacia
+	Triballian
+	95 252 129
+	none
+	5
+	11
+
+Saldensia
+	Oescus
+	dacia
+	Triballian
+	193 32 73
+	none
+	5
+	3
+
+Moesia
+	Serdica
+	dacia
+	Triballian
+	244 94 19
+	none
+	5
+	4
+
+Triballia
+	Tylis
+	gauls
+	Tyle
+	221 48 132
+	none
+	5
+	3
+
+Crobyzoia
+	Odessos
+	thrace
+	Moesian
+	109 234 84
+	none
+	5
+	5
+
+Scythia_Minor
+	Istros
+	thrace
+	Moesian
+	229 32 65
+	none
+	5
+	5
+
+;Thrace
+Haemimontus
+	Apollonia_Pontiki
+	thrace
+	Odrysae
+	226 105 83
+	none
+	5
+	4
+
+Thracia
+	Seuthopolis
+	thrace
+	Odrysae
+	252 113 173
+	none
+	5
+	10
+
+Rhodope
+	Abdira
+	thrace
+	Odrysae
+	188 239 79
+	none
+	5
+	3
+
+Propontis
+	Lysimacheia
+	thrace
+	Chersonian
+	160 50 22
+	none
+	5
+	9
+
+Europa
+	Byzantion
+	thrace
+	Byzantine
+	110 211 69
+	none
+	5
+	3
+
+;Macedonia
+Paeonia
+	Astraion
+	macedon
+	Paionians
+	146 5 255
+	none
+	5
+	6
+
+Odomantike
+	Amphipolis
+	macedon
+	Edones
+	64 160 28
+	none
+	5
+	4
+
+Chalkidiki
+	Thessaloniki
+	macedon
+	Sithones
+	206 26 6
+	none
+	5
+	5
+
+Emathia
+	Pella
+	macedon
+	Emathian
+	33 183 45
+	none
+	5
+	10
+
+Pelagonia
+	Lychnidos
+	macedon
+	Pelagonian
+	255 53 231
+	none
+	5
+	2
+
+Thessalia
+	Larisa
+	macedon
+	Thessalians
+	234 237 83
+	none
+	5
+	11
+
+;Epeiros
+Illyria_Graeca
+	Apollonia
+	macedon
+	Epirots
+	244 165 100
+	none
+	5
+	8
+
+Epirus
+	Passaron
+	macedon
+	Epirots
+	51 175 42
+	none
+	5
+	3
+
+Aetolia
+	Thermos
+	greek_cities
+	Aetolians
+	215 0 219
+	none
+	5
+	7
+
+;Greece
+Boeotia
+	Thibai
+	greek_cities
+	Boeotian
+	97 163 16
+	none
+	5
+	3
+
+Attica
+	Athinai
+	greek_cities
+	Athenians
+	247 77 51
+	none
+	5
+	5
+
+Euboea
+	Chalkis
+	greek_cities
+	Euboean
+	255 175 79
+	none
+	5
+	2
+
+Achaea
+	Korinthos
+	greek_cities
+	Achaeans
+	219 63 164
+	none
+	5
+	4
+
+Arcadia
+	Elis
+	greek_cities
+	Arcadian
+	104 224 65
+	none
+	5
+	4
+
+Laconia
+	Sparta
+	greek_cities
+	Helots
+	173 26 43
+	sparta
+	5
+	6
+
+Sporades
+	Rodos
+	greek_cities
+	Rhodians
+	112 193 36
+	none
+	5
+	3
+
+Crete
+	Gortyna
+	greek_cities
+	Cretans
+	166 80 216
+	none
+	5
+	3
+
+;Crimea
+Chersonesos_Zenonis
+	Pantikapaion
+	thrace
+	Bosphorans
+	252 185 98
+	none
+	5
+	7
+
+Chersonesos_Heraclea
+	Chersonisos
+	thrace
+	Bosphorans
+	252 27 233
+	none
+	5
+	4
+
+Taurica
+	Kimmeria
+	scythia
+	Taurican
+	183 255 68
+	none
+	5
+	2
+
+Bosporus_Cimmerius
+	Phanagoreia
+	thrace
+	Bosphorans
+	198 21 107
+	none
+	5
+	3
+
+Sarmatia_Maritima
+	Olbia
+	thrace
+	Bosphorans
+	64 201 62
+	none
+	5
+	3
+
+Scythia_Harpitis
+	Tyras
+	thrace
+	Bosphorans
+	221 19 178
+	none
+	5
+	3
+
+;European Sarmatia
+Subcarpathia
+	Castrana
+	dacia
+	Harpian
+	199 249 72
+	none
+	5
+	0
+
+Zargidava
+	Piroboridava
+	dacia
+	Harpian
+	57 198 47
+	none
+	5
+	2
+
+Clepia
+	Volumis
+	dacia
+	Harpian
+	216 149 26
+	none
+	5
+	3
+
+Sarmatia
+	Scyra
+	scythia
+	Iazyges
+	213 22 226
+	none
+	5
+	3
+
+Sarmatia_Superioris
+	Ektonopolis
+	scythia
+	Iazyges
+	214 89 98
+	none
+	5
+	4
+
+Borysthenia
+	Zeh
+	scythia
+	Iazyges
+	37 178 82
+	none
+	5
+	5
+
+Hypania
+	Zetha
+	scythia
+	Iazyges
+	229 157 2
+	none
+	5
+	1
+
+Transborysthena
+	Volg
+	scythia
+	Roxolani
+	182 221 82
+	none
+	5
+	1
+
+Transhypania
+	Gelts
+	scythia
+	Agathyrsian
+	26 140 4
+	none
+	5
+	0
+
+Hypania_Minoris
+	Lechta
+	scythia
+	Agathyrsian
+	232 123 55
+	none
+	5
+	0
+
+Bassetia
+	Vurdant
+	scythia
+	Agathyrsian
+	226 183 90
+	none
+	5
+	0
+
+Vistulia_Inferioris
+	Malica
+	scythia
+	Agathyrsian
+	216 71 100
+	none
+	5
+	2
+
+Amadocia
+	Trakylli
+	scythia
+	Agathyrsian
+	166 247 86
+	none
+	5
+	1
+
+Neuri
+	Azagarium
+	scythia
+	Agathyrsian
+	225 198 152
+	none
+	5
+	1
+
+Gelonia
+	Gelonus
+	scythia
+	Agathyrsian
+	56 204 48
+	none
+	5
+	2
+
+;Asian Sarmatia
+Tauroscythia
+	Pasyris
+	scythia
+	Roxolani
+	175 29 93
+	none
+	5
+	3
+
+Cimmero_Scythia
+	Ruti
+	scythia
+	Roxolani
+	1 168 23
+	none
+	5
+	3
+
+Tanaica
+	Tanais
+	scythia
+	Roxolani
+	204 89 51
+	none
+	5
+	4
+
+Borysthenia_Maioris
+	Tahent
+	scythia
+	Roxolani
+	189 255 38
+	none
+	5
+	3
+
+Danaia
+	Yakkant
+	scythia
+	Roxolani
+	61 219 82
+	none
+	5
+	3
+
+Mantessa
+	Ishkent
+	scythia
+	Roxolani
+	183 67 55
+	none
+	5
+	4
+
+Confluenta
+	Vyrni
+	scythia
+	Sarmatians
+	114 186 14
+	none
+	5
+	6
+
+Danaia_Superioris
+	Shashcha
+	scythia
+	Sarmatians
+	255 114 109
+	none
+	5
+	4
+
+Melanchlenia
+	Agathyrsica
+	scythia
+	Agathyrsian
+	232 167 39
+	none
+	5
+	1
+
+Thyssagetae
+	Exapolis
+	scythia
+	Sarmatians
+	170 242 26
+	none
+	5
+	2
+
+Stumica
+	Gaithasoura
+	scythia
+	Sarmatians
+	158 12 206
+	none
+	5
+	1
+
+;Circassia
+Maeotia
+	Iados
+	scythia
+	Maeotae
+	252 168 90
+	none
+	5
+	2
+
+Sindica
+	Sabiranum
+	scythia
+	Siraces
+	183 52 219
+	none
+	5
+	3
+
+Scythia_Transmontem
+	Valent
+	scythia
+	Siraces
+	140 209 83
+	none
+	5
+	0
+
+Tanaissa
+	Katys
+	scythia
+	Siraces
+	60 1 163
+	none
+	5
+	3
+
+Sarmatia_Hyrcania
+	Zabender
+	scythia
+	Siraces
+	183 57 34
+	none
+	5
+	2
+
+Sattara
+	Vynikka
+	scythia
+	Siraces
+	232 198 48
+	none
+	5
+	3
+
+Hyrcania_Superioris
+	Chroda
+	scythia
+	Siraces
+	94 229 164
+	none
+	5
+	2
+
+Alania
+	Zhev
+	scythia
+	Alans
+	188 88 16
+	none
+	5
+	4
+
+Alania_Orientalis
+	Mennichak
+	scythia
+	Alans
+	94 183 45
+	none
+	5
+	4
+
+Atara
+	Gyashech
+	scythia
+	Alans
+	130 80 183
+	none
+	5
+	2
+
+;Far Sarmatia
+Nesietis
+	Nesitotis
+	scythia
+	Alans
+	216 184 67
+	none
+	5
+	1
+
+Transhyrcania
+	Zale
+	scythia
+	Alans
+	239 0 11
+	none
+	5
+	3
+
+Darn
+	Satticha
+	scythia
+	Alans
+	173 201 32
+	none
+	5
+	3
+
+Scythia_Magna
+	Alanica
+	scythia
+	Alans
+	124 204 20
+	none
+	5
+	3
+
+Deserta_Scythia
+	Vyache
+	scythia
+	Alans
+	229 57 94
+	none
+	5
+	2
+
+Abzoa
+	Aorsia
+	scythia
+	Alans
+	133 66 191
+	none
+	5
+	2
+
+Alanorsia
+	Tengiz
+	scythia
+	Alans
+	181 12 32
+	none
+	5
+	3
+
+;Southern Siberia
+Busu
+	Arimaspia
+	scythia
+	Saka
+	216 182 71
+	none
+	5
+	2
+
+Septem_Flumina
+	Ili
+	scythia
+	Saka
+	11 127 81
+	none
+	5
+	3
+
+Sacasene
+	Kujin
+	scythia
+	Saka
+	237 101 178
+	none
+	5
+	4
+
+Hongnia
+	Artey
+	scythia
+	Hunni
+	160 57 28
+	none
+	5
+	2
+
+;Tanim
+Gushia
+	Turfan
+	parthia
+	Asii
+	156 201 72
+	none
+	5
+	6
+
+Hamich
+	Cumuda
+	parthia
+	Asii
+	209 170 73
+	none
+	5
+	4
+
+Agni
+	Arsi
+	parthia
+	Tocharian
+	242 231 29
+	none
+	5
+	2
+
+Kroraina
+	Kroran
+	parthia
+	Tocharian
+	198 3 39
+	none
+	5
+	3
+
+Portae_Ferraea
+	Korla
+	parthia
+	Tocharian
+	43 242 56
+	none
+	5
+	1
+
+Kushine
+	Kucha
+	parthia
+	Tocharian
+	244 78 192
+	none
+	5
+	4
+
+Calmadana
+	Qarqan
+	parthia
+	Tocharian
+	37 186 3
+	none
+	5
+	4
+
+Gumo
+	Aqsu
+	parthia
+	Tocharian
+	189 201 22
+	none
+	5
+	3
+
+Kasia
+	Kasi
+	parthia
+	Khotanese
+	216 75 85
+	none
+	5
+	7
+
+Gosthana
+	Godana
+	parthia
+	Khotanese
+	63 35 132
+	none
+	5
+	5
+
+Cadot
+	Cadota
+	parthia
+	Khotanese
+	216 213 49
+	none
+	5
+	4
+
+;China
+Paelex_Porta
+	Throana
+	parthia
+	Seres
+	244 22 189
+	none
+	5
+	2
+
+Serica
+	Sera
+	parthia
+	Seres
+	181 32 42
+	none
+	5
+	10
+
+Serica_Asmiraii
+	Asmira
+	parthia
+	Asmiraian
+	127 183 49
+	none
+	5
+	0
+
+Serica_Coconorum
+	Quilan
+	parthia
+	Seres
+	88 18 145
+	none
+	5
+	0
+
+;Jaxarta
+Issedonia
+	Issedon
+	scythia
+	Issedones
+	209 115 14
+	none
+	5
+	2
+
+Talas
+	Yul
+	scythia
+	Issedones
+	90 10 130
+	none
+	5
+	1
+
+Chach
+	Turris_Lapidea
+	parthia
+	Sogdian
+	14 160 65
+	none
+	5
+	2
+
+Jaxartes_Superior
+	Poshkar
+	scythia
+	Massagetae
+	155 27 10
+	none
+	5
+	5
+
+Jaxartes_Inferior
+	Iaxartoum
+	scythia
+	Massagetae
+	224 184 8
+	none
+	5
+	4
+
+Dzankath
+	Yakhsha_Arta
+	scythia
+	Massagetae
+	88 153 10
+	none
+	5
+	2
+
+;Ferghana
+Ferghana
+	Andukan
+	parthia
+	Sogdian
+	127 32 1
+	none
+	5
+	4
+
+Kyreschata
+	Alexandreia_Eschati
+	seleucid
+	Baktrian
+	206 184 20
+	none
+	5
+	7
+
+Pamir
+	Baskata
+	parthia
+	Sogdian
+	0 119 79
+	none
+	5
+	0
+
+;Sogdian Desert
+Sakastan
+	Kashram
+	parthia
+	Massagetae
+	87 6 124
+	none
+	5
+	2
+
+Sogdiana_Deserta
+	Palisha
+	parthia
+	Massagetae
+	13 137 9
+	none
+	5
+	0
+
+Tigraxauda
+	Amul
+	parthia
+	Massagetae
+	229 145 0
+	none
+	5
+	1
+
+Oxia_Deserta
+	Eorta
+	parthia
+	Massagetae
+	206 2 107
+	none
+	5
+	1
+
+;Chorasmia
+Chorasmia_Ostia
+	Cammei
+	parthia
+	Chorasmian
+	221 176 13
+	none
+	5
+	8
+
+Chorasmia_Inferior
+	Gurganj
+	parthia
+	Chorasmian
+	75 1 122
+	none
+	5
+	12
+
+Chorasmia_Superior
+	Kath
+	parthia
+	Chorasmian
+	158 18 6
+	none
+	5
+	5
+
+;Amardia
+Chorasmia_Deserta
+	Sechoria
+	parthia
+	Amardian
+	2 117 48
+	none
+	5
+	1
+
+Mardastan
+	Karon
+	parthia
+	Amardian
+	57 9 153
+	none
+	5
+	0
+
+Scythia_Ultima
+	Yetteka
+	parthia
+	Amardian
+	204 143 12
+	none
+	5
+	0
+
+;Dahaea
+Scythia_Pontica
+	Suna
+	parthia
+	Dahae
+	172 22 226
+	none
+	5
+	0
+
+Dahaestan
+	Gdy_Kala
+	parthia
+	Dahae
+	219 215 8
+	none
+	5
+	3
+
+Massagetica
+	Yatsha
+	parthia
+	Dahae
+	142 5 65
+	none
+	5
+	1
+
+Parnia
+	Abaskun
+	parthia
+	Parni
+	247 169 145
+	none
+	5
+	4
+
+Siracene
+	Gathar
+	parthia
+	Parni
+	178 114 224
+	none
+	5
+	3
+
+;Margiana
+Margiana
+	Alexandreia_Margiana
+	parthia
+	Margian
+	221 211 68
+	none
+	5
+	6
+
+Sarmagana
+	Marvrot
+	parthia
+	Margian
+	224 93 76
+	none
+	5
+	3
+
+Attene
+	Charracarta
+	parthia
+	Margian
+	93 196 64
+	none
+	5
+	4
+
+;Bactria
+Bactriana
+	Baktra
+	seleucid
+	Baktrian
+	116 57 198
+	none
+	5
+	6
+
+Chomaria
+	Rhoitia
+	seleucid
+	Baktrian
+	249 54 152
+	none
+	5
+	3
+
+Candara
+	Drapsaka
+	seleucid
+	Baktrian
+	153 4 39
+	none
+	5
+	2
+
+;Oxiana
+Transoxus
+	Phratroua
+	parthia
+	Sogdian
+	14 242 181
+	none
+	5
+	3
+
+Sogdiana
+	Maracanda
+	parthia
+	Sogdian
+	101 46 204
+	none
+	5
+	3
+
+Oxiana
+	Eukratideia
+	seleucid
+	Baktrian
+	216 202 0
+	none
+	5
+	4
+
+Tarmita
+	Alexandreia_Oxou
+	seleucid
+	Baktrian
+	82 147 16
+	none
+	5
+	5
+
+;Cyrenaica
+Barka
+	Serapeion
+	greek_cities
+	Cyrenaican
+	155 32 40
+	none
+	5
+	2
+
+Cyrenaica
+	Kyrini
+	greek_cities
+	Cyrenaican
+	42 193 188
+	none
+	5
+	4
+
+Marmarica
+	Plynos_Limen
+	egypt
+	Libyans
+	169 58 255
+	none
+	5
+	0
+
+Libya
+	Paraitonion
+	egypt
+	Libyans
+	229 212 84
+	none
+	5
+	0
+
+Ammon
+	Ammonion
+	egypt
+	Libyans
+	250 210 1
+	none
+	5
+	1
+
+;Lower Egypt
+Delta_Occidentalis
+	Alexandreia
+	egypt
+	Egyptian
+	76 206 87
+	none
+	5
+	14
+
+Delta_Orientalis
+	Leontopolis
+	egypt
+	Egyptian
+	239 59 68
+	none
+	5
+	15
+
+Aegyptis
+	Memphis
+	egypt
+	Egyptian
+	249 213 67
+	none
+	5
+	12
+
+Saracena
+	Bubastis
+	egypt
+	Egyptian
+	237 92 200
+	none
+	5
+	2
+
+Heptanomis
+	Arsinoe
+	egypt
+	Egyptian
+	211 69 131
+	none
+	5
+	11
+
+;Upper Egypt
+Asyut
+	Ptolemais_Ermiou
+	egypt
+	Egyptian
+	62 193 136
+	none
+	5
+	6
+
+Luxor
+	Thibai_Ekatompyloi
+	egypt
+	Egyptian
+	229 183 32
+	none
+	5
+	5
+
+Aswan
+	Syene
+	egypt
+	Egyptian
+	19 247 88
+	none
+	5
+	5
+
+;West Egyptian Desert
+Parva
+	Oasis_Mikro
+	egypt
+	Libyans
+	219 76 81
+	none
+	5
+	0
+
+Farfara
+	Siwa
+	egypt
+	Libyans
+	252 218 106
+	none
+	5
+	0
+
+Kharga
+	Amoura
+	egypt
+	Egyptian
+	14 142 104
+	none
+	5
+	0
+
+Khargana
+	Parammon
+	egypt
+	Egyptian
+	209 2 50
+	none
+	5
+	0
+
+;Eastern Desert
+Porphyritis_Mons
+	Myos_Hormos
+	egypt
+	Egyptian
+	216 34 77
+	none
+	5
+	1
+
+Troglodytica
+	Bereniki_Troglodytiki
+	egypt
+	Egyptian
+	32 173 159
+	none
+	5
+	1
+
+Ptolemais_Epithera
+	Ptolemais_Theron
+	egypt
+	Blemmyan
+	227 232 97
+	none
+	5
+	1
+
+;Nubia
+Nubia_Septentrionalis
+	Pachora
+	egypt
+	Nubian
+	237 219 101
+	none
+	5
+	4
+
+Nubia_Centralis
+	Patigga
+	egypt
+	Nubian
+	211 79 52
+	none
+	5
+	4
+
+Nubia_Meridionalis
+	Napata
+	egypt
+	Nubian
+	101 249 32
+	none
+	5
+	2
+
+Alana
+	Darou
+	egypt
+	Nubian
+	244 116 110
+	none
+	5
+	3
+
+;Meroe
+Meroe_Insula
+	Meroe
+	egypt
+	Meroitian
+	221 213 93
+	none
+	5
+	3
+
+Alut
+	Soba
+	egypt
+	Meroitian
+	158 44 0
+	none
+	5
+	2
+
+Atbaras
+	Kassala
+	egypt
+	Meroitian
+	58 170 27
+	none
+	5
+	0
+
+Attiroia
+	Hide
+	egypt
+	Meroitian
+	186 109 53
+	none
+	5
+	1
+
+;Daamat
+Bega
+	Hawulti_Melazo
+	egypt
+	Daamat
+	211 106 93
+	none
+	5
+	1
+
+Tangiatae
+	Adoulis
+	egypt
+	Daamat
+	47 183 54
+	none
+	5
+	2
+
+Daamat
+	Yeha
+	egypt
+	Daamat
+	104 39 244
+	none
+	5
+	3
+
+Punt
+	Arsinoe_Epidires
+	egypt
+	Daamat
+	226 155 2
+	none
+	5
+	1
+
+;Erythrae
+Asayta
+	Awsa
+	egypt
+	Macrobian
+	154 219 89
+	none
+	5
+	2
+
+Akridophagia
+	Gidaya
+	egypt
+	Macrobian
+	196 174 7
+	none
+	5
+	1
+
+Rhausae
+	Avalites
+	egypt
+	Macrobian
+	181 57 23
+	none
+	5
+	2
+
+Barbaria
+	Malao
+	egypt
+	Macrobian
+	224 184 40
+	none
+	5
+	1
+
+Cinnamonifora
+	Mundus
+	egypt
+	Macrobian
+	80 229 39
+	none
+	5
+	0
+
+Aromatica
+	Mosylon
+	egypt
+	Macrobian
+	242 225 101
+	none
+	5
+	0
+
+Elephas
+	Opone
+	egypt
+	Macrobian
+	51 6 124
+	none
+	5
+	0
+
+Azania
+	Serapion
+	egypt
+	Macrobian
+	134 224 96
+	none
+	5
+	2
+
+;Aethiopia
+Axomitarum
+	Axum
+	egypt
+	Aksumite
+	216 37 2
+	none
+	5
+	5
+
+Tiama
+	Sembobitis
+	egypt
+	Aksumite
+	221 204 8
+	none
+	5
+	3
+
+Atalmo
+	Tissisat
+	egypt
+	Aksumite
+	156 81 247
+	none
+	5
+	2
+
+Ssasu
+	Showa
+	egypt
+	Aksumite
+	90 237 134
+	none
+	5
+	1
+
+Melanokhrotoi
+	Maste
+	egypt
+	Aksumite
+	104 48 168
+	none
+	5
+	4
+
+Gambala
+	Tziamo
+	egypt
+	Aksumite
+	198 185 0
+	none
+	5
+	3
+
+; CYENEUM
+Calaa
+	Sannar
+	egypt
+	Cyenean
+	242 217 106
+	none
+	5
+	2
+
+Astasobas
+	Uatara
+	egypt
+	Cyenean
+	155 1 47
+	none
+	5
+	2
+
+Golaissae
+	Belaya
+	egypt
+	Cyenean
+	161 97 221
+	none
+	5
+	3
+
+Artabatita
+	Astapus
+	egypt
+	Cyenean
+	216 71 119
+	none
+	5
+	1
+
+Syrbotia
+	Zankor
+	egypt
+	Cyenean
+	21 239 68
+	none
+	5
+	2
+
+Cyeneum
+	Barditon
+	egypt
+	Cyenean
+	252 240 78
+	none
+	5
+	1
+
+;Arabia Felix
+Mapharitis
+	Mouza
+	egypt
+	Sabaean
+	221 48 74
+	none
+	5
+	3
+
+Himyar
+	Raida
+	egypt
+	Sabaean
+	29 229 149
+	none
+	5
+	3
+
+Saba
+	Tamna
+	egypt
+	Sabaean
+	229 232 62
+	none
+	5
+	1
+
+Qataban
+	Firai
+	egypt
+	Sabaean
+	66 168 11
+	none
+	5
+	2
+
+Myrrhifera
+	Yathill
+	egypt
+	Sabaean
+	175 44 35
+	none
+	5
+	1
+
+Hadhramut_Occidentalis
+	Shabwa
+	egypt
+	Hadhramut
+	249 115 94
+	none
+	5
+	1
+
+Hadhramut_Orientalis
+	Thialematt
+	egypt
+	Hadhramut
+	219 216 63
+	none
+	5
+	1
+
+;Western Arabia
+Taifa
+	Makarabah
+	egypt
+	Lihyan
+	244 244 85
+	none
+	5
+	1
+
+Cinaedocolpitis
+	Baitus
+	egypt
+	Lihyan
+	95 132 7
+	none
+	5
+	3
+
+Arabia_Ad_Sinus
+	Raunathou_Kome
+	egypt
+	Lihyan
+	211 76 116
+	none
+	5
+	1
+
+Iathrippa
+	Ausara
+	egypt
+	Lihyan
+	71 21 153
+	none
+	5
+	0
+
+Hegra
+	Dedan
+	egypt
+	Lihyan
+	211 189 48
+	none
+	5
+	2
+
+Arabia_Relicta
+	Madiama
+	carthage
+	Nabataeans
+	249 27 249
+	none
+	5
+	0
+
+Arabia_Petrea
+	Reqemo
+	carthage
+	Nabataeans
+	234 221 77
+	none
+	5
+	3
+
+Sinai
+	Nuweiba
+	carthage
+	Nabataeans
+	180 214 12
+	none
+	5
+	0
+
+;Eastern Arabia
+Omanitis_Orientalis
+	Kryptos_Limen
+	parthia
+	Maka
+	252 196 218
+	none
+	5
+	1
+
+Omanitis_Occidentalis
+	Omana
+	parthia
+	Maka
+	98 12 137
+	none
+	5
+	2
+
+Gerrha_Orientalis
+	Gerrha
+	parthia
+	Gerrhan
+	144 37 232
+	none
+	5
+	2
+
+Tylos_Insula
+	Tylos
+	parthia
+	Gerrhan
+	77 209 180
+	none
+	5
+	2
+
+Gerrha_Occidentalis
+	Teredon
+	parthia
+	Gerrhan
+	255 130 175
+	none
+	5
+	2
+
+;Central Arabia
+Dumatha
+	Dumah
+	parthia
+	Qedarite
+	160 20 27
+	none
+	5
+	1
+
+Arabia_Magna
+	Alata
+	parthia
+	Qedarite
+	204 180 6
+	none
+	5
+	0
+
+;God's Country
+Rhicocorura
+	Pilousion
+	egypt
+	Egyptian
+	188 188 188
+	none
+	5
+	2
+
+Philistia
+	Gaza
+	carthage
+	Judaeans
+	252 150 148
+	none
+	5
+	4
+
+Judea
+	Hierosolyma
+	carthage
+	Judaeans
+	252 250 123
+	none
+	5
+	6
+
+Peraea
+	Dibon
+	carthage
+	Judaeans
+	117 234 148
+	none
+	5
+	3
+
+Decapolis
+	Gadara
+	seleucid
+	Decapoliote
+	190 139 237
+	none
+	5
+	4
+
+Phoeniciae_Meridionalis
+	Tyros
+	carthage
+	Phoenicians
+	237 106 121
+	none
+	5
+	5
+
+;Syria
+Coele_Syria
+	Damaskos
+	armenia
+	Syrians
+	244 222 168
+	none
+	5
+	2
+
+Phoeniciae_Septentrionalis
+	Tripolis
+	carthage
+	Phoenicians
+	185 161 237
+	none
+	5
+	2
+
+Apamene
+	Emesa
+	armenia
+	Syrians
+	255 240 188
+	none
+	5
+	2
+
+Palmyrene
+	Palmyra
+	armenia
+	Palmyrans
+	236 201 255
+	none
+	5
+	0
+
+Syria
+	Antiocheia
+	seleucid
+	Syrians
+	242 130 113
+	none
+	5
+	4
+
+Commagene
+	Nisibyn
+	armenia
+	Syrians
+	252 239 121
+	none
+	5
+	6
+
+;Assyria
+Osroene
+	Adma
+	armenia
+	Syrians
+	148 247 179
+	none
+	5
+	4
+
+Coruene
+	Chlomaron
+	armenia
+	Assyrian
+	252 241 181
+	none
+	5
+	2
+
+Mesopotamia
+	Antiocheia_Mygdonias
+	seleucid
+	Assyrian
+	168 13 67
+	sparta
+	5
+	2
+
+Assyria
+	Ninos
+	armenia
+	Assyrian
+	71 31 150
+	none
+	5
+	4
+
+Apolloniatos
+	Kainai
+	armenia
+	Assyrian
+	255 233 35
+	none
+	5
+	7
+
+Adiabene
+	Arbela
+	parthia
+	Assyrian
+	234 39 25
+	none
+	5
+	3
+
+Garamaea
+	Chala
+	parthia
+	Assyrian
+	167 191 11
+	none
+	5
+	2
+
+;Babylonia
+Aramaea
+	Doura_Europos
+	parthia
+	Qedarite
+	230 103 234
+	none
+	5
+	0
+
+Babylonia
+	Babylon
+	parthia
+	Babylonian
+	191 221 93
+	none
+	5
+	12
+
+Sittacene
+	Seleukeia
+	seleucid
+	Babylonian
+	206 24 42
+	none
+	5
+	18
+
+Sumer
+	Orchoi
+	parthia
+	Sumerian
+	211 229 45
+	none
+	5
+	8
+
+Chaldaea
+	Apameia_Tigridos
+	parthia
+	Babylonian
+	157 88 216
+	none
+	5
+	9
+
+Characene
+	Alexandreia_Sousianis
+	parthia
+	Babylonian
+	47 16 124
+	none
+	5
+	4
+
+Susiana
+	Seleukeia_Eulaios
+	parthia
+	Elamites
+	196 66 118
+	none
+	5
+	3
+
+;Aegean Anatolia
+Bithynia_Inferioris
+	Nicomedia
+	thrace
+	Bithynians
+	203 145 247
+	none
+	5
+	5
+
+Mysia_Inferioris
+	Kysikos
+	thrace
+	Pergamene
+	103 136 145
+	none
+	5
+	2
+
+Troad
+	Ilion
+	thrace
+	Pergamene
+	5 89 94
+	none
+	5
+	5
+
+Mysia_Superioris
+	Pergamon
+	thrace
+	Pergamene
+	158 216 119
+	none
+	5
+	4
+
+Ionia
+	Ephesos
+	greek_cities
+	Ionians
+	179 150 204
+	none
+	5
+	5
+
+Caria
+	Halikarnassos
+	greek_cities
+	Carian
+	206 113 181
+	none
+	5
+	2
+
+;Southern Anatolia
+Lycia
+	Xanthos
+	greek_cities
+	Lycians
+	10 153 105
+	none
+	5
+	1
+
+Pamphylia
+	Sidi
+	greek_cities
+	Pamphylian
+	130 19 45
+	none
+	5
+	4
+
+Cilicia_Trachea
+	Tarsos
+	armenia
+	Cilicians
+	112 88 40
+	none
+	5
+	2
+
+Cilicia_Pedias
+	Anazarbos
+	armenia
+	Cilicians
+	61 66 57
+	none
+	5
+	6
+
+Cyprus
+	Salamis
+	greek_cities
+	Cypriots
+	135 123 35
+	none
+	5
+	3
+
+;Western Anatolia
+Lydia
+	Sardeis
+	pontus
+	Lydian
+	90 105 147
+	none
+	5
+	6
+
+Phrygia_Ripensis
+	Kolossai
+	pontus
+	Phrygian
+	175 156 147
+	none
+	5
+	4
+
+Pisidia
+	Sagalassos
+	pontus
+	Pamphylian
+	54 25 66
+	none
+	5
+	1
+
+Phrygia_Parorea
+	Synnada
+	pontus
+	Phrygian
+	66 181 48
+	none
+	5
+	4
+
+Phyrgia_Minoris
+	Dorylaion
+	pontus
+	Phrygian
+	244 209 190
+	none
+	5
+	3
+
+Bithynia_Superioris
+	Kabia
+	pontus
+	Bithynians
+	188 57 239
+	none
+	5
+	1
+	;64, grain, 2, timber, 4
+
+;Central Anatolia
+Isauria
+	Laranda
+	pontus
+	Lycaonian
+	59 198 92
+	none
+	5
+	4
+
+Lycaonia
+	Ikonion
+	pontus
+	Lycaonian
+	107 72 69
+	none
+	5
+	10
+
+Tyanitis
+	Tyana
+	pontus
+	Cappadocians
+	112 37 70
+	none
+	5
+	6
+
+Saravene
+	Pteria
+	pontus
+	Cappadocians
+	186 106 183
+	none
+	5
+	6
+
+Galatia
+	Ankyra
+	gauls
+	Galatians
+	137 168 26
+	none
+	5
+	5
+
+Phrygia_Maoris
+	Gordion
+	gauls
+	Galatians
+	124 112 124
+	none
+	5
+	5
+
+;Northern Anatolia
+Mariandynia
+	Irakleia_Pontiki
+	pontus
+	Paphlagonians
+	68 37 43
+	none
+	5
+	1
+
+Paphlagonia_Superioris
+	Gangra
+	pontus
+	Paphlagonians
+	41 28 58
+	none
+	5
+	2
+
+Paphlagonia_Inferioris
+	Sinope
+	pontus
+	Paphlagonians
+	158 102 25
+	none
+	5
+	2
+
+Iris_Inferioris
+	Amaseia
+	pontus
+	Cappadocians
+	145 183 154
+	none
+	5
+	1
+
+Iris_Superioris
+	Komana_Pontike
+	pontus
+	Cappadocians
+	52 211 137
+	none
+	5
+	1
+
+Helenopontus
+	Amisos
+	pontus
+	Trapezuntine
+	202 119 216
+	none
+	5
+	2
+
+Paryadres
+	Trapezous
+	pontus
+	Trapezuntine
+	122 111 114
+	none
+	5
+	1
+
+;Eastern Anatolia
+Cappadocia
+	Mazaka
+	pontus
+	Cappadocians
+	188 28 140
+	none
+	5
+	3
+
+Cataonia
+	Komana_Ierapolis
+	armenia
+	Cappadocians
+	109 123 142
+	none
+	5
+	2
+
+Melitene
+	Militia
+	armenia
+	Suppani
+	43 147 14
+	none
+	5
+	1
+
+Armenia_Maioris
+	Kamisa
+	armenia
+	Suppani
+	234 108 4
+	none
+	5
+	1
+
+Armenia_Minoris
+	Ani
+	armenia
+	Suppani
+	65 89 45
+	none
+	5
+	2
+
+Armenia_Superioris
+	Baiberdon
+	armenia
+	Suppani
+	91 58 85
+	none
+	5
+	1
+
+Sophene
+	Arsamosata
+	armenia
+	Suppani
+	255 0 0
+	none
+	5
+	3
+
+;Armenia
+Tarawn
+	Ashtishat
+	armenia
+	Urartian
+	27 96 19
+	none
+	5
+	3
+
+Vaspurakan
+	Tushpa
+	armenia
+	Urartian
+	86 74 64
+	none
+	5
+	2
+
+Syracene
+	Armavir
+	armenia
+	Urartian
+	123 209 167	
+	none
+	5
+	5
+
+Soducene
+	Nvarsak
+	armenia
+	Urartian
+	147 7 21
+	none
+	5
+	2
+
+Ayrarat
+	Artashat
+	armenia
+	Alarodian
+	142 142 142
+	none
+	5
+	5
+
+Parsatunik
+	Zarawak
+	armenia
+	Alarodian
+	89 102 124
+	none
+	5
+	3
+
+Syunik
+	Nakhchevan
+	armenia
+	Alarodian
+	165 64 89
+	none
+	5
+	2
+
+Artsakh
+	Sotk
+	armenia
+	Alarodian
+	152 137 211
+	none
+	5
+	1
+
+;Colchis
+Tayk
+	Apsaros
+	armenia
+	Colchians
+	244 93 216
+	none
+	5
+	4
+
+Colchis
+	Phasis
+	armenia
+	Colchians
+	6 163 110
+	none
+	5
+	3
+
+Abasgoi
+	Dioskourias
+	armenia
+	Colchians
+	0 128 128
+	none
+	5
+	0
+
+Suaneti
+	Kutaisi
+	armenia
+	Colchians
+	196 27 182
+	none
+	5
+	3
+
+;Caucasian Iberia
+Gugark
+	Sarapana
+	armenia
+	Iberian
+	48 95 109
+	none
+	5
+	1
+
+Iberia
+	Armazistsikhe
+	armenia
+	Iberian
+	130 163 162
+	none
+	5
+	5
+
+Kahetia
+	Sagarejo
+	armenia
+	Iberian
+	117 44 15
+	none
+	5
+	2
+
+;Albania
+Arran
+	Partaw
+	armenia
+	Albanian
+	22 91 81
+	none
+	5
+	2
+
+Albania
+	Chabala
+	armenia
+	Albanian
+	104 53 78
+	none
+	5
+	3
+
+;Atropatene
+Parskahayk
+	Ormi
+	parthia
+	Atropatene
+	205 211 33
+	none
+	5
+	6
+
+Media_Atropatene
+	Ganzak
+	parthia
+	Atropatene
+	68 81 70
+	none
+	5
+	6
+
+Kadousioi
+	Miyana
+	parthia
+	Atropatene
+	89 167 204
+	none
+	5
+	7
+
+Paytankert
+	Talish
+	parthia
+	Atropatene
+	179 221 159
+	none
+	5
+	6
+
+;Media
+Media
+	Apahr
+	parthia
+	Medes
+	188 182 128
+	none
+	5
+	1
+
+Amardioi
+	Kuruschata
+	parthia
+	Medes
+	177 221 55
+	none
+	5
+	8
+
+Kossioi
+	Irakleia_Midias
+	parthia
+	Medes
+	16 63 79
+	none
+	5
+	1
+
+Media_Magna
+	Ektabana
+	parthia
+	Medes
+	11 114 102
+	none
+	5
+	3
+
+Media_Choromithrene
+	Choana
+	parthia
+	Medes
+	181 96 255
+	none
+	5
+	6
+
+Choarene
+	Europos_Rhagai
+	parthia
+	Medes
+	141 145 130
+	none
+	5
+	6
+
+Gabiene
+	Aspadana
+	parthia
+	Medes
+	45 71 52
+	none
+	5
+	2
+
+Artacene
+	Goziris
+	parthia
+	Medes
+	42 64 102
+	none
+	5
+	0
+
+;Persia
+Mardiane
+	Margastana
+	parthia
+	Elamites
+	57 58 14
+	none
+	5
+	2
+
+Taocene
+	Tragoniki
+	parthia
+	Persian
+	191 154 141
+	none
+	5
+	1
+
+Persis
+	Persopolis
+	parthia
+	Persian
+	104 147 87
+	none
+	5
+	4
+
+Media_Felix
+	Artakana
+	parthia
+	Persian
+	174 170 181
+	none
+	5
+	1
+
+Paraetacene
+	Arbua
+	parthia
+	Persian
+	193 171 110
+	none
+	5
+	0
+
+Utia
+	Zetis
+	parthia
+	Persian
+	164 185 196
+	none
+	5
+	0
+
+Rudiane
+	Organa
+	parthia
+	Persian
+	219 221 220
+	none
+	5
+	0
+
+;Parthia
+Articene
+	Chadormalou
+	parthia
+	Persian
+	173 219 166
+	none
+	5
+	0
+
+Comisene
+	Ekatompylos
+	parthia
+	Parthian
+	119 92 17
+	none
+	5
+	3
+
+Hyrcania
+	Samariane
+	parthia
+	Parthian
+	96 160 64
+	none
+	5
+	10
+
+Parthia
+	Patigrabana
+	parthia
+	Parthian
+	132 126 124
+	none
+	5
+	3
+
+Tapuria
+	Rhagaou
+	parthia
+	Parthian
+	39 53 34
+	none
+	5
+	4
+
+Traxiane
+	Vishpauzatis
+	parthia
+	Parthian
+	170 157 8
+	none
+	5
+	4
+
+Desertum_Salinum
+	Masina
+	parthia
+	Parthian
+	239 172 218
+	none
+	5
+	4
+
+;Ariana
+Aria
+	Alexandreia_Areios
+	parthia
+	Arian
+	104 61 65
+	none
+	5
+	1
+
+Pactya
+	Alexandreia_Sakastenes
+	parthia
+	Arian
+	94 10 50
+	none
+	5
+	0
+
+Sagartia
+	Barda
+	parthia
+	Arian
+	232 213 199
+	none
+	5
+	1
+
+Parsiene
+	Bulya
+	parthia
+	Carmanian
+	99 16 242
+	none
+	5
+	1
+
+Carmania
+	Alexandreia_Karmanias
+	parthia
+	Carmanian
+	87 51 104
+	none
+	5
+	1
+
+Tabiene
+	Kaoumata
+	parthia
+	Parthian
+	206 216 130
+	none
+	5
+	0
+
+Agdinitis
+	Armozeia
+	parthia
+	Carmanian
+	153 147 88
+	none
+	5
+	2
+
+;Arachosia
+Paropamisadae
+	Alexandreia_Kaoukaso
+	parthia
+	Paropamisidaen
+	124 11 72
+	none
+	5
+	1
+
+Sattagydia
+	Alexandreia_Opiane
+	parthia
+	Arachosian
+	221 201 197
+	none
+	5
+	1
+
+Arachosia
+	Alexandreia_Arachosia
+	parthia
+	Arachosian
+	97 104 96
+	none
+	5
+	0
+
+Paradene
+	Bandara
+	parthia
+	Arachosian
+	9 33 14	
+	none
+	5
+	0
+
+Drangiana
+	Bitaxa
+	parthia
+	Arachosian
+	116 175 172
+	none
+	5
+	0
+
+Gedrosia
+	Alexandreia_Rambhakias
+	parthia
+	Arachosian
+	66 206 94
+	none
+	5
+	0
+
+;Gandhara
+Gandhara
+	Pushkalavati
+	parthia;india
+	Gandhara
+	41 119 31
+	none
+	5
+	2
+
+Kasmira
+	Embadina
+	parthia;india
+	Asvaka
+	42 52 61
+	none
+	5
+	1
+
+Glausae
+	Taksasila
+	parthia;india
+	Taxilan
+	193 48 125
+	none
+	5
+	4
+
+Hydaspes
+	Nicaea
+	seleucid
+	Indo_Greek
+	2 84 73
+	none
+	5
+	2
+
+
+Madra
+	Sagada
+	parthia;india
+	Purus
+	99 0 22
+	none
+	5
+	10
+
+Panchanada
+	Malloi
+	parthia;india
+	Purus
+	206 167 82
+	none
+	5
+	9
+
+Sibae
+	Mulasthanapura
+	parthia;india
+	Taxilan
+	19 96 51
+	none
+	5
+	4
+
+Trigata
+	Alexandreia_Hyphasis
+	parthia;india
+	Yaudheya
+	140 60 69
+	none
+	5
+	6
+
+Sivi
+	Alexandreia_Indus
+	parthia;india
+	Sivi
+	216 134 142
+	none
+	5
+	6
+
+;Hindu Caucasus
+India_Alba
+	Artoarta
+	parthia
+	Arachosian
+	141 211 176
+	none
+	5
+	1
+
+Oxydracae
+	Singhapura
+	parthia;india
+	Sauviran
+	179 242 62
+	none
+	5
+	2
+
+Prasiane
+	Sindo
+	parthia;india
+	Sauviran
+	88 91 75
+	none
+	5
+	4
+
+Saranga
+	Alexandreia_Orietai
+	seleucid
+	Arachosian
+	96 137 97
+	none
+	5
+	1
+
+;Sindh
+Patalene
+	Patala
+	parthia;india
+	Patalene
+	252 135 85
+	none
+	5
+	8
+
+Aporapa
+	Roruka
+	parthia;india
+	Sauviran
+	64 153 99
+	none
+	5
+	6
+
+Sauvira
+	Parabali
+	parthia;india
+	Sauviran
+	99 226 104
+	none
+	5
+	5
+
+;Maru
+Kaccha
+	Maltecoria
+	parthia;india
+	Kaccha
+	122 44 130
+	none
+	5
+	3
+
+Abhira
+	Detta
+	parthia;india
+	Kaccha
+	137 147 81
+	none
+	5
+	1
+
+Deserta_Indica
+	Dadrewa
+	parthia;india
+	Kaccha
+	135 123 110
+	none
+	5
+	0
+
+Saurashtra_Meridionalis
+	Prabhasa
+	parthia;india
+	Saurastra
+	165 67 152
+	none
+	5
+	6
+
+Saurashtra_Centralis
+	Kheta
+	parthia;india
+	Saurastra
+	38 175 59
+	none
+	5
+	7
+
+Saurashtra_Septentrionalis
+	Mehsana
+	parthia;india
+	Saurastra
+	158 156 157
+	none
+	5
+	2
+
+Maru
+	Abuyya
+	parthia;india
+	Avanti
+	57 99 40
+	none
+	5
+	2
+
+;Aparanta
+Aparanta
+	Minnagara
+	parthia;india
+	Aparanta
+	71 49 20
+	none
+	5
+	6
+
+Sahyadri_Septentrionalis
+	Nasikya
+	parthia;india
+	Aparanta
+	117 113 91
+	none
+	5
+	4
+
+Sahyadri_Meridionalis
+	Malvan
+	parthia;india
+	Aparanta
+	242 194 75
+	none
+	5
+	4
+
+Mulaka
+	Pattithana
+	parthia;india
+	Mulaka
+	187 237 175
+	none
+	5
+	7
+
+Vindhya
+	Tapia
+	parthia;india
+	Dandaka
+	196 226 45
+	none
+	5
+	3
+
+Anupa
+	Mahismati
+	parthia;india
+	Avanti
+	193 75 46
+	none
+	5
+	4
+
+Asika
+	Kalyani_Asika
+	parthia;india
+	Kuntala
+	73 31 8
+	none
+	5
+	8
+	;128+12, textiles, 4, copper, 1, gold, 1, elephants, 1
+
+Kuntala
+	Raichur
+	parthia;india
+	Kuntala
+	145 252 78
+	none
+	5
+	9
+	;187, furs, 3, purple_dye, 3, glass, 1, elephants, 3
+
+;Avanti
+Anartta
+	Devnimori
+	parthia;india
+	Avanti
+	237 37 217
+	none
+	5
+	5
+
+Avanti_Meridionalis
+	Ujjayini
+	parthia;india
+	Avanti
+	214 174 64
+	none
+	5
+	9
+
+Avanti_Septentrionalis
+	Madhyamika
+	parthia;india
+	Avanti
+	255 169 145
+	none
+	5
+	5
+
+Dasarna
+	Vidisha
+	parthia;india
+	Avanti
+	23 58 33
+	none
+	5
+	2
+
+Dahala
+	Chauragarh
+	parthia;india
+	Avanti
+	191 80 216
+	none
+	5
+	0
+
+Matsya
+	Viratanagara
+	parthia;india
+	Matsya
+	170 160 167
+	none
+	5
+	5
+
+Shurasena
+	Sripatha
+	parthia;india
+	Shurasena
+	95 124 59
+	none
+	5
+	2
+
+;Madhyadesa
+Kamyaka
+	Salwa
+	parthia;india
+	Yaudheya
+	181 129 226
+	none
+	5
+	4
+
+Bahudhanyaka
+	Sthanisvara
+	parthia;india
+	Yaudheya
+	46 249 27
+	none
+	5
+	6
+
+Kuru
+	Indraprastha
+	parthia;india
+	Kuru
+	119 46 13
+	none
+	5
+	12
+
+Pancala
+	Kanyakubja
+	parthia;india
+	Pancala
+	186 140 120
+	none
+	5
+	11
+
+Turvashas
+	Ahicchatra
+	parthia;india
+	Pancala
+	44 73 22
+	none
+	5
+	3
+
+Cedi_Occidentalis
+	Erakaccha
+	parthia;india
+	Cedi
+	136 82 216
+	none
+	5
+	2
+
+Cedi_Orientalis
+	Suktimati
+	parthia;india
+	Cedi
+	186 171 180
+	none
+	5
+	4
+
+Kosala
+	Ayodhya
+	parthia;india
+	Kosola
+	249 7 213
+	none
+	5
+	10
+
+Kasi
+	Varanasi
+	parthia;india
+	Kasi
+	196 175 113
+	none
+	5
+	12
+
+Malla
+	Kusinagara
+	parthia;india
+	Malla
+	75 63 114
+	none
+	5
+	8
+
+;Vindhyaprstha
+Dakshina_Kosala
+	Pali
+	parthia;india
+	Pulinda
+	89 117 93
+	none
+	5
+	4
+
+Mahendragiri
+	Atavi
+	parthia;india
+	Savara
+	242 191 121
+	none
+	5
+	0
+
+Kalinga
+	Samapa
+	parthia;india
+	Kalinga
+	68 16 7
+	none
+	5
+	4
+
+Radha
+	Caritra
+	parthia;india
+	Suhma
+	202 190 244
+	none
+	5
+	4
+
+Andhra
+	Andhapura
+	parthia;india
+	Andhra
+	181 103 144
+	none
+	5
+	4
+
+Asmaka
+	Paudanyapura
+	parthia;india
+	Asmaka
+	76 68 76
+	none
+	5
+	4
+
+Vidarbha
+	Indur
+	parthia;india
+	Vidarbha
+	201 48 34
+	none
+	5
+	6
+
+Fanindrapura
+	Bhaddavati
+	parthia;india
+	Vidarbha
+	94 74 51
+	none
+	5
+	2
+
+;Pracya
+Magadha
+	Pataliputra
+	parthia;india
+	Magadha
+	206 101 157
+	none
+	5
+	11
+
+Anga
+	Karnasuvarna
+	parthia;india
+	Anga
+	43 25 32
+	none
+	5
+	3
+
+Vanga
+	Barisol
+	parthia;india
+	Vanga
+	242 14 63
+	none
+	5
+	2
+
+Pundra
+	Varendra
+	parthia;india
+	Pundra
+	144 145 68
+	none
+	5
+	12
+
+Vrji
+	Vaisali
+	parthia;india
+	Vrji
+	18 38 16
+	none
+	5
+	8
+
+Kamata
+	Bhargaya
+	parthia;india
+	Kamarupa
+	209 175 6
+	none
+	5
+	2
+
+Kamarupa
+	Gramera
+	parthia;india
+	Kamarupa
+	65 71 38
+	none
+	5
+	2
+
+Samatata
+	Karmanta
+	parthia;india
+	Samatata
+	236 0 140
+	none
+	5
+	4
+
+;Karnata
+Gomanta
+	Vanavasi
+	parthia;india
+	Sattyaputra
+	137 72 77
+	none
+	5
+	3
+
+Satiyaputa_Septentrionalis
+	Ganga
+	parthia;india
+	Sattyaputra
+	142 113 94
+	none
+	5
+	2
+
+Satiyaputa_Meridionalis
+	Koreoura
+	parthia;india
+	Sattyaputra
+	143 112 229
+	none
+	5
+	2
+
+Keralaputa
+	Vanci
+	parthia;india
+	Chera
+	160 178 99
+	none
+	5
+	4
+
+Mahismandala_Septentrionalis
+	Belgola
+	parthia;india
+	Mahisha
+	56 17 47
+	none
+	5
+	6
+
+Mahismandala_Meridionalis
+	Mahisha
+	parthia;india
+	Mahisha
+	119 109 83
+	none
+	5
+	3
+
+;Dravida
+Sriparvata
+	Yerraguddi
+	parthia;india
+	Andhra
+	183 109 25
+	none
+	5
+	2
+
+Tondainadu_Septentrionalis
+	Tirumala
+	parthia;india
+	Chola
+	249 169 249
+	none
+	5
+	3
+
+Tondainadu_Meridionalis
+	Mayurasattapattinam
+	parthia;india
+	Chola
+	148 239 151
+	none
+	5
+	5
+
+Koda
+	Urayur
+	parthia;india
+	Chola
+	219 221 148
+	none
+	5
+	14
+
+Malayas
+	Madurai
+	parthia;india
+	Pandya
+	85 158 72
+	none
+	5
+	11
+
+Pandiya
+	Koti
+	parthia;india
+	Pandya
+	76 81 58
+	none
+	5
+	15
+
+Tambapamni_Septentrionalis
+	Anuradhapura
+	parthia;india
+	Tamraparni
+	155 68 60
+	none
+	5
+	8
+
+Tambapamni_Meridionalis
+	Kalyani
+	parthia;india
+	Tamraparni
+	0 64 0
+	none
+	5
+	3
+
+;Terra Incognita
+Libyae_Interior
+	toggle_fow
+	numidia
+	TerraIncognita
+	102 45 145
+	none
+	5
+	0
+
+Sarmatia_Ulterior
+	way_too_cold
+	scythia
+	TerraIncognita
+	98 65 65
+	none
+	5
+	0
+
+Mons_Emodus
+	monk_town
+	parthia
+	TerraIncognita
+	169 131 7
+	none
+	5
+	0
+
+Mons_Imaus
+	i_see_you
+	parthia
+	TerraIncognita
+	138 102 66
+	none
+	5
+	0
+
+Deserta_Serica
+	melonville
+	parthia
+	TerraIncognita
+	234 129 37
+	none
+	5
+	0
+
+Barbaria_Interior
+	somalian_pirates_weeee
+	egypt
+	TerraIncognita
+	180 76 67
+	none
+	5
+	0
+
+Arabia_Deserta
+	nothing_but_oil
+	parthia
+	TerraIncognita
+	0 128 0
+	none
+	5
+	0

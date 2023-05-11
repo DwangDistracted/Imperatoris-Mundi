@@ -1,0 +1,14 @@
+Changelog:
+	Initial Release (0.9 Beta)
+		* Large Cities require 18000 population, Huge Cities require 30000 population
+		* Squalor and overcrowding start to apply with larger populations
+		* Distance From Capital Penalty Reduced for larger map size
+		* Character, Army, Navy, and Admiral movements increased for larger map size
+		* Jungle climate added (replacing temperate open)
+
+		* MARIAN REFORMS REQUIRE THREE HUGE ITALIAN CITIES instead of vanilla's one huge italian city.
+
+Known Issues:
+* There is no lack of money, leading to significant AI stack spam
+* Balance between factions is wonky
+* Islands do not show up in the minimap correctly

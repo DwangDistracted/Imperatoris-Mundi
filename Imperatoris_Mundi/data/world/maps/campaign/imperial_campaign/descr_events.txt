@@ -1,0 +1,180 @@
+
+; historical events and when they occur
+;
+; Events are followed by a category, and a label
+; labels are used as lookups into historic_events.txt for title and body strings,
+; and also as image names for the event picture
+; If the label matches the category, they will act as "normal" random events of their category.
+; 
+; Currently supported categories are:
+; historic         - Just generates a message
+; volcano          - triggers the volcano nearest to the position specified if there is one on the map
+; plague           - triggers a plague in settlements nearest the specified positions (accepts multiple positions)
+; earthquake       - triggers an earthquake in the region of specified position
+; storm            - triggers a storm over at the specified position
+; flood            - triggers a flood in the region of specified position
+; riot             - triggers a riot in settlement nearest the specified position
+; emergent_faction - triggers the emergence of the given faction.  This faction must be marked as
+;                    emergent in descr_strat.txt, occurs in the given region (position is not accepted).
+;
+; event descriptions are followed by a date (year as offset from starting date, and season, summer/winter)
+; and positions or regions.  Each position/region specification must appear on
+; a seperate line below the date. Most disasters require exactly 1 position
+; (and unlike descr_disasters, this will NOT accept a region, even for events that convert the given postion into a region, eg earthquakes).
+; The exceptions:
+;   plague will accept multiple positions.
+;   emergent_faction requires a single region, not a position (its the only event that uses `region`).
+;
+; `scale 3` Disaster events can have a scale after the position/region. The scale defaults to 1 if not provided (except emergent factions, which default to 160).
+; For some events the scale affects both the radius and the deadliness (eg volcanoes), but for others (earthquakes) the
+; event affects a whole region regardless, and the scale just affects the deadliness. Most disasters scale from 0 to 7.
+; For emergent factions the scale represents the force strength, 160 is the default because that was the original hard-coded value.
+;
+; Events can have explicit visibility, via `visibility [everyone|visible|harmed|hidden]`, if not, the default varies:
+; 1. `everyone` will always display a message to the player. This is default for `historic`-category events
+;               without a position. emergent_faction also displays to everyone by default.
+; 2. `visible`  will display to players who can see that position (or are harmed by the event).
+;               This is default for historical events with a position or labeled events.
+; 3. `harmed`   will display to players only if they are directly harmed by the event,
+;               even if it's visible. This matches how "random" events work.
+;               Note: plagues take a turn to get started, so if their visibility is `harmed` they'll never display
+;                     the historical message (you still get the generic damage reports in later turns though).
+; 3. `hidden`   will not display a message ever.
+;
+; `warning` Volcanos can give a warning, if warning is appended to the event. This warning is subtle,
+; just some smoke from the volcano the previous turn. Remember if you set this that the actual eruption will occur in the next turn.
+; You can always have a positioned historic event at the same time as the warning if you want a message alongside it.
+
+event	volcano		eruption_at_etna
+date	11 summer
+position	135, 125
+scale	3
+warning
+
+event	plague		plague_in_macedonia
+date	16 winter
+position	163, 150
+
+event	historic	stoic_philosophy
+date	16 summer
+
+event	historic	hand_pump_invented
+date	16 winter
+
+event	historic	through_a_glass_clearly
+date	36 summer
+
+event	historic	archimedes_screw
+date	46 winter
+
+event	historic	greek_logic
+date	56 summer
+
+event	historic	star_catalogue
+date	66 winter
+
+event	plague		plague_in_alexandria
+date	66 summer
+position	211, 108
+
+; event	historic	rites_of_bacchus_banned
+; date	80 winter
+
+event	earthquake	earthquake_in_pontus
+date	86 summer
+position	211, 165
+scale	1
+visibility	everyone
+
+event	historic	concrete_invented
+date	96 winter
+
+event	volcano		eruption_at_vesuvius
+date	100 winter
+position	129, 140
+scale	4
+warning
+
+event	historic	philosophy_is_foppish
+date	105 winter
+
+event	historic	astronomy_advances
+date	116 summer
+
+event	historic	lex_aebutia
+date	116 winter
+
+event	historic	roman_stoicism
+date	122 summer
+
+event	historic	lex_papira
+date	122 winter
+
+event	plague		plague_in_italy
+date	146 summer
+position	120, 144
+position	115, 150
+position	111, 152
+position	114, 155
+position	119, 153
+position	123, 147
+position	134, 145
+position	126, 142
+
+event	historic	vestal_virgin_struck_down
+date	152 winter
+
+event	historic	de_rerum_natura
+date	168 winter
+
+event	plague		plague_in_asia_minor
+date	175 summer
+position	195, 158
+position	186, 147
+position	188, 141
+position	192, 138
+position	208, 141
+position	199, 153
+position	211, 147
+
+event	historic	lex_pompeia
+date	177 winter
+
+event	historic	a_new_religion
+date	196 summer
+
+event	plague		plague_in_italy
+date	206 winter
+position	120, 144
+position	115, 150
+position	111, 152
+position	114, 155
+position	119, 153
+position	123, 147
+position	134, 145
+position	126, 142
+
+event	historic	de_materia_medica
+date	216 summer
+
+event	historic	julian_calendar
+date	220 winter
+
+event	earthquake	earthquake_in_iberia
+date	260 summer
+position	62, 100
+position	52, 98
+scale	1
+visibility	everyone
+
+event	historic	the_aeneid
+date	271 winter
+
+event	historic	lex_adulteriis_coercendis
+date	273 summer
+
+event	historic	trouble_in_judea
+date	286 winter
+
+event	historic	lex_fufia_caninia
+date	288 summer

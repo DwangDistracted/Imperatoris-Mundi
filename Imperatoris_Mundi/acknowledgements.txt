@@ -1,0 +1,23 @@
+Discord Users "Lanjane the Librarian", "pharaoh", "El Santo Padre" and many others.
+
+Lyrecryer for providing an amazing map texture!
+
+"wilddog", "Makanyane" and the IWTE team for providing IWTE and its map mesh making capability.
+
+"Kirsis" for his map making guide.
+
+Feral Interactive for the remaster.
+
+The team at Paradox Interactive behind Imperator Rome, which inspired this project and formed the basis of this mod.
+
+The mod team behind the mod Imperium Universalis for Europa Universalis IV whose map was also used as a reference during the development of this mod.
+
+Natural Earth at NaturalEarthData for providing the data used to create the map.
+
+NASA Visible Earth for their heightmaps for providing the data used to create the map.
+
+"BiggusSplenus" from Total War Center for providing links to Natural Earth and NASA Visible Earth and detailing how he got them ingame.
+
+All the contributors at the Total War Center Modding Wiki, Total War Heaven, and others that have written, updated, and maintained modding tutorials and guides.
+
+The total war community for fostering my interest in history, geography, and strategy.

@@ -1,0 +1,756 @@
+; grass variations for the different climates, seasons, and ground types
+; see feral_descr_grass_textures.txt for how sprites are mapped to textures.
+
+; valid climates types are:
+;	test_climate
+;	sandy_desert
+;	rocky_desert
+;	temperate_grassland_fertile
+;	temperate_grassland_infertile
+;	temperate_forest_open
+;	temperate_forest_deep
+;	swamp
+;	highland
+;	alpine
+;	sub_arctic
+;	semi_arid
+
+; valid seasons are:
+;	summer
+;	winter
+
+; valid ground types are:
+;	grass_short
+;	grass_long
+;	sand
+;	rock
+;	forest_dense
+;	scrub_dense
+;	swamp
+;	mud
+;	mud_road
+;	stone_road
+;	water
+;	ice
+;	snow
+;	wood
+;	dirt
+
+; Every ground_type has a scale, to indicate how big the grass should be.
+; use this to make "long grass" bigger without having to define a seperate sprite
+; sprite <name of sprite from feral_descr_grass_textures.txt> <relative weighting>
+; Weighting is the relative probability of this sprite being used instead of
+; others for the same season, ground type, and climate.
+; Note that we have limited randomness to pick grass,
+; so there's a limit to how different the weightings can be, on the order of
+; ~1000->10000. There's currently ~1000 pieces of grass per 8x8m patch of grassy
+; ground. So you can't have grass that's more rare than once every patch or 2.
+; Also, patches are reused to reduce creation time and storage used, so lower
+; probability grass wouldn't work anyway.
+
+climate test_climate
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_infertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1de_c_basecolor	250
+			sprite	grass1de_b_basecolor	250
+			sprite	grass2de_b_basecolor	250
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	300
+			sprite	grass2de_a_basecolor	250
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1de_a_basecolor	100
+			sprite	grass2de_a_basecolor	100
+			sprite	grass2de_c_basecolor	100
+			sprite	grass2de_d_basecolor	100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3de_basecolor		50
+			sprite	grass1de_c_basecolor	100
+			sprite	grass1de_b_basecolor	100
+			sprite	grass2de_b_basecolor	100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_infertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1de_c_basecolor	250
+			sprite	grass1de_b_basecolor	250
+			sprite	grass2de_b_basecolor	250
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	300
+			sprite	grass2de_a_basecolor	250
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	100
+			sprite	grass2de_a_basecolor	100
+			sprite	grass2de_c_basecolor	100
+			sprite	grass2de_d_basecolor	100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3de_basecolor		50
+			sprite	grass1de_c_basecolor	100
+			sprite	grass1de_b_basecolor	100
+		}
+	}
+}
+
+climate sandy_desert
+{
+	summer
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type rock
+		{
+			scale	1.5
+			sprite	shoots					50
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type rock
+		{
+			scale	1.5
+			sprite	shoots					50
+		}
+	}
+}
+
+climate rocky_desert
+{
+	summer
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type rock
+		{
+			scale	1.5
+			sprite	shoots					50
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type rock
+		{
+			scale	1.5
+			sprite	shoots					50
+		}
+	}
+}
+
+climate temperate_grassland_fertile
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type forest_dense
+		{
+			scale	1.5
+			sprite	flower3_a_basecolor		1
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1_c_basecolor		50
+			sprite	grass1_b_basecolor		50
+			sprite	grass2_b_basecolor		50
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant2_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+}
+
+climate temperate_grassland_infertile
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_infertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1de_c_basecolor	250
+			sprite	grass1de_b_basecolor	250
+			sprite	grass2de_b_basecolor	250
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	300
+			sprite	grass2de_a_basecolor	250
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1de_a_basecolor	100
+			sprite	grass2de_a_basecolor	100
+			sprite	grass2de_c_basecolor	100
+			sprite	grass2de_d_basecolor	100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3de_basecolor		50
+			sprite	grass1de_c_basecolor	100
+			sprite	grass1de_b_basecolor	100
+			sprite	grass2de_b_basecolor	100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_infertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1de_c_basecolor	250
+			sprite	grass1de_b_basecolor	250
+			sprite	grass2de_b_basecolor	250
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	300
+			sprite	grass2de_a_basecolor	250
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	1.5
+			sprite	grass1de_a_basecolor	100
+			sprite	grass2de_a_basecolor	100
+			sprite	grass2de_c_basecolor	100
+			sprite	grass2de_d_basecolor	100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3de_basecolor		50
+			sprite	grass1de_c_basecolor	100
+			sprite	grass1de_b_basecolor	100
+		}
+	}
+}
+
+climate temperate_forest_open ; Used as Jungle
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower2_a_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type forest_dense
+		{
+			scale	1.5
+			sprite	flower3_a_basecolor		1
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower2_a_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type forest_dense
+		{
+			scale	1.5
+			sprite	flower3_a_basecolor		1
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+}
+
+climate temperate_forest_deep
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower2_a_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1_c_basecolor		50
+			sprite	grass1_b_basecolor		50
+			sprite	grass2_b_basecolor		50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50	
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+}
+
+climate highland
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type forest_dense
+		{
+			scale	1.5
+			sprite	flower3_a_basecolor		1
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1_c_basecolor		50
+			sprite	grass1_b_basecolor		50
+			sprite	grass2_b_basecolor		50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+}
+
+climate alpine
+{
+	summer
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1_c_basecolor		250
+			sprite	grass1_b_basecolor		250
+			sprite	grass2_b_basecolor		250
+			sprite	flower1_a_basecolor		1
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type grass_long
+		{
+			scale	2.25
+			sprite	flower1_b_basecolor		2
+			sprite	flower3_a_basecolor		1
+			sprite	flower2_a_basecolor		2
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	flower4_a_basecolor_1	1
+			sprite	flower4_a_basecolor_2	1
+			sprite	flower4_a_basecolor_de2	1
+			sprite	flower5_a_basecolor		1
+			sprite	flower5_b_basecolor		1
+			sprite	flower5_c_basecolor		1
+		}
+		ground_type forest_dense
+		{
+			scale	1.5
+			sprite	flower3_a_basecolor		1
+			sprite	grass2_c_basecolor		10
+		}
+		ground_type scrub_dense
+		{
+			scale	3.0
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/temperate_grassland_fertile_sprites
+		ground_type grass_short
+		{
+			scale	1.125
+			sprite	grass1_c_basecolor		50
+			sprite	grass1_b_basecolor		50
+			sprite	grass2_b_basecolor		50
+		}
+		ground_type grass_long
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		300
+			sprite	grass2_a_basecolor		250
+			sprite	grass2_c_basecolor		200
+			sprite	grass2_d_basecolor		150
+			sprite	plant1_a_basecolor		50
+			sprite	plant3_basecolor		50
+		}
+		ground_type scrub_dense
+		{
+			scale	1.5
+			sprite	grass1_a_basecolor		100
+			sprite	grass2_a_basecolor		100
+			sprite	grass2_c_basecolor		100
+			sprite	grass2_d_basecolor		100
+			sprite	grass1_c_basecolor		100
+			sprite	grass1_b_basecolor		100
+			sprite	grass2_b_basecolor		100
+		}
+	}
+}
+
+climate semi_arid
+{
+	summer
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1de_b_basecolor	50
+			sprite	grass1de_c_basecolor	50
+			sprite	grass2de_b_basecolor	50
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	3.0
+			sprite	grass1de_a_basecolor	200
+			sprite	grass2de_a_basecolor	200
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	200
+			sprite	plant3de_basecolor		50
+			sprite	shoots					150
+			sprite	thistle					100
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1de_a_basecolor	50
+			sprite	grass2de_a_basecolor	50
+			sprite	grass2de_c_basecolor	50
+			sprite	grass2de_d_basecolor	50
+			sprite	grass1de_c_basecolor	50
+			sprite	grass1de_b_basecolor	50
+			sprite	grass2de_b_basecolor	50
+			sprite	shoots					150
+			sprite	thistle					100
+		}
+	}
+	winter
+	{
+		texture data/feral_textures/semi_arid_grass_sprites
+		ground_type grass_short
+		{
+			scale	1.5
+			sprite	grass1de_b_basecolor	50
+			sprite	grass1de_c_basecolor	50
+			sprite	grass2de_b_basecolor	50
+			sprite	shoots					50
+		}
+		ground_type grass_long
+		{
+			scale	3.0
+			sprite	grass1de_a_basecolor	200
+			sprite	grass2de_a_basecolor	200
+			sprite	grass2de_c_basecolor	200
+			sprite	grass2de_d_basecolor	200
+			sprite	plant3de_basecolor		50
+			sprite	shoots					150
+			sprite	thistle					100
+		}
+		ground_type scrub_dense
+		{
+			scale	2.25
+			sprite	grass1de_a_basecolor	50
+			sprite	grass2de_a_basecolor	50
+			sprite	grass2de_c_basecolor	50
+			sprite	grass2de_d_basecolor	50
+			sprite	grass1de_c_basecolor	50
+			sprite	grass1de_b_basecolor	50
+			sprite	grass2de_b_basecolor	50
+			sprite	shoots					150
+			sprite	thistle					100
+		}
+	}
+}

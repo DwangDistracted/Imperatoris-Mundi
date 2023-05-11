@@ -1,0 +1,1108 @@
+;
+; descr_geography.txt
+;
+
+generation
+{
+	height
+	{
+		smooth_ratio_min	0.01			; nominal ratio of noise vs step size for complete smoothness
+		smooth_ratio_max	0.25			; nominal ratio of noise vs step size for no smoothness (max sharpness)
+
+		slope_flat			0.2				; maximum gradient of flat regions
+		slope_steep			0.5				; nominal gradient of steep regions
+		slope_steepest		5.0				; maximum gradient for the terrain
+
+		step_min			0.33			; minimum gradient and noise factor in flat regions
+		step_max			2.0				; maximum gradient and noise factor in steep regions
+	}
+
+	ground
+	{
+		slope_flat			0.075			; maximum gradient of flat regions
+		slope_factor_flat	0.04			; maximum influence over flat ground
+		slope_factor_steep	4.0				; amplify the effect of steep slopes
+		curvature_factor	2.0				; amplify the effect of curvature
+	}
+
+	river
+	{
+		valley_factor		0.9				; reduce the river height to a percentage of the sampled height
+		valley_bias			-10.0			; adjust the river height by the amount (in metres)
+
+		std_height			150.0			; std height at which the river is the std width
+		std_width			64.0			; std width of the river junctions
+		tidal_width			192.0			; width at sea level
+
+		ford_width			60.0			; width of the ford (metres)
+
+		noise_sea_level		0.25			; proportion of segement length deviation during subdivision (at sea level)
+		noise_trans			0.1				; proportion of segement length deviation during subdivision
+		noise_rot			0.1				; standard deviation of rotation applied to direction during subdivision (radians)
+		noise_rot_max		0.25			; max rotation (radians)
+		noise_width			0.05			; standard deviation of width proportion to apply during subdivision
+		noise_width_max		0.25			; max width variation
+	}
+}
+
+
+; Climates
+; --------
+
+default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/test_climate/summer/oz_medi_rock.tga
+		texture		gravel			terrain/battlefield/test_climate/summer/oz_medi_rock.tga
+		texture		sand_caked		terrain/battlefield/test_climate/summer/sand.tga
+		texture		sand			terrain/battlefield/test_climate/summer/sand.tga
+		texture		sand_blown		terrain/battlefield/test_climate/summer/sand.tga
+		texture		dirt			terrain/battlefield/test_climate/summer/mud.tga
+		texture		mud			terrain/battlefield/test_climate/summer/mud.tga
+		texture		swamp			terrain/battlefield/test_climate/summer/mud.tga
+		texture		grass_dry		terrain/battlefield/test_climate/summer/oz_medi_grass.tga
+		texture		grass_short		terrain/battlefield/test_climate/summer/oz_medi_grass.tga
+		texture		grass_long		terrain/battlefield/test_climate/summer/oz_medi_grass1.tga
+		texture		shrub_sparse		terrain/battlefield/test_climate/summer/oz_medi_shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/test_climate/summer/oz_medi_shrub_base.tga
+		texture		forest_sparse		terrain/battlefield/test_climate/summer/oz_medi_forest.tga
+		texture		forest_dense		terrain/battlefield/test_climate/summer/oz_medi_forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/test_climate/winter/rock.tga
+		texture		gravel			terrain/battlefield/test_climate/winter/rock.tga
+		texture		sand_caked		terrain/battlefield/test_climate/winter/sand.tga
+		texture		sand			terrain/battlefield/test_climate/winter/sand.tga
+		texture		sand_blown		terrain/battlefield/test_climate/winter/sand.tga
+		texture		dirt			terrain/battlefield/test_climate/winter/mud.tga
+		texture		mud			terrain/battlefield/test_climate/winter/mud.tga
+		texture		swamp			terrain/battlefield/test_climate/winter/mud.tga
+		texture		grass_dry		terrain/battlefield/test_climate/winter/grass.tga
+		texture		grass_short		terrain/battlefield/test_climate/winter/grass.tga
+		texture		grass_long		terrain/battlefield/test_climate/winter/grass1.tga
+		texture		shrub_sparse		terrain/battlefield/test_climate/winter/shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/test_climate/winter/shrub_base.tga
+		texture		forest_sparse		terrain/battlefield/test_climate/winter/forest.tga
+		texture		forest_dense		terrain/battlefield/test_climate/winter/forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		rock		mud				swamp			swamp			grass_short		shrub_dense			; . x x . . .
+		SAND		rock		sand_caked		sand			grass_dry		shrub_dense		forest_dense		; . . x x . .
+		SOIL		rock		grass_short		grass_long		shrub_dense		forest_dense	forest_dense		; . x . x . x
+		CLAY		dirt		grass_long		grass_long		grass_long		forest_dense	forest_dense		; x . . x . .
+		SHALE		rock		gravel			grass_dry		grass_long		shrub_dense		forest_dense		; . x . . . . 
+		ROCK		rock		gravel			grass_dry		grass_short		grass_short		grass_long			; x . . . . . 
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	LOW
+		sand			SAND	LOW
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	LOW
+		grass_dry		SAND	NORMAL
+		grass_short		SOIL	VERY_LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	SOIL	NORMAL
+		shrub_dense		SOIL	NORMAL
+		forest_sparse	SOIL	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		CLAY	VERY_LOW	0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	SHALE	LOW			0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.75		
+		FERTILE_HIGH	ROCK	NORMAL		0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.5		
+		WILDERNESS		ROCK	VERY_LOW	0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.8		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SAND	NORMAL		-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.8		
+		FOREST_DENSE	SOIL	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	SHALE	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+sandy_desert modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/sandy_desert/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		terrain/battlefield/sandy_desert/summer/caked_sand.tga
+		texture		sand			terrain/battlefield/sandy_desert/summer/sand.tga
+		texture		sand_blown		terrain/battlefield/sandy_desert/summer/sand_blown.tga
+		texture		dirt			none
+		texture		mud				none
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		none
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		none
+		texture		forest_sparse	none
+		texture		forest_dense	none
+		texture		env_map			battlefield/envmaps/desert.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/sandy_desert/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		terrain/battlefield/sandy_desert/summer/caked_sand.tga
+		texture		sand			terrain/battlefield/sandy_desert/summer/sand.tga
+		texture		sand_blown		terrain/battlefield/sandy_desert/summer/sand_blown.tga
+		texture		dirt			none
+		texture		mud				none
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		none
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		none
+		texture		forest_sparse	none
+		texture		forest_dense	none
+		texture		env_map			battlefield/envmaps/desert.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		sand_caked	sand_caked		sand_caked		sand			sand			sand			; . . . . . . 
+		SAND		sand_caked	sand_caked		sand			sand			sand			sand			; . . . o x . 
+		SOIL		sand_caked	sand			sand			sand			sand_caked		sand_caked		; . . . . . . 
+		CLAY		rock		sand_blown		sand_blown		sand			sand			sand_caked		; . . . . . x 
+		SHALE		rock		sand_blown		sand_blown		sand_blown		sand			sand			; . . x . . . 
+		ROCK		rock		sand_blown		sand_blown		sand_blown		sand_blown		sand			; x . . . . . 
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		CLAY	VERY_HIGH
+		sand			SAND	NORMAL
+		sand_blown		SHALE	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	NORMAL
+		grass_dry		CLAY	VERY_LOW
+		grass_short		CLAY	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SOIL	NORMAL
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		SAND	VERY_LOW	-0.5	8		-0.5		  0.0	 25.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_MEDIUM	SAND	HIGH		-0.5	8		-0.5		  0.0	 20.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_HIGH	SOIL	HIGH		-0.5	8		-0.5		  0.0	 10.0		0.0		7		-0.15		  0.0	0.5		
+		WILDERNESS		SAND	HIGH		-0.5	8		-0.5		  0.0	 30.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_HIGH	ROCK	NONE		-0.1	8		-0.1		200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SOIL	NONE		-0.2	8		-0.2		 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SOIL	HIGH		-0.5	8		-0.5		  0.0	 40.0		0.0		7		-0.15		  0.0	0.5		
+		FOREST_DENSE	SOIL	HIGH		-0.5	8		-0.5		  0.0	 30.0		0.0		7		-0.15		  0.0	0.5		
+		FOREST_SPARSE	SOIL	HIGH		-0.5	8		-0.5		  0.0	  8.0		0.0		7		-0.15		  0.0	0.5		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0		 	  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5			
+	}
+}
+
+
+rocky_desert modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_rock.tga
+		texture		gravel			terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_pebbles.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				none
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		none
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_shrubbase.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_rock.tga
+		texture		env_map			battlefield/envmaps/rock.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/rocky_desert/summer/rock.tga
+		texture		gravel			terrain/battlefield/rocky_desert/summer/pebble.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/rocky_desert/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				none
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		none
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_shrubbase.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/rocky_desert/summer/oz_rockydesert_summer_rock.tga
+		texture		env_map			battlefield/envmaps/rock.dds
+	}
+
+	table
+	{	;			QUAL_NONE		QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------		-------------	--------		-----------		---------		--------------
+
+		SWAMP		rock			rock			gravel			sand			sand			sand			; . . . . . .
+		SAND		rock			gravel			gravel			sand			sand			sand			; . . . x . .
+		SOIL		rock			gravel			gravel			gravel			sand			sand			; . . x . . .
+		CLAY		rock			gravel			shrub_dense		gravel			gravel			sand			; x x . . . .
+		SHALE		rock			forest_dense	shrub_dense		gravel			gravel			gravel			; . . . . . .
+		ROCK		forest_dense	forest_dense	shrub_dense		shrub_dense		gravel			gravel			; x . . . . .
+	}
+
+	conversion
+	{
+		rock			CLAY	NONE
+		gravel			SOIL	LOW
+		sand_caked		SAND	NORMAL
+		sand			SAND	NORMAL
+		sand_blown		SAND	NORMAL
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	NORMAL
+		grass_dry		CLAY	VERY_LOW
+		grass_short		CLAY	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SOIL	VERY_LOW
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	ROCK	NONE
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		ROCK	VERY_LOW	0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	SHALE	VERY_LOW	0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.85		
+		FERTILE_HIGH	CLAY	VERY_LOW	0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		WILDERNESS		SHALE	VERY_LOW	0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.8		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SHALE	LOW			-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.8		
+		FOREST_DENSE	ROCK	VERY_LOW	0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	ROCK	VERY_LOW	0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		SWAMP			SOIL	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+; !!! mediterranean is default (i.e. test_climate from descr_climates.txt
+;mediterranean modifies default
+;{
+;}
+
+
+temperate_grassland_fertile modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/test_climate/summer/oz_medi_rock.tga
+		texture		gravel			terrain/battlefield/test_climate/summer/oz_medi_rock.tga
+		texture		sand_caked		terrain/battlefield/test_climate/summer/sand.tga
+		texture		sand			terrain/battlefield/test_climate/summer/sand.tga
+		texture		sand_blown		terrain/battlefield/test_climate/summer/sand.tga
+		texture		dirt			terrain/battlefield/test_climate/summer/mud.tga
+		texture		mud				terrain/battlefield/test_climate/summer/mud.tga
+		texture		swamp			terrain/battlefield/test_climate/summer/mud.tga
+		texture		grass_dry		terrain/battlefield/test_climate/summer/oz_medi_grass.tga
+		texture		grass_short		terrain/battlefield/test_climate/summer/oz_medi_grass.tga
+		texture		grass_long		terrain/battlefield/test_climate/summer/oz_medi_grass1.tga
+		texture		shrub_sparse	terrain/battlefield/test_climate/summer/oz_medi_shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/test_climate/summer/oz_medi_shrub_base.tga
+		texture		forest_sparse	terrain/battlefield/test_climate/summer/oz_medi_forest.tga
+		texture		forest_dense	terrain/battlefield/test_climate/summer/oz_medi_forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_rock.tga
+		texture		gravel			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_rock.tga
+		texture		sand_caked		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+		texture		sand			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+		texture		sand_blown		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+		texture		dirt			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+		texture		mud				terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+		texture		swamp			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+		texture		grass_dry		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_grass.tga
+		texture		grass_short		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_grass.tga
+		texture		grass_long		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_longgrass.tga
+		texture		shrub_sparse	terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_base.tga
+		texture		forest_sparse	terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_forest.tga
+		texture		forest_dense	terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+}
+
+
+temperate_grassland_infertile modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/temperate_grassland_infertile/summer/rock.tga
+		texture		gravel			terrain/battlefield/temperate_grassland_infertile/summer/rock.tga
+		texture		sand_caked		terrain/battlefield/temperate_grassland_infertile/summer/sand.tga
+		texture		sand			terrain/battlefield/temperate_grassland_infertile/summer/sand.tga
+		texture		sand_blown		terrain/battlefield/temperate_grassland_infertile/summer/sand.tga
+		texture		dirt			terrain/battlefield/temperate_grassland_infertile/summer/mud.tga
+		texture		mud				terrain/battlefield/temperate_grassland_infertile/summer/mud.tga
+		texture		swamp			terrain/battlefield/temperate_grassland_infertile/summer/mud.tga
+		texture		grass_dry		terrain/battlefield/temperate_grassland_infertile/summer/grass.tga
+		texture		grass_short		terrain/battlefield/temperate_grassland_infertile/summer/grass.tga
+		texture		grass_long		terrain/battlefield/temperate_grassland_infertile/summer/grass1.tga
+		texture		shrub_sparse	terrain/battlefield/temperate_grassland_infertile/summer/shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/temperate_grassland_infertile/summer/shrub_base.tga
+		texture		forest_sparse	terrain/battlefield/temperate_grassland_infertile/summer/forest.tga
+		texture		forest_dense	terrain/battlefield/temperate_grassland_infertile/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/temperate_grassland_infertile/winter/rock.tga
+		texture		gravel			terrain/battlefield/temperate_grassland_infertile/winter/rock.tga
+		texture		sand_caked		terrain/battlefield/temperate_grassland_infertile/winter/sand.tga
+		texture		sand			terrain/battlefield/temperate_grassland_infertile/winter/sand.tga
+		texture		sand_blown		terrain/battlefield/temperate_grassland_infertile/winter/sand.tga
+		texture		dirt			terrain/battlefield/temperate_grassland_infertile/winter/mud.tga
+		texture		mud				terrain/battlefield/temperate_grassland_infertile/winter/mud.tga
+		texture		swamp			terrain/battlefield/temperate_grassland_infertile/winter/mud.tga
+		texture		grass_dry		terrain/battlefield/temperate_grassland_infertile/winter/grass.tga
+		texture		grass_short		terrain/battlefield/temperate_grassland_infertile/winter/grass.tga
+		texture		grass_long		terrain/battlefield/temperate_grassland_infertile/winter/grass1.tga
+		texture		shrub_sparse	terrain/battlefield/temperate_grassland_infertile/winter/shrub_base.tga
+		texture		shrub_dense		terrain/battlefield/temperate_grassland_infertile/winter/shrub_base.tga
+		texture		forest_sparse	terrain/battlefield/temperate_grassland_infertile/winter/forest.tga
+		texture		forest_dense	terrain/battlefield/temperate_grassland_infertile/winter/forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		SWAMP	LOW			0.0		7		-0.1		  0.0	 15.0		0.0		7		-0.15		  0.0	0.75		
+		FERTILE_MEDIUM	CLAY	LOW			0.0		7		-0.15		  0.0	 13.0		0.0		7		-0.15		  0.0	0.4		
+		FERTILE_HIGH	SOIL	LOW			0.0		7		-0.2		  0.0	 10.0		0.0		7		-0.15		  0.0	0.25		
+		WILDERNESS		SWAMP	NORMAL		0.0		5		0.0			  0.0	 30.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_HIGH	ROCK	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			ROCK	NORMAL		-0.5	7		-0.15		  0.0	 40.0		0.0		7		-0.15		  0.0	0.7		
+		FOREST_DENSE	SHALE	NORMAL		0.0		5		0.0			  0.0	 30.0		0.0		7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	SHALE	LOW			0.0		5		0.0			  0.0	  8.0		0.0		7		-0.15		  0.0	0.7		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+temperate_forest_open modifies default ; Used as Jungle
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/temperate_forest_open/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/temperate_forest_open/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/temperate_forest_open/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/temperate_forest_open/summer/grass.tga
+		texture		grass_long		terrain/battlefield/temperate_forest_open/summer/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/temperate_forest_open/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/temperate_forest_open/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/temperate_forest_open/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/temperate_forest_open/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/temperate_forest_open/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/temperate_forest_open/summer/grass.tga
+		texture		grass_long		terrain/battlefield/temperate_forest_open/summer/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/temperate_forest_open/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/temperate_forest_open/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		mud			mud				mud				mud				mud				grass_long		; . x . . . .
+		SAND		mud			sand			sand			grass_short		shrub_dense		shrub_dense		; . . x . . .
+		SOIL		mud			grass_short		grass_long		shrub_dense		forest_dense	forest_dense	; . . . . . x
+		CLAY		mud			grass_short		grass_long		shrub_dense		forest_dense	forest_dense	; . . x x . .
+		SHALE		rock		rock			grass_short		grass_long		shrub_dense		forest_dense	; . . . . x .
+		ROCK		rock		rock			rock			grass_short		grass_short		shrub_dense		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	LOW
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	NORMAL
+		grass_dry		SHALE	LOW
+		grass_short		CLAY	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SHALE	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		CLAY	VERY_LOW	0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	SHALE	LOW			0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.75		
+		FERTILE_HIGH	ROCK	NORMAL		0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.5		
+		WILDERNESS		ROCK	LOW			0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.75		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SOIL	NORMAL		-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.8		
+		FOREST_DENSE	SOIL	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	SHALE	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		SWAMP			SWAMP	LOW			0.0		5		0.0			  0.0	  1.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+temperate_forest_deep modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/temperate_forest_deep/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/temperate_forest_deep/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/temperate_forest_deep/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/temperate_forest_deep/summer/grass.tga
+		texture		grass_long		terrain/battlefield/temperate_forest_deep/summer/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/temperate_forest_deep/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/temperate_forest_deep/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_grass.tga
+		texture		grass_long		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_longgrass.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/temperate_grassland_fertile/winter/oz_grassfert_winter_forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		mud			mud				mud				mud				grass_long		shrub_dense		; . x . . . .
+		SAND		mud			sand			sand			grass_short		shrub_dense		forest_dense	; . . x . . .
+		SOIL		mud			grass_short		grass_long		shrub_dense		forest_dense	forest_dense	; . . . . . x
+		CLAY		rock		grass_short		grass_long		shrub_dense		shrub_dense		forest_dense	; . x x . . .
+		SHALE		rock		rock			grass_short		grass_long		shrub_dense		shrub_dense		; . . . . x .
+		ROCK		rock		rock			rock			grass_short		grass_short		shrub_dense		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	LOW
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	NORMAL
+		grass_dry		SHALE	LOW
+		grass_short		CLAY	VERY_LOW
+		grass_long		CLAY	LOW
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SHALE	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		CLAY	VERY_LOW	0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	SHALE	LOW			0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.75		
+		FERTILE_HIGH	ROCK	NORMAL		0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.5		
+		WILDERNESS		ROCK	LOW			0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.95		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SOIL	NORMAL		-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.8		
+		FOREST_DENSE	SOIL	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	CLAY	NORMAL		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		SWAMP			SWAMP	LOW			0.0		5		0.0			  0.0	  1.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+swamp modifies default
+{
+	season summer
+	{
+		texture		rock			none
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/swamp/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/swamp/summer/mud.tga
+		texture		swamp			terrain/battlefield/swamp/summer/swamp.tga
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/swamp/summer/grass.tga
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		none
+		texture		forest_sparse	none
+		texture		forest_dense	none
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			none
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/swamp/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/swamp/summer/mud.tga
+		texture		swamp			terrain/battlefield/swamp/summer/swamp.tga
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/swamp/summer/grass.tga
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		none
+		texture		forest_sparse	none
+		texture		forest_dense	none
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		swamp		swamp			swamp			swamp			swamp			mud				; . x . . . .
+		SAND		swamp		swamp			swamp			sand			sand			grass_short		; . . . x . .
+		SOIL		swamp		swamp			swamp			grass_short		grass_short		grass_short		; . . . . . .
+		CLAY		mud			swamp			grass_short		grass_short		grass_short		grass_short		; . . . . . .
+		SHALE		mud			mud				grass_short		grass_short		grass_short		grass_short		; . . . . x .
+		ROCK		mud			mud				mud				mud				grass_short		grass_short		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	NORMAL
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				ROCK	NONE
+		swamp			SWAMP	VERY_LOW
+		grass_dry		SHALE	LOW
+		grass_short		SHALE	HIGH
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SHALE	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		CLAY	VERY_LOW	0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_MEDIUM	SOIL	LOW			0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_HIGH	SOIL	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		WILDERNESS		CLAY	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SOIL	LOW			0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		FOREST_DENSE	SOIL	HIGH		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		FOREST_SPARSE	SOIL	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	 2.0		0.0		7		-0.15		  0.0	0.5			
+	}
+}
+
+
+highland modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/highland/summer/rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			none
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/highland/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/highland/summer/grass.tga
+		texture		grass_long		terrain/battlefield/highland/summer/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/highland/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/highland/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/highland/winter/rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			none
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/highland/winter/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/highland/winter/grass.tga
+		texture		grass_long		terrain/battlefield/highland/winter/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/highland/winter/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/highland/winter/forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		mud			mud				mud				mud				grass_short		grass_short		; . x . . . .
+		SAND		mud			mud				mud				grass_short		grass_long		shrub_dense		; . . . . . .
+		SOIL		mud			grass_short		grass_short		shrub_dense		forest_dense	forest_dense	; . . . . . x
+		CLAY		rock		grass_short		grass_short		grass_long		shrub_dense		forest_dense	; . . x x . .
+		SHALE		rock		rock			grass_short		grass_short		shrub_dense		shrub_dense		; . . . . x .
+		ROCK		rock		rock			rock			grass_short		grass_short		grass_long		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	NORMAL
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	VERY_LOW
+		swamp			SWAMP	VERY_LOW
+		grass_dry		SHALE	LOW
+		grass_short		CLAY	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		SHALE	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		SHALE	LOW			0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	SHALE	NORMAL		0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.75		
+		FERTILE_HIGH	CLAY	NORMAL		0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.5		
+		WILDERNESS		ROCK	VERY_LOW	0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.8		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			CLAY	VERY_HIGH	-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.3		
+		FOREST_DENSE	CLAY	HIGH		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	SHALE	HIGH		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.85		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+alpine modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/alpine/summer/oz_rockunder.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			none
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/alpine/summer/oz_mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/alpine/summer/oz_shortgrass.tga
+		texture		grass_long		terrain/battlefield/alpine/summer/oz_grass.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/alpine/summer/oz_brownshrubbase.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/alpine/summer/oz_forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/alpine/winter/oz_alpine_winter_rock.tga
+		texture		gravel			none
+		texture		sand_caked		none
+		texture		sand			none
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/alpine/winter/oz_alpine_winter_mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/alpine/winter/oz_alpine_winter_grass.tga
+		texture		grass_long		terrain/battlefield/alpine/winter/oz_alpine_winter_long_grass.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/alpine/winter/oz_alpine_winter_shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/alpine/winter/oz_alpine_winter_forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		rock		mud				mud				mud				grass_short		grass_long		; . . x . . .
+		SAND		rock		mud				grass_short		grass_long		grass_long		shrub_dense		; . . . . . .
+		SOIL		mud			grass_short		grass_long		shrub_dense		forest_dense	forest_dense	; . . . . . x
+		CLAY		rock		grass_short		grass_short		grass_long		shrub_dense		forest_dense	; . . x x x .
+		SHALE		rock		rock			grass_short		grass_short		shrub_dense		forest_dense	; . . . . . .
+		ROCK		rock		rock			rock			rock			grass_short		shrub_dense		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	VERY_LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	NORMAL
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	LOW
+		swamp			SWAMP	VERY_LOW
+		grass_dry		SHALE	LOW
+		grass_short		CLAY	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		CLAY	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		CLAY	VERY_LOW	0.0		5		-0.05		  0.0	 25.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_MEDIUM	CLAY	LOW			0.0		5		-0.1		  0.0	 15.0		0.0		7		-0.15		  0.0	0.5		
+		FERTILE_HIGH	SAND	NORMAL		0.0		5		-0.2		  0.0	 10.0		0.0		7		-0.15		  0.0	0.35		
+		WILDERNESS		CLAY	NORMAL		0.0		5		0.0			  0.0	 30.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			ROCK	VERY_HIGH	-0.5	7		-0.15		  0.0	 40.0		0.0		7		-0.15		  0.0	0.6		
+		FOREST_DENSE	CLAY	HIGH		0.0		5		0.0			  0.0	 30.0		-0.07	7		-0.15		  0.0	0.65		
+		FOREST_SPARSE	SHALE	NORMAL		0.0		5		0.0			  0.0	  8.0		-0.07	8		-0.15		  0.0	0.45		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5			
+	}
+}
+
+
+sub_arctic modifies default
+{
+	season summer
+	{
+		texture		rock			terrain/battlefield/sub_arctic/summer/rock.tga
+		texture		gravel			terrain/battlefield/sub_arctic/summer/pebble.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/sub_arctic/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/sub_arctic/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/sub_arctic/summer/grass.tga
+		texture		grass_long		terrain/battlefield/sub_arctic/summer/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/sub_arctic/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/sub_arctic/summer/forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	season winter
+	{
+		texture		rock			terrain/battlefield/sub_arctic/winter/rock.tga
+		texture		gravel			terrain/battlefield/sub_arctic/winter/pebble.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/sub_arctic/winter/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/sub_arctic/winter/mud.tga
+		texture		swamp			none
+		texture		grass_dry		none
+		texture		grass_short		terrain/battlefield/sub_arctic/winter/grass.tga
+		texture		grass_long		terrain/battlefield/sub_arctic/winter/grass1.tga
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/sub_arctic/winter/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/sub_arctic/winter/forest.tga
+		texture		env_map			battlefield/envmaps/snow.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		mud			mud				mud				mud				grass_short		grass_short		; . . x . . .
+		SAND		mud			mud				sand			sand			grass_short		shrub_dense		; . . . x . .
+		SOIL		mud			grass_short		grass_short		shrub_dense		forest_dense	forest_dense	; . . x . . x
+		CLAY		rock		gravel			grass_short		grass_long		shrub_dense		forest_dense	; . . . x x .
+		SHALE		rock		rock			gravel			grass_short		grass_short		grass_short		; . . x . . .
+		ROCK		rock		rock			rock			gravel			grass_short		grass_short		; x . . . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			SHALE	LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	NORMAL
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	LOW
+		swamp			SWAMP	VERY_LOW
+		grass_dry		SHALE	LOW
+		grass_short		SOIL	LOW
+		grass_long		CLAY	NORMAL
+		shrub_sparse	CLAY	HIGH
+		shrub_dense		CLAY	HIGH
+		forest_sparse	CLAY	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+}
+
+
+semi_arid modifies default
+{
+	season summer
+	{
+		texture		rock			none
+		texture		gravel			terrain/battlefield/semi_arid/summer/pebble.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/semi_arid/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/semi_arid/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		terrain/battlefield/semi_arid/summer/grass.tga
+		texture		grass_short		terrain/battlefield/semi_arid/summer/grass1.tga
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/semi_arid/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/semi_arid/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	season winter
+	{
+		texture		rock			none
+		texture		gravel			terrain/battlefield/semi_arid/summer/pebble.tga
+		texture		sand_caked		none
+		texture		sand			terrain/battlefield/semi_arid/summer/sand.tga
+		texture		sand_blown		none
+		texture		dirt			none
+		texture		mud				terrain/battlefield/semi_arid/summer/mud.tga
+		texture		swamp			none
+		texture		grass_dry		terrain/battlefield/semi_arid/summer/grass.tga
+		texture		grass_short		terrain/battlefield/semi_arid/summer/grass1.tga
+		texture		grass_long		none
+		texture		shrub_sparse	none
+		texture		shrub_dense		terrain/battlefield/semi_arid/summer/shrub_base.tga
+		texture		forest_sparse	none
+		texture		forest_dense	terrain/battlefield/semi_arid/summer/forest.tga
+		texture		env_map			battlefield/envmaps/grass.dds
+	}
+
+	table
+	{	;			QUAL_NONE	QUAL_VERY_LOW	QUAL_LOW		QUAL_NORMAL		QUAL_HIGH		QUAL_VERY_HIGH
+		;			---------	-------------	--------		-----------		---------		--------------
+
+		SWAMP		gravel		mud				mud				mud				grass_short		shrub_dense		; . . . x . .
+		SAND		gravel		sand			sand			sand			grass_short		shrub_dense		; . . x . . .
+		SOIL		gravel		grass_dry		grass_dry		grass_short		shrub_dense		forest_dense	; . . x x x x
+		CLAY		gravel		gravel			grass_dry		shrub_dense		shrub_dense		forest_dense	; . . . . . .
+		SHALE		gravel		gravel			gravel			grass_dry		shrub_dense		shrub_dense		; . . . . . .
+		ROCK		gravel		gravel			gravel			gravel			gravel			gravel			; . . x . . .
+	}
+
+	conversion
+	{
+		rock			ROCK	NONE
+		gravel			ROCK	LOW
+		sand_caked		SAND	VERY_LOW
+		sand			SAND	LOW
+		sand_blown		SAND	LOW
+		dirt			CLAY	NONE
+		mud				SWAMP	NORMAL
+		swamp			SWAMP	VERY_LOW
+		grass_dry		SOIL	LOW
+		grass_short		SOIL	NORMAL
+		grass_long		CLAY	HIGH
+		shrub_sparse	SOIL	HIGH
+		shrub_dense		SOIL	HIGH
+		forest_sparse	SOIL	VERY_HIGH
+		forest_dense	SOIL	VERY_HIGH
+	}
+
+	generation
+	{	;				+--Ground--+		+------H Spectrum------+	+---H Noise---+		+------G Spectrum------+	+---G Noise---+	
+		; SGT			Hard	Qual		fade-in	median	fade-out	bias	std dev		fade-in	median	fade-out	bias	std dev	
+		; ---			----	----		-------	------	--------	----	-------		-------	------	--------	----	-------	
+
+		FERTILE_LOW		SOIL	LOW			0.0		7		-0.05		  0.0	 20.0		-0.15	7		-0.15		  0.0	1.2		
+		FERTILE_MEDIUM	CLAY	NORMAL		0.0		7		-0.1		  0.0	 15.0		-0.15	7		-0.15		  0.0	0.75		
+		FERTILE_HIGH	SHALE	HIGH		0.0		7		-0.2		  0.0	 10.0		-0.15	7		-0.15		  0.0	0.5		
+		WILDERNESS		ROCK	VERY_HIGH	0.0		5		0.0			  0.0	 30.0		-0.15	7		-0.15		  0.0	0.8		
+		MOUNTAINS_HIGH	SHALE	NORMAL 		0.0		5		0.0			200.0	250.0		0.0		7		-0.15		  0.0	0.5		
+		MOUNTAINS_LOW	SHALE	NORMAL		0.0		5		0.0			 15.0	 60.0		0.0		7		-0.15		  0.0	0.5		
+		HILLS			SAND	NORMAL		-0.5	7		-0.15		  0.0	 40.0		-0.07	7		-0.15		  0.0	0.8		
+		FOREST_DENSE	CLAY	HIGH		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		FOREST_SPARSE	CLAY	HIGH		0.0		5		0.0			  0.0	 10.0		-0.15	7		-0.15		  0.0	0.7		
+		SWAMP			SWAMP	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		OCEAN			SAND	NORMAL		0.0		5		0.0			 -6.0	  2.0		0.0		7		-0.15		  0.0	0.5		
+		SEA_DEEP		SAND	NORMAL		0.0		5		0.0			 -4.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		SEA_SHALLOW		SAND	NORMAL		0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.2		
+		BEACH			SAND	LOW			0.0		5		0.0			  0.0	  2.0		0.0		7		-0.15		  0.0	0.3			
+	}
+}
+
+
+
+
+

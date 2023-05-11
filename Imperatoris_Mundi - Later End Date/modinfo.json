@@ -1,0 +1,14 @@
+{
+	"Description": "This is a simple sub-mod for Imperatoris Mundi that pushes the end date of the campaign to 2000 AD. This results in a campaign lasting around 4500 turns.\\n\\nAs this is a sub-mod, this must be placed ABOVE Imperatoris Mundi in your load order",
+	"Mod Name": "Imperatoris Mundi: Later End Date",
+	"Preview Image": "previewimage.png",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [
+		"Campaign",
+		"Map"
+	],
+	"Visibility": 2,
+	"Workshop ID": 2817778686
+}

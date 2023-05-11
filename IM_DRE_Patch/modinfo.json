@@ -1,0 +1,14 @@
+{
+	"Description": "This mod integrates Danymok's Rosters Expanded into Imperatoris Mundi, changing the mercenary pools, starting armies, and garrisons to include the excellent units included therein. Requires both Imperatoris Mundi AND Danymok's Rosters Expanded to be enabled.",
+	"Mod Name": "Imperatoris Mundi: Danymok's Rosters Expanded Patch",
+	"Preview Image": "previewimage.png",
+	"Supports Alex": false,
+	"Supports BI": false,
+	"Supports Rome": true,
+	"Tags": [
+		"Faction",
+		"Units"
+	],
+	"Visibility": 0,
+	"Workshop ID": 2819808459
+}

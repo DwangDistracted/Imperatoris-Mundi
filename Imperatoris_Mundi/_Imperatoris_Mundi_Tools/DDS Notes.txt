@@ -1,0 +1,4 @@
+Feral Map TGA DDS Notes
+
+* requires 4080x2496 Map
+* BC3/DXT5 compression no mipmaps
