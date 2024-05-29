@@ -54,8 +54,8 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
+unit				merc barb naked fanatics
 unit				barbarian rebel general
 
 rebel_type			Trinovantes	//Britons
@@ -67,8 +67,8 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
+unit				merc barb naked fanatics
 unit				barbarian rebel general
 
 rebel_type 			Suebi		//Germans
@@ -79,7 +79,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				merc warband spear german
 unit				merc barb berserker
 unit				barbarian rebel general
@@ -92,7 +92,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				merc warband spear german
 unit				merc barb berserker
 unit				barbarian rebel general
@@ -105,7 +105,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				merc warband spear german
 unit				barb naked fanatics slave
 unit				barbarian rebel general
@@ -129,11 +129,11 @@ chance				0
 description			Saka
 unit				east horse archer
 unit				east horse archer
-unit				east horse archer
-unit				east horse archer
+unit				merc median cavalry
+unit				merc east heavy cataphract
 unit				east peasant
 unit				east archer
-unit				east archer
+unit				merc barb scythian hoplite
 unit				eastern rebel general
 
 rebel_type 			Hibernians	//Britons
@@ -142,10 +142,10 @@ chance				0
 description			Hibernians
 unit				barb peasant slave
 unit				barb peasant slave
+unit				merc barb wardogs
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb druids slave
 unit				barbarian rebel general
 
@@ -168,10 +168,10 @@ chance				6
 description			Silures	
 unit				barb peasant slave
 unit				barb peasant slave
+unit				merc barb wardogs
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb druids slave
 unit				barbarian rebel general
 
@@ -182,7 +182,7 @@ description			Goths
 unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb infantry slave
 unit				merc warband spear german
 unit				merc barb berserker
@@ -194,11 +194,11 @@ chance				0
 description			Sarmatians
 unit				barb horse archers slave
 unit				barb horse archers slave
-unit				barb horse archers slave
 unit				merc sarmatian cavalry
 unit				merc sarmatian cavalry
 unit				barb archer slave
 unit				merc barb wardogs
+unit				merc barb scythian hoplite
 unit				barbarian rebel general
 
 rebel_type 			Iceni		//Britons
@@ -210,7 +210,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 					
@@ -221,7 +221,7 @@ description			Batavi
 unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb infantry slave
 unit				merc warband spear german
 unit				barb naked fanatics slave
@@ -259,7 +259,7 @@ chance				3
 description			Marcomanni
 unit				barb cavalry slave
 unit				barb peasant slave
-unit				barb peasant slave
+unit				merc warband sword
 unit				barb infantry slave
 unit				barb infantry slave
 unit				merc warband spear german
@@ -313,7 +313,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb druids slave
 unit				barbarian rebel general
@@ -326,7 +326,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb naked fanatics slave
 unit				barbarian rebel general
@@ -340,7 +340,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb druids slave
 unit				barbarian rebel general
 
@@ -366,7 +366,7 @@ unit				barb noble cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -378,7 +378,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb druids slave
 unit				barbarian rebel general
@@ -392,7 +392,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -402,10 +402,10 @@ chance				0
 description			Allobroges
 unit				barb cavalry slave
 unit				barb peasant slave
-unit				barb peasant slave
+unit				merc barb wardogs
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -418,7 +418,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -430,7 +430,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb cavalry slave
 unit				barbarian rebel general
@@ -454,7 +454,7 @@ chance				0
 description			Boii
 unit				barb cavalry slave
 unit				barb peasant slave
-unit				barb peasant slave
+unit				merc warband sword
 unit				barb infantry slave
 unit				barb infantry slave
 unit				merc warband spear german
@@ -508,7 +508,7 @@ unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb druids slave
 unit				barbarian rebel general
@@ -613,7 +613,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -626,7 +626,7 @@ unit				barb noble cavalry slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb druids slave
 unit				barbarian rebel general
 
@@ -676,10 +676,10 @@ description			Vocontii
 unit				barb cavalry slave
 unit				barb peasant slave
 unit				barb peasant slave
-unit				barb peasant slave
+unit				merc barb wardogs
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barbarian rebel general
 
 rebel_type 			Breuci		//illyria
@@ -743,8 +743,8 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
+unit				merc barb naked fanatics
 unit				barbarian rebel general
 
 rebel_type 			Ligurians	//gauls
@@ -756,7 +756,7 @@ unit				barb peasant slave
 unit				barb peasant slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb infantry slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barbarian rebel general
 
@@ -885,7 +885,7 @@ unit				barb cavalry slave
 unit				barb noble cavalry slave
 unit				barb infantry slave
 unit				barb infantry slave
-unit				barb naked fanatics slave
+unit				merc warband sword
 unit				barb naked fanatics slave
 unit				barb naked fanatics slave
 unit				barbarian rebel general
@@ -1158,7 +1158,7 @@ unit				greek cavalry
 unit				greek peasant
 unit				greek peltast
 unit				greek heavy peltast
-unit				greek hoplite militia
+unit				merc greek crossbowmen
 unit				greek hoplite militia
 unit				greek hoplite
 unit				greek general's guard cavalry early
@@ -1262,9 +1262,9 @@ unit				egyptian chariot
 unit				egyptian peasant
 unit				egyptian peltast
 unit				egyptian peltast
-unit				egyptian peltast
 unit				egyptian archer
 unit				egyptian archer
+unit				merc egyptian infantry
 unit				generic rebel general
 
 rebel_type 			Illyrians		//macedon
@@ -2028,7 +2028,7 @@ unit				merc sarissa cavalry
 unit				egyptian archer
 unit				egyptian peasant
 unit				egyptian peltast
-unit				merc hypaspists
+unit				merc egyptian infantry
 unit				greek hoplite militia
 unit				greek hoplite
 unit				egyptian general's bodyguard early
@@ -2522,9 +2522,9 @@ unit				merc east heavy cataphract
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Asvaka		//Indian
@@ -2535,9 +2535,9 @@ unit				east peasant
 unit				east archer
 unit				east archer
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Taxilan		//Indian
@@ -2548,9 +2548,9 @@ unit				merc median cavalry
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Indo_Greek		//Indian
@@ -2560,7 +2560,7 @@ description			Indo_Greek
 unit				east peasant
 unit				greek medium cavalry
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				greek heavy peltast
 unit				greek hoplite militia
 unit				greek hoplite
@@ -2574,9 +2574,9 @@ unit				east peasant
 unit				east archer
 unit				east archer
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Yaudheya		//Indian
@@ -2586,10 +2586,10 @@ description			Yaudheya
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Sivi		//Indian
@@ -2599,7 +2599,7 @@ description			Sivi
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
+unit				merc syrian archer
 unit				east infantry
 unit				greek hoplite militia
 unit				greek hoplite militia
@@ -2612,10 +2612,10 @@ description			Sauviran
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Patalene		//Indian
@@ -2625,10 +2625,10 @@ description			Patalene
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kaccha		//Indian
@@ -2638,10 +2638,10 @@ description			Kaccha
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Saurastra		//Indian
@@ -2651,10 +2651,10 @@ description			Saurastra
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Avanti		//Indian
@@ -2664,10 +2664,10 @@ description			Avanti
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Aparanta		//Indian
@@ -2677,10 +2677,10 @@ description			Aparanta
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Mulaka		//Indian
@@ -2690,10 +2690,10 @@ description			Mulaka
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Dandaka		//Indian
@@ -2703,10 +2703,10 @@ description			Dandaka
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Matsya		//Indian
@@ -2716,10 +2716,10 @@ description			Matsya
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Shurasena		//Indian
@@ -2729,10 +2729,10 @@ description			Shurasena
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kuru		//Indian
@@ -2742,10 +2742,10 @@ description			Kuru
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Pancala		//Indian
@@ -2755,10 +2755,10 @@ description			Pancala
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Cedi		//Indian
@@ -2768,10 +2768,10 @@ description			Cedi
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kosola		//Indian
@@ -2781,10 +2781,10 @@ description			Kosola
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kasi		//Indian
@@ -2794,10 +2794,10 @@ description			Kasi
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Malla		//Indian
@@ -2807,10 +2807,10 @@ description			Malla
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Vidarbha		//Indian
@@ -2820,10 +2820,10 @@ description			Vidarbha
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Pulinda		//Indian
@@ -2833,10 +2833,10 @@ description			Pulinda
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Asmaka		//Indian
@@ -2846,10 +2846,10 @@ description			Asmaka
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Savara		//Indian
@@ -2859,10 +2859,10 @@ description			Savara
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Andhra		//Indian
@@ -2872,10 +2872,10 @@ description			Andhra
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kalinga		//Indian
@@ -2885,10 +2885,10 @@ description			Kalinga
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Suhma		//Indian
@@ -2898,10 +2898,10 @@ description			Suhma
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Vrji		//Indian
@@ -2911,10 +2911,10 @@ description			Vrji
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Magadha		//Indian
@@ -2924,10 +2924,10 @@ description			Magadha
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Anga		//Indian
@@ -2937,10 +2937,10 @@ description			Anga
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Radha		//Indian
@@ -2950,10 +2950,10 @@ description			Radha
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Vanga		//Indian
@@ -2963,10 +2963,10 @@ description			Vanga
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Pundra		//Indian
@@ -2976,10 +2976,10 @@ description			Pundra
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Samatata		//Indian
@@ -2989,10 +2989,10 @@ description			Samatata
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kuntala		//Indian
@@ -3002,10 +3002,10 @@ description			Kuntala
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Kamarupa		//Indian
@@ -3015,10 +3015,10 @@ description			Kamarupa
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Sattyaputra		//Indian
@@ -3028,10 +3028,10 @@ description			Sattyaputra
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Mahisha		//Indian
@@ -3041,10 +3041,10 @@ description			Mahisha
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Chera		//Indian
@@ -3054,10 +3054,10 @@ description			Chera
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Chola		//Indian
@@ -3067,10 +3067,10 @@ description			Chola
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Pandya		//Indian
@@ -3080,10 +3080,10 @@ description			Pandya
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			Tamraparni		//Indian
@@ -3093,10 +3093,10 @@ description			Tamraparni
 unit				east peasant
 unit				east archer
 unit				east archer
-unit				east archer
-unit				east archer
+unit				merc syrian archer
+unit				merc syrian archer
 unit				east infantry
-unit				east infantry
+unit				merc egyptian infantry
 unit				eastern rebel general
 
 rebel_type 			TerraIncognita		//numidia
