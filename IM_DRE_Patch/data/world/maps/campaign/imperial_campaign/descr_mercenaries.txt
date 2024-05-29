@@ -318,6 +318,7 @@ pool Magna Graecia
 	unit merc samnite,			exp 2 cost 480 replenish 0.1 - 0.17 max 1 initial 1
 	unit merc samnite,			exp 0 cost 450 replenish 0.12 - 0.25 max 2 initial 1
 	unit merc italian cavalry,			exp 2 cost 650 replenish 0.08 - 0.12 max 1 initial 0
+	unit merc greek crossbowmen,			exp 2 cost 430 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Sicily
 	regions Elimia Sicania Syracuse Siculia
@@ -327,7 +328,9 @@ pool Sicily
 	unit merc peltast,			exp 0 cost 330 replenish 0.12 - 0.25 max 1 initial 1
 	unit merc carthaginian medium cavalry,			exp 0 cost 580 replenish 0.1 - 0.17 max 2 initial 1
 	unit merc balearic slingers,			exp 2 cost 500 replenish 0.08 - 0.12 max 1 initial 0
+	unit merc greek crossbowmen,			exp 2 cost 430 replenish 0.08 - 0.12 max 2 initial 1
 	unit merc illyrian,			exp 3 cost 425 replenish 0.1 - 0.17 max 1 initial 0
+	unit merc cretan archers,			exp 2 cost 580 replenish 0.08 - 0.12 max 1 initial 0
 	unit merc cretan archers,			exp 2 cost 580 replenish 0.08 - 0.12 max 1 initial 0
 	unit merc cilician pirate,			exp 0 cost 450 replenish 0.08 - 0.12 max 1 initial 0
 	unit merc samnite,			exp 2 cost 480 replenish 0.1 - 0.17 max 1 initial 1
@@ -365,6 +368,7 @@ pool Carthage
 	unit merc numidian cavalry,			exp 0 cost 520 replenish 0.12 - 0.25 max 2 initial 1
 	unit merc balearic slingers,			exp 0 cost 470 replenish 0.1 - 0.17 max 1 initial 1
 	unit merc cretan archers,			exp 0 cost 550 replenish 0.08 - 0.12 max 1 initial 0
+	unit merc greek crossbowmen,			exp 2 cost 430 replenish 0.05 - 0.08 max 1 initial 0
 
 pool North African Coast
 	regions Thabracania Zeugitana Byssatis
@@ -734,6 +738,7 @@ pool Athens
 	unit merc cretan archers,			exp 0 cost 550 replenish 0.08 - 0.12 max 1 initial 1
 	unit merc hypaspists,			exp 2 cost 790 replenish 0.08 - 0.12 max 1 initial 0
 	unit merc greek pikemen,			exp 0 cost 660 replenish 0.1 - 0.17 max 1 initial 0
+	unit merc greek crossbowmen,			exp 2 cost 430 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Peloponnese
 	regions Arcadia Achaea Laconia
@@ -746,6 +751,7 @@ pool Peloponnese
 	unit merc cretan archers,			exp 0 cost 550 replenish 0.08 - 0.12 max 1 initial 1
 	unit merc greek pikemen,			exp 0 cost 660 replenish 0.1 - 0.17 max 1 initial 0
 	unit merc hypaspists,			exp 0 cost 760 replenish 0.08 - 0.12 max 1 initial 0
+	unit merc greek crossbowmen,			exp 2 cost 430 replenish 0.05 - 0.08 max 1 initial 0
 
 pool Crete
 	regions Crete
