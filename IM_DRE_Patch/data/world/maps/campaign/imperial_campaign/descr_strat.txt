@@ -33,7 +33,7 @@ start_date	-272 summer
 end_date	14 summer
 
 brigand_spawn_value 10
-pirate_spawn_value 10
+pirate_spawn_value 20
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
@@ -4002,8 +4002,8 @@ unit		roman princeps				exp 1 armour 0 weapon_lvl 0
 unit		roman princeps				exp 1 armour 0 weapon_lvl 0
 unit		roman triarii				exp 1 armour 0 weapon_lvl 0
 unit		roman triarii				exp 1 armour 0 weapon_lvl 0
-unit		merc samnite				exp 1 armour 0 weapon_lvl 0
-unit		merc samnite				exp 1 armour 0 weapon_lvl 0
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 unit		elite equites				exp 1 armour 0 weapon_lvl 0
@@ -4015,7 +4015,7 @@ traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 3, Energetic 2
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 1 armour 0 weapon_lvl 0
 
 character	Quintus Julius, named character, command 0, influence 0, management 0, subterfuge 0, age 29, , x 114, y 155
 traits NaturalMilitarySkill 3, GoodAttacker 1, Energetic 1
@@ -4031,7 +4031,7 @@ traits GoodCommander 1, PoliticsSkill 2, GoodAdministrator 2, MathematicsSkill 1
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		roman hastati				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
 character	Sextus Antio, diplomat, command 0, influence 0, management 0, subterfuge 0, age 29, , x 113, y 148
@@ -4201,8 +4201,8 @@ unit		roman princeps				exp 1 armour 0 weapon_lvl 0
 unit		roman triarii				exp 1 armour 0 weapon_lvl 0
 unit		roman triarii				exp 1 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 1 armour 0 weapon_lvl 0
-unit		merc samnite				exp 1 armour 0 weapon_lvl 0
-unit		merc samnite				exp 1 armour 0 weapon_lvl 0
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 0
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 unit		roman archer				exp 1 armour 0 weapon_lvl 0
@@ -4214,7 +4214,7 @@ traits GoodCommander 1 , PoliticsSkill 2 , Rabblerouser 2 , GoodAdministrator 2
 ancillaries quartermaster
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 0 armour 0 weapon_lvl 0
 
 character	Amulius Brutus, named character, age 31, , x 123, y 147
@@ -4222,14 +4222,14 @@ traits GoodCommander 1 , NaturalMilitarySkill 2 , PoliticsSkill 1 , Intelligent 
 ancillaries doctor
 army
 unit		roman generals guard cavalry early				exp 0 armour 0 weapon_lvl 0
-unit		roman hastati				exp 1 armour 0 weapon_lvl 0
+unit		roman city militia				exp 1 armour 0 weapon_lvl 0
 unit		roman velite				exp 1 armour 0 weapon_lvl 0
 
 character	Vibius Brutus, named character, age 30, , x 119, y 153
 traits GoodCommander 1 , GoodAdministrator 2 , PoliticsSkill 1 , Intelligent 2 , MathematicsSkill 2
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		roman hastati				exp 0 armour 0 weapon_lvl 0
+unit		roman city militia				exp 0 armour 0 weapon_lvl 0
 unit		roman velite				exp 0 armour 0 weapon_lvl 0
 
 character	Marcus Attius, admiral, age 29, , x 133, y 146
@@ -4402,8 +4402,8 @@ unit		roman princeps				exp 1 armour 0 weapon_lvl 1
 unit		roman princeps				exp 1 armour 0 weapon_lvl 1
 unit		roman triarii				exp 1 armour 0 weapon_lvl 1
 unit		roman triarii				exp 1 armour 0 weapon_lvl 1
-unit		merc samnite				exp 1 armour 0 weapon_lvl 1
-unit		merc samnite				exp 1 armour 0 weapon_lvl 1
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 1
+unit		roman italian spearmen				exp 1 armour 0 weapon_lvl 1
 unit		roman archer				exp 1 armour 0 weapon_lvl 1
 unit		roman velite				exp 1 armour 0 weapon_lvl 1
 unit		roman velite				exp 1 armour 0 weapon_lvl 1
@@ -4417,13 +4417,13 @@ ancillaries drillmaster
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
 unit		roman hastati				exp 1 armour 0 weapon_lvl 1
-unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman city militia				exp 1 armour 0 weapon_lvl 1
 
 character	Quintus Scipio, named character, age 35, , x 137, y 140
 traits NaturalMilitarySkill 1 , PoliticsSkill 1 , Intelligent 1 , Generous 1
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
-unit		roman hastati				exp 2 armour 0 weapon_lvl 1
+unit		roman city militia				exp 2 armour 0 weapon_lvl 1
 unit		roman archer				exp 2 armour 0 weapon_lvl 1
 unit		roman velite				exp 0 armour 0 weapon_lvl 1
 
@@ -4431,7 +4431,7 @@ character	Gaius Scipio, named character, age 29, , x 141, y 136
 traits NaturalMilitarySkill 3 , PoliticsSkill 1 , Intelligent 1 , Generous 1 , AuthoritarianRomanVirtue 2
 army
 unit		roman generals guard cavalry early				exp 1 armour 0 weapon_lvl 1
-unit		roman hastati				exp 1 armour 0 weapon_lvl 1
+unit		roman city militia				exp 1 armour 0 weapon_lvl 1
 
 character	Aulus Volesus, admiral, age 22, , x 137, y 129
 army
@@ -4838,7 +4838,7 @@ unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb peltast gaul				exp 1 armour 0 weapon_lvl 0
 unit		warband huntsman gaul				exp 1 armour 0 weapon_lvl 0
 unit		barb noble cavalry gaul				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 1 armour 0 weapon_lvl 0
+unit		barb horse peltast				exp 1 armour 0 weapon_lvl 0
 unit		barb wardogs gaul				exp 1 armour 0 weapon_lvl 0
 
 character	Rianorix, named character, age 35, , x 91, y 157
@@ -4880,7 +4880,7 @@ character	Dumnorix of Bibrax, general, age 20, , x 73, y 163
 army
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry gaul				exp 0 armour 0 weapon_lvl 0
-unit		barb cavalry gaul				exp 0 armour 0 weapon_lvl 0
+unit		barb horse peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Voteporix of Alesia, general, age 20, , x 75, y 166
 traits NaturalMilitarySkill 1 , Energetic 1
@@ -5035,9 +5035,9 @@ traits GoodCommander 2 , Intelligent 2 , PublicFaith 1
 ancillaries bodyguard, civilized_slave
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
-unit		barb cavalry german				exp 2 armour 0 weapon_lvl 0
 unit		warband spear german				exp 1 armour 0 weapon_lvl 0
-unit		warband spear german				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 1 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 1 armour 0 weapon_lvl 0
 unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
 
 character	Ariogaisus, named character, heir, age 40, , x 90, y 207
@@ -5046,17 +5046,17 @@ ancillaries bard, beastmaster
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		barb cavalry german				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 unit		barb screeching women german				exp 0 armour 0 weapon_lvl 0
+unit		barb horse peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Hariulfus, named character, age 30, , x 84, y 210
 traits Intelligent 2 , Austere 1
 ancillaries civilized_slave
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 
 character	Ricburgis, named character, age 25, , x 83, y 198
 traits NaturalMilitarySkill 2 , Energetic 1 , GoodAmbusher 1 , NightBattleCapable 1
@@ -5064,14 +5064,14 @@ ancillaries armourer
 army
 unit		barb chieftain cavalry early german				exp 1 armour 0 weapon_lvl 0
 unit		warband spear german				exp 0 armour 0 weapon_lvl 0
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 
 character	Gunderic, general, age 20, , x 89, y 199
 
 army
-unit		warband spear german				exp 0 armour 0 weapon_lvl 0
+unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb peltast german				exp 0 armour 0 weapon_lvl 0
 
 character	Ariovistus, spy, age 20, , x 86, y 211
@@ -6132,7 +6132,7 @@ unit		numidian noble cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 0 armour 0 weapon_lvl 0
-unit		carthaginian medium infantry				exp 0 armour 0 weapon_lvl 0
+unit		numidian spearmen				exp 0 armour 0 weapon_lvl 0
 unit		numidian desert warriors				exp 0 armour 0 weapon_lvl 0
 unit		numidian desert warriors				exp 0 armour 0 weapon_lvl 0
 unit		carthaginian archer				exp 0 armour 0 weapon_lvl 0
@@ -6330,7 +6330,7 @@ unit		carthaginian infantry				exp 0 armour 0 weapon_lvl 1
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
 unit		carthaginian peltast				exp 0 armour 0 weapon_lvl 1
-unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
+unit		cantabrian cavalry				exp 0 armour 0 weapon_lvl 1
 unit		carthaginian cavalry				exp 0 armour 0 weapon_lvl 1
 
 character	Lucco, named character, age 30, , x 43, y 117
@@ -6518,13 +6518,11 @@ army
 unit		barb chieftain cavalry early dacian				exp 1 armour 0 weapon_lvl 0
 unit		barb cavalry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
-unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		warband falx dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb archer dacian				exp 0 armour 0 weapon_lvl 0
 
 character	Anacharsis, general, age 20, , x 157, y 180
 army
-unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 unit		barb infantry dacian				exp 0 armour 0 weapon_lvl 0
 
 character	Arapeithes, general, age 20, , x 163, y 181
@@ -6926,7 +6924,7 @@ unit		merc illyrian				exp 0 armour 0 weapon_lvl 0
 character	Argeos, general, age 20, , x 163, y 143
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		greek light lancer				exp 0 armour 0 weapon_lvl 0
+unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Aeaces, general, age 20, , x 169, y 135
 army
@@ -7126,6 +7124,7 @@ unit		greek noble hoplite				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		merc bastarnae				exp 0 armour 0 weapon_lvl 0
+unit		thracian warriors			exp 0 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
 unit		warband falx thracian				exp 0 armour 0 weapon_lvl 0
 unit		thracian heavy peltast				exp 0 armour 0 weapon_lvl 0
@@ -7134,9 +7133,9 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		sarissa cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek medium cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		thracian heavy cavalry				exp 0 armour 0 weapon_lvl 0
+unit		thracian militia cavalry				exp 0 armour 0 weapon_lvl 0
+unit		thracian militia cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Byzas, named character, age 30, , x 181, y 169
 traits NaturalMilitarySkill 1 , Intelligent 2 , Drink 1
@@ -7145,7 +7144,7 @@ army
 unit		thracian bodyguard early				exp 1 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
+unit		thracian militia cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Arapeithes, general, age 20, , x 181, y 178
 army
@@ -7853,7 +7852,7 @@ traits GoodCommander 2 , PublicFaith 2 , Intelligent 1 , Bloodthirsty 1
 ancillaries chief_eunuch
 army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
-unit		armenian heavy warriors				exp 0 armour 0 weapon_lvl 0
+unit		east noble spearmen				exp 0 armour 0 weapon_lvl 0
 unit		east heavy infantry				exp 0 armour 0 weapon_lvl 0
 unit		east peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
@@ -9163,15 +9162,15 @@ army
 unit		east generals cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		east hoplite				exp 0 armour 0 weapon_lvl 0
 unit		east hoplite				exp 0 armour 0 weapon_lvl 0
+unit		east levy pikemen				exp 0 armour 0 weapon_lvl 0
+unit		east levy pikemen				exp 0 armour 0 weapon_lvl 0
 unit		east hillmen				exp 0 armour 0 weapon_lvl 0
 unit		east hillmen				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
-unit		east infantry				exp 0 armour 0 weapon_lvl 0
 unit		pontic heavy peltast				exp 0 armour 0 weapon_lvl 0
 unit		pontic heavy peltast				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
 unit		east archer				exp 0 armour 0 weapon_lvl 0
-unit		anatolian lancers				exp 0 armour 0 weapon_lvl 0
+unit		pontic royal cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east heavy cavalry				exp 0 armour 0 weapon_lvl 0
 unit		east cavalry				exp 0 armour 0 weapon_lvl 0
@@ -11087,13 +11086,13 @@ unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
 unit		greek pikemen				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 5 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 5 armour 0 weapon_lvl 0
+unit		desert levy				exp 2 armour 0 weapon_lvl 0
+unit		desert levy				exp 2 armour 0 weapon_lvl 0
 unit		merc cilician pirate				exp 0 armour 0 weapon_lvl 0
 unit		royal peltasts				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
-unit		merc syrian archer				exp 0 armour 0 weapon_lvl 0
+unit		greek syrian archer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
 unit		greek archer				exp 0 armour 0 weapon_lvl 0
@@ -11139,8 +11138,8 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 292, y 137
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ; MEDIA
@@ -11150,44 +11149,44 @@ ancillaries mentor
 army
 unit		greek general's guard cavalry early				exp 1 armour 0 weapon_lvl 0
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 279, y 153
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 287, y 155
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 301, y 154
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 293, y 159
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 298, y 147
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 ; PERSIA
 character	Molon, general, age 20, , x 305, y 131
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 315, y 132
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 310, y 129
@@ -11197,7 +11196,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 318, y 140
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 311, y 139
 army
@@ -11205,7 +11204,7 @@ unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 330, y 128
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 333, y 119
 army
@@ -11215,24 +11214,24 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 ; PARTHIA
 character	Molon, general, age 20, , x 339, y 172
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 323, y 172
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 320, y 168
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 309, y 166
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 304, y 168
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 314, y 154
 army
@@ -11240,47 +11239,45 @@ unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 323, y 143
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 ; ARIANA
 character	Molon, general, age 20, , x 344, y 173
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 347, y 163
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 354, y 147
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 341, y 146
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 346, y 132
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 340, y 129
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 330, y 134
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		greek peltast				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 338, y 124
 army
-unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 ; ASSYRIA
 character	Molon, general, age 20, , x 240, y 152
@@ -11291,7 +11288,7 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 251, y 158
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 252, y 153
@@ -11319,12 +11316,12 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 268, y 152
 army
 unit		greek hoplite militia				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek cavalry				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 276, y 146
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ; SYRIA
@@ -11355,7 +11352,7 @@ unit		greek peltast				exp 0 armour 1 weapon_lvl 1
 
 character	Molon, general, age 20, , x 244, y 136
 army
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 
 character	Molon, general, age 20, , x 236, y 140
 army
@@ -11372,8 +11369,8 @@ unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 character	Molon, general, age 20, , x 235, y 151
 army
 unit		greek levy pikemen				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
-unit		merc eastern infantry				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
+unit		desert levy				exp 0 armour 0 weapon_lvl 0
 unit		greek peltast				exp 0 armour 0 weapon_lvl 0
 
 ; ANATOLIA
@@ -23862,8 +23859,8 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -23875,7 +23872,7 @@ character	sub_faction germans, Sigimer, general, age 20, , x 80, y 183
 army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -23888,7 +23885,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -23901,8 +23898,8 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 1 weapon_lvl 1
 unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
 unit		barb naked fanatics slave				exp 2 armour 1 weapon_lvl 1
-unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
-unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
+unit		merc warband spear german				exp 2 armour 1 weapon_lvl 1
+unit		merc warband spear german				exp 2 armour 1 weapon_lvl 1
 unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb infantry slave				exp 2 armour 1 weapon_lvl 1
 unit		barb archer slave				exp 2 armour 1 weapon_lvl 1
@@ -23915,7 +23912,7 @@ unit		barb cavalry slave				exp 2 armour 1 weapon_lvl 1
 character	sub_faction germans, Adgandestrius, general, age 20, , x 68, y 196
 army
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -23929,7 +23926,7 @@ army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		merc barb wardogs				exp 2 armour 0 weapon_lvl 0
@@ -23942,7 +23939,7 @@ character	sub_faction germans, Adalwolf, general, age 20, , x 80, y 216
 army
 unit		merc barb berserker				exp 2 armour 0 weapon_lvl 0
 unit		merc barb wardogs				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -23952,7 +23949,7 @@ character	sub_faction germans, Sigimer, general, age 20, , x 77, y 228
 army
 unit		merc barb berserker				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -23987,7 +23984,7 @@ army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc barb berserker				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24009,7 +24006,7 @@ army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc barb berserker				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24020,7 +24017,7 @@ character	sub_faction germans, Suetonius, general, age 20, , x 97, y 212
 army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		merc barb berserker				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -24033,7 +24030,7 @@ army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24043,7 +24040,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 character	sub_faction germans, Inguiomerus, general, age 20, , x 108, y 200
 army
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24054,7 +24051,7 @@ character	sub_faction germans, Odovacar, general, age 20, , x 124, y 197
 army
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24076,7 +24073,7 @@ character	sub_faction germans, Theodoric, general, age 20, , x 118, y 218
 army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
@@ -24111,7 +24108,7 @@ army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24229,7 +24226,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24243,7 +24240,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24257,7 +24254,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24271,7 +24268,7 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24285,8 +24282,8 @@ army
 unit		barb chieftain cavalry early slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
 unit		barb naked fanatics slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
@@ -24308,7 +24305,7 @@ unit		barb archer slave				exp 2 armour 0 weapon_lvl 0
 character	sub_faction germans, Danaus, general, age 20, , x 131, y 226
 army
 unit		barbarian rebel general				exp 2 armour 0 weapon_lvl 0
-unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
+unit		merc warband spear german				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		barb infantry slave				exp 2 armour 0 weapon_lvl 0
 unit		merc barb wardogs				exp 2 armour 0 weapon_lvl 0
@@ -24863,8 +24860,8 @@ army
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
@@ -24875,8 +24872,8 @@ unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
@@ -24889,7 +24886,7 @@ army
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
@@ -24902,8 +24899,8 @@ unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc barb wardogs				exp 2 armour 0 weapon_lvl 0
@@ -24923,7 +24920,7 @@ army
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 
 ;Troglodytia
@@ -24932,29 +24929,29 @@ army
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 
 ;Nigritania
 character	sub_faction numidia, Hiram, general, age 20, , x 90, y 1
 army
 unit		carthaginian medium cavalry				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Agisymba
 character	sub_faction numidia, Eshmunazar, general, age 20, , x 166, y 1
 army
 unit		carthaginian general's cavalry early				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
-unit		carthaginian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc libyan infantry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		numidian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc greek elephant small				exp 2 armour 0 weapon_lvl 0
@@ -25820,7 +25817,7 @@ unit		merc hypaspists				exp 2 armour 0 weapon_lvl 0
 unit		merc hypaspists				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian militia cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Europa
 character	sub_faction greek_cities, Deiphonous, general, age 20, , x 190, y 160
@@ -25834,7 +25831,7 @@ unit		merc thracian				exp 2 armour 0 weapon_lvl 0
 unit		merc hypaspists				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc sarissa cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian militia cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; EPEIROS
 ;Illyria_Graeca
@@ -25961,7 +25958,7 @@ unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc sarissa cavalry				exp 2 armour 0 weapon_lvl 0
-unit		greek cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian militia cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
 
@@ -25985,7 +25982,7 @@ unit		greek hoplite				exp 2 armour 0 weapon_lvl 0
 unit		greek hoplite militia				exp 2 armour 0 weapon_lvl 0
 unit		greek peltast				exp 2 armour 0 weapon_lvl 0
 unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
-unit		merc horse archers				exp 2 armour 0 weapon_lvl 0
+unit		merc thracian militia cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Sarmatia_Maritima
 character	sub_faction thrace, Phileas, general, age 20, , x 190, y 195
@@ -26502,7 +26499,7 @@ unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
@@ -26514,7 +26511,7 @@ unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 5 armour 0 weapon_lvl 0
 unit		east archer				exp 5 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
@@ -26549,7 +26546,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26559,7 +26556,7 @@ character	sub_faction parthia, Arsaces, general, age 20, , x 443, y 218
 army
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26571,7 +26568,7 @@ unit		merc east heavy cataphract				exp 5 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 5 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26588,7 +26585,7 @@ unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26602,7 +26599,7 @@ unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
@@ -26613,7 +26610,7 @@ unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26633,7 +26630,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26658,7 +26655,7 @@ unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
-unit		east horse archer				exp 9 armour 3 weapon_lvl 3
+unit		merc parthian camel riders				exp 9 armour 3 weapon_lvl 3
 unit		east horse archer				exp 9 armour 3 weapon_lvl 3
 unit		east horse archer				exp 9 armour 3 weapon_lvl 3
 unit		east horse archer				exp 9 armour 3 weapon_lvl 3
@@ -26672,7 +26669,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 
 ;Serica_Coconorum
 character	sub_faction parthia, Teispes, general, age 20, , x 504, y 233
@@ -26727,7 +26724,7 @@ character	sub_faction parthia, Aspacanah, general, age 20, , x 355, y 220
 army
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26737,7 +26734,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Bagabuxsha, general, age 20, , x 329, y 225
 army
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26748,7 +26745,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Bahar, general, age 20, , x 317, y 228
 army
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26807,7 +26804,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Cisantaxma, general, age 20, , x 352, y 211
 army
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26816,7 +26813,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Cishpi, general, age 20, , x 343, y 205
 army
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26836,7 +26833,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction parthia, Cyrus, general, age 20, , x 321, y 212
 army
 unit		merc sarmatian cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26910,7 +26907,7 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 
 ; DAHAEA
 ;Scythia_Pontica
@@ -26920,13 +26917,13 @@ unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 
 ;Dahaestan
 character	sub_faction parthia, Gaumata, general, age 20, , x 311, y 189
 army
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -26938,7 +26935,7 @@ unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east horse archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
@@ -27046,8 +27043,8 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		merc sarissa cavalry				exp 2 armour 0 weapon_lvl 0
-unit		merc sarissa cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
@@ -27122,9 +27119,9 @@ character	sub_faction egypt, Hekhemmut, general, age 20, , x 238, y 76
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
 unit		merc greek hoplites				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		merc peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27135,7 +27132,7 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Khnumhoptep, general, age 20, , x 262, y 62
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27146,12 +27143,12 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Nakhrankh, general, age 20, , x 229, y 60
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27164,12 +27161,12 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Ptahhotep, general, age 20, , x 234, y 52
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27182,10 +27179,10 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Ptahotem, general, age 20, , x 242, y 52
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27196,11 +27193,11 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Wah, general, age 20, , x 251, y 48
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27213,11 +27210,11 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Ahmose, general, age 20, , x 250, y 43
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27229,8 +27226,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Heruben, general, age 20, , x 248, y 36
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27243,8 +27240,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Isetnofet, general, age 20, , x 262, y 41
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27255,8 +27252,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Khasekhem, general, age 20, , x 255, y 31
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27267,8 +27264,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 ;Bega
 character	sub_faction egypt, Khu, general, age 20, , x 272, y 42
 army
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27278,11 +27275,11 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Kiya, general, age 20, , x 278, y 46
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27292,9 +27289,9 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Neferet, general, age 20, , x 276, y 40
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27308,8 +27305,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Neferetiabet, general, age 20, , x 295, y 38
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27323,12 +27320,12 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Nakhti, general, age 20, , x 295, y 30
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27340,7 +27337,7 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 ;Akridophagia
 character	sub_faction egypt, Miwsher, general, age 20, , x 289, y 18
 army
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27351,7 +27348,7 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Meryre, general, age 20, , x 301, y 31
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27363,8 +27360,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Menmaatre, general, age 20, , x 309, y 28
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27374,7 +27371,7 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 ;Cinnamonifora
 character	sub_faction egypt, Mutnodjmet, general, age 20, , x 318, y 32
 army
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27385,8 +27382,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Pamiu, general, age 20, , x 329, y 38
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27397,8 +27394,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Pasebakhaen, general, age 20, , x 337, y 37
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27409,9 +27406,9 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Akhaenniut, general, age 20, , x 329, y 2
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27427,9 +27424,9 @@ character	sub_faction egypt, Rameses, general, age 20, , x 274, y 34
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
 unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27445,8 +27442,8 @@ character	sub_faction egypt, Tutankhemwy, general, age 20, , x 272, y 26
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
 unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27462,7 +27459,7 @@ army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
 unit		rebel judaean zealots				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27472,8 +27469,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Sekhemwy, general, age 20, , x 273, y 20
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27484,8 +27481,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Alexander, general, age 20, , x 284, y 5
 army
 unit		egyptian general's bodyguard early				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27496,8 +27493,8 @@ unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Akhoris, general, age 20, , x 273, y 10
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27507,8 +27504,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Amasis, general, age 20, , x 256, y 26
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27519,8 +27516,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Amyrtaios, general, age 20, , x 262, y 20
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27531,8 +27528,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Apries, general, age 20, , x 255, y 4
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27542,9 +27539,9 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 ;Artabatita
 character	sub_faction egypt, Djehutimes, general, age 20, , x 243, y 5
 army
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27554,8 +27551,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 ;Syrbotia
 character	sub_faction egypt, Nekho, general, age 20, , x 224, y 13
 army
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -27565,8 +27562,8 @@ unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 character	sub_faction egypt, Nektanebo, general, age 20, , x 205, y 5
 army
 unit		egyptian chariot				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
-unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
+unit		merc egyptian infantry				exp 2 armour 0 weapon_lvl 0
 unit		egyptian peltast				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
 unit		egyptian archer				exp 2 armour 0 weapon_lvl 0
@@ -28214,7 +28211,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Media_Atropatene
@@ -28226,7 +28223,7 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Kadousioi
@@ -28305,7 +28302,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Sattagydia
@@ -28337,7 +28334,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Paradene
@@ -28355,7 +28352,7 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ;Gedrosia
@@ -28367,7 +28364,7 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		east horse archer				exp 2 armour 0 weapon_lvl 0
 
 ; GANDHARA
@@ -28386,7 +28383,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Kasmira
@@ -28403,7 +28400,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Glausae
 character	sub_faction parthia, Darayavahu, general, age 20, , x 395, y 174
@@ -28419,8 +28416,8 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Hydaspes
@@ -28452,7 +28449,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Panchanada
@@ -28471,7 +28468,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Sibae
 character	sub_faction parthia, Hydarnes, general, age 20, , x 395, y 160
@@ -28487,7 +28484,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Trigata
 character	sub_faction parthia, Jahangir, general, age 20, , x 409, y 169
@@ -28505,8 +28502,8 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Sivi
@@ -28548,7 +28545,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Prasiane
 character	sub_faction parthia, Uvaxshtra, general, age 20, , x 388, y 142
@@ -28562,7 +28559,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Saranga
 character	sub_faction parthia, Upadarma, general, age 20, , x 384, y 129
@@ -28571,8 +28568,8 @@ unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 
 ; SINDH
 ;Patalene
@@ -28589,8 +28586,8 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 unit		merc elephants				exp 2 armour 0 weapon_lvl 0
 
 ;Aporapa
@@ -28605,7 +28602,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ;Sauvira
 character	sub_faction parthia, Vahumisa, general, age 20, , x 394, y 145
@@ -28617,7 +28614,7 @@ unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east heavy cavalry				exp 2 armour 0 weapon_lvl 0
+unit		merc median cavalry				exp 2 armour 0 weapon_lvl 0
 
 ; MARU
 ;Kaccha
@@ -28654,7 +28651,7 @@ army
 unit		east infantry				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
 unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc parthian camel riders				exp 2 armour 0 weapon_lvl 0
 
 ;Saurashtra_Meridionalis
 character	sub_faction parthia, Vayaspara, general, age 20, , x 410, y 111
