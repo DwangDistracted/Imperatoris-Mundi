@@ -16,16 +16,31 @@ class MercUnitEntry:
 
 def importUnitCosts():
     unit_costs = {}
+    unitClassCostModifiers = {
+        "Elephant": 2,
+        "Chariot": 1.6,
+        "Cavalry": 1.4,
+        "Archer": 1.2,
+        "Infantry": 1
+    }
+
     costsCSV = open(r"mercenary_costs.csv", "r")
     csvreader = csv.reader(costsCSV)
     header = next(csvreader)
     for row in csvreader:
         unitName = row[0]
         unitCost = int(row[1])
+        unitClass = row[2]
         if not unitCost:
             print("FATAL: No cost for Unit '{0}' provided.".format(unitName))
             quit()
-        unit_costs[unitName] = unitCost
+
+        if not unitClass in unitClassCostModifiers:
+            print("FATAL: Unknown Class {0} for Unit '{1}' provided.".format(unitClass, unitName))
+            quit()
+
+        costModifier = unitClassCostModifiers[unitClass]
+        unit_costs[unitName] = int(unitCost * costModifier)
     costsCSV.close()
     return unit_costs
 

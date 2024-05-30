@@ -1,43 +1,55 @@
-Unit Type,Base Cost
-cheat oliphants,6000
-merc armoured syrian elephant,2970
-merc elephants,2690
-merc greek elephant small,1500
-merc east heavy cataphract,1070
-merc barb berserker,1060
-merc east camel cataphract,940
-merc bastarnae,930
-merc sarmatian cavalry,780
-merc hypaspists,760
-merc barb wardogs,700
-merc greek pikemen,660
-merc bedouin archers,650
-merc barb scythian hoplite,620
-merc italian cavalry,620
-merc syrian archer,600
-merc carthaginian medium cavalry,580
-merc warband falx,570
-merc cretan archers,550
-merc greek hoplites,550
-merc horse archers,550
-merc east heavy infantry,520
-merc numidian cavalry,520
-merc barbarian cavalry,500
-merc barb naked fanatics,490
-merc arab cavalry,480
-merc barbarian infantry,480
-merc balearic slingers,470
-merc bedouin,470
-merc rhodian slingers,470
-merc spanish infantry,460
-merc cilician pirate,450
-merc egyptian infantry,450
-merc samnite,450
-merc sarissa cavalry,420
-merc illyrian,380
-merc peltast,330
-merc thracian,330
-merc barb archer,310
-merc eastern infantry,300
-merc east archer,220
-merc libyan infantry,170
+Unit Type,Base Cost,Unit Class
+merc barb berserker,1060,Infantry
+merc bastarnae,930,Infantry
+merc hypaspists,760,Infantry
+merc barb wardogs,700,Infantry
+merc greek pikemen,660,Infantry
+merc barb scythian hoplite,580,Infantry
+merc east heavy infantry,580,Infantry
+merc warband falx,570,Infantry
+merc greek hoplites,570,Infantry
+merc warband spear german,550,Infantry
+merc warband sword,530,Infantry
+merc east heavy infantry,520,Infantry
+merc barb naked fanatics,490,Infantry
+merc spanish infantry,460,Infantry
+merc barbarian infantry,450,Infantry
+merc cilician pirate,450,Infantry
+merc egyptian infantry,450,Infantry
+merc samnite,450,Infantry
+merc illyrian,380,Infantry
+merc thracian,360,Infantry
+merc carthaginian infantry,350,Infantry
+merc peltast,330,Infantry
+merc eastern infantry,300,Infantry
+merc libyan infantry,170,Infantry
+cheat oliphants,6000,Elephant
+merc armoured syrian elephant,2970,Elephant
+merc elephants,2690,Elephant
+merc greek elephant small,1500,Elephant
+merc east scythed chariot,1080,Chariot
+merc egyptian chariot,770,Chariot
+merc barb chariot heavy briton,690,Chariot
+merc east heavy cataphract,1070,Cavalry
+merc east camel cataphract,940,Cavalry
+merc sarmatian cavalry,780,Cavalry
+merc median cavalry,680,Cavalry
+merc bedouin archers,650,Cavalry
+merc italian cavalry,620,Cavalry
+merc carthaginian medium cavalry,580,Cavalry
+merc horse archers,550,Cavalry
+merc east horse archer,540,Cavalry
+merc numidian cavalry,520,Cavalry
+merc barbarian cavalry,500,Cavalry
+merc arab cavalry,480,Cavalry
+merc bedouin,470,Cavalry
+merc thracian militia cavalry,460,Cavalry
+merc parthian camel riders,440,Cavalry
+merc sarissa cavalry,420,Cavalry
+merc syrian archer,600,Archer
+merc cretan archers,550,Archer
+merc greek crossbowmen,500,Archer
+merc balearic slingers,470,Archer
+merc rhodian slingers,470,Archer
+merc barb archer,310,Archer
+merc east archer,220,Archer
