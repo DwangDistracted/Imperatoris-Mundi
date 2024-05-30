@@ -76,12 +76,12 @@ def importPoolRegions():
     header = next(csvreader)
 
     for row in csvreader:
-        poolName = row[0]
+        poolName = row[1]
         if not poolName:
             print("FATAL: Unnamed Pool.")
             quit()
 
-        poolRegions = row[1:]
+        poolRegions = row[2:]
         if not poolRegions or poolRegions[0] == '':
             print("FATAL: Pool {0} has no regions".format(poolName))
             quit()
