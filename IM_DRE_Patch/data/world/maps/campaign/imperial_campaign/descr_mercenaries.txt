@@ -983,9 +983,9 @@ pool Himalayan Valley
 pool India Cape
 	regions Malayas Pandiya Keralaputa
 	unit merc syrian archer,			exp 0 cost 720 replenish 0.1 - 0.17 max 2 initial 0
-	unit merc east archer,			exp 3 cost 309 replenish 0.12 - 0.25 max 2 initial 1
-	unit merc egyptian infantry,			exp 3 cost 495 replenish 0.1 - 0.17 max 1 initial 1
-	unit merc eastern infantry,			exp 0 cost 300 replenish 0.12 - 0.25 max 2 initial 1
+	unit merc barb archer,			exp 3 cost 417 replenish 0.12 - 0.25 max 2 initial 1
+	unit merc barb naked fanatics,			exp 0 cost 490 replenish 0.1 - 0.17 max 1 initial 1
+	unit merc barbarian infantry,			exp 0 cost 450 replenish 0.12 - 0.25 max 2 initial 1
 	unit merc greek elephant small,			exp 0 cost 3000 replenish 0.08 - 0.12 max 1 initial 1
 
 pool Indian Desert
@@ -1083,10 +1083,10 @@ pool Sivi
 
 pool South Avanti
 	regions Anartta Avanti_Meridionalis Avanti_Septentrionalis Dasarna
-	unit merc barb naked fanatics,			exp 0 cost 490 replenish 0.1 - 0.17 max 1 initial 1
-	unit merc barbarian infantry,			exp 0 cost 450 replenish 0.12 - 0.25 max 2 initial 2
+	unit merc egyptian infantry,			exp 0 cost 450 replenish 0.1 - 0.17 max 2 initial 1
+	unit merc eastern infantry,			exp 0 cost 300 replenish 0.12 - 0.25 max 2 initial 2
 	unit merc syrian archer,			exp 2 cost 750 replenish 0.1 - 0.17 max 1 initial 0
-	unit merc barb archer,			exp 3 cost 417 replenish 0.12 - 0.25 max 3 initial 1
+	unit merc east archer,			exp 3 cost 309 replenish 0.12 - 0.25 max 2 initial 1
 	unit merc greek elephant small,			exp 0 cost 3000 replenish 0.08 - 0.12 max 2 initial 1
 	unit merc elephants,			exp 0 cost 5380 replenish 0.08 - 0.12 max 1 initial 0
 
@@ -1123,8 +1123,8 @@ pool Taxila
 pool Tondainadu
 	regions Tondainadu_Septentrionalis Tondainadu_Meridionalis Koda
 	unit merc syrian archer,			exp 2 cost 750 replenish 0.1 - 0.17 max 1 initial 0
-	unit merc east archer,			exp 3 cost 309 replenish 0.12 - 0.25 max 3 initial 2
-	unit merc egyptian infantry,			exp 0 cost 450 replenish 0.1 - 0.17 max 2 initial 1
+	unit merc barb archer,			exp 3 cost 417 replenish 0.12 - 0.25 max 3 initial 2
+	unit merc barb naked fanatics,			exp 0 cost 490 replenish 0.1 - 0.17 max 2 initial 1
 	unit merc eastern infantry,			exp 0 cost 300 replenish 0.12 - 0.25 max 2 initial 1
 	unit merc greek elephant small,			exp 0 cost 3000 replenish 0.08 - 0.12 max 1 initial 1
 	unit merc elephants,			exp 0 cost 5380 replenish 0.08 - 0.12 max 1 initial 0

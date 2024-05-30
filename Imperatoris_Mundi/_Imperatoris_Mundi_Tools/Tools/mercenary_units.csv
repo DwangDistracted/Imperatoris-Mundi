@@ -1,5 +1,5 @@
 POOL_NAME,UNIT,EXP,GRADE,MAX,INITIAL,MAX TOTAL UNITS BY POOL,MAX TOTAL UNITS BY UNIT TYPE
-Adiabene,merc east archer,0,Veteran,2,1,10,134
+Adiabene,merc east archer,0,Veteran,2,1,10,131
 Adiabene,merc eastern infantry,0,Common,3,1,10,124
 Adiabene,merc greek hoplites,2,Veteran,1,1,10,80
 Adiabene,merc east heavy infantry,0,Common,2,2,10,45
@@ -16,16 +16,16 @@ Aegean Anatolia,merc barb wardogs,0,Veteran,1,0,14,13
 Aegean Anatolia,merc greek pikemen,0,Elite,1,1,14,10
 Agisymba,merc libyan infantry,2,Veteran,1,1,10,77
 Agisymba,merc libyan infantry,0,Common,2,2,10,77
-Agisymba,merc egyptian infantry,2,Veteran,1,0,10,80
+Agisymba,merc egyptian infantry,2,Veteran,1,0,10,79
 Agisymba,merc greek elephant small,0,Elite,2,1,10,48
-Agisymba,merc egyptian infantry,0,Common,2,1,10,80
+Agisymba,merc egyptian infantry,0,Common,2,1,10,79
 Agisymba,merc egyptian chariot,0,Elite,1,0,10,17
 Agisymba,cheat oliphants,9,Unicorn,1,0,10,2
-Aksum,merc east archer,2,Elite,1,1,12,134
-Aksum,merc east archer,0,Veteran,2,1,12,134
+Aksum,merc east archer,2,Elite,1,1,12,131
+Aksum,merc east archer,0,Veteran,2,1,12,131
 Aksum,merc libyan infantry,0,Common,3,2,12,77
 Aksum,merc greek elephant small,0,Elite,1,1,12,48
-Aksum,merc egyptian infantry,0,Common,3,1,12,80
+Aksum,merc egyptian infantry,0,Common,3,1,12,79
 Aksum,merc elephants,0,Special,1,1,12,34
 Aksum,merc egyptian chariot,0,Elite,1,0,12,17
 Alania,merc horse archers,5,Elite,1,0,8,77
@@ -36,9 +36,9 @@ Alania,merc barb wardogs,2,Veteran,1,1,8,13
 Alexandreia,merc greek hoplites,0,Common,2,1,18,80
 Alexandreia,merc barbarian cavalry,2,Elite,1,0,18,72
 Alexandreia,merc peltast,0,Common,2,1,18,60
-Alexandreia,merc barb naked fanatics,2,Veteran,1,1,18,58
+Alexandreia,merc barb naked fanatics,2,Veteran,1,1,18,60
 Alexandreia,merc greek elephant small,0,Elite,1,1,18,48
-Alexandreia,merc egyptian infantry,0,Common,2,1,18,80
+Alexandreia,merc egyptian infantry,0,Common,2,1,18,79
 Alexandreia,merc elephants,0,Special,1,0,18,34
 Alexandreia,merc sarissa cavalry,0,Veteran,2,1,18,27
 Alexandreia,merc rhodian slingers,0,Elite,1,0,18,26
@@ -46,7 +46,7 @@ Alexandreia,merc cilician pirate,0,Veteran,2,1,18,23
 Alexandreia,merc cretan archers,0,Elite,1,0,18,21
 Alexandreia,merc hypaspists,0,Veteran,1,1,18,20
 Alexandreia,merc greek pikemen,0,Elite,1,0,18,10
-Alexandreia Eschati,merc east archer,0,Veteran,2,1,10,134
+Alexandreia Eschati,merc east archer,0,Veteran,2,1,10,131
 Alexandreia Eschati,merc eastern infantry,0,Common,3,2,10,124
 Alexandreia Eschati,merc greek hoplites,0,Veteran,1,1,10,80
 Alexandreia Eschati,merc east heavy cataphract,2,Elite,2,1,10,41
@@ -57,40 +57,40 @@ Amardia,merc horse archers,0,Common,2,1,8,77
 Amardia,merc sarmatian cavalry,2,Elite,1,0,8,36
 Amardia,merc sarmatian cavalry,0,Veteran,1,1,8,36
 Amardia,merc parthian camel riders,0,Veteran,1,0,8,13
-Andhra,merc east archer,5,Veteran,2,1,10,134
+Andhra,merc east archer,5,Veteran,2,1,10,131
 Andhra,merc syrian archer,0,Elite,2,1,10,52
-Andhra,merc egyptian infantry,3,Veteran,1,1,10,80
+Andhra,merc egyptian infantry,3,Veteran,1,1,10,79
 Andhra,merc eastern infantry,0,Common,2,1,10,124
 Andhra,merc greek elephant small,2,Veteran,2,1,10,48
 Andhra,merc elephants,0,Elite,1,1,10,34
-Aparanti Coast,merc east archer,5,Veteran,2,1,10,134
+Aparanti Coast,merc east archer,5,Veteran,2,1,10,131
 Aparanti Coast,merc syrian archer,0,Elite,1,1,10,15
 Aparanti Coast,merc egyptian infantry,3,Veteran,2,1,10,49
 Aparanti Coast,merc eastern infantry,3,Veteran,1,1,10,124
 Aparanti Coast,merc eastern infantry,0,Common,1,1,10,124
 Aparanti Coast,merc greek elephant small,2,Veteran,2,1,10,48
 Aparanti Coast,merc elephants,0,Elite,1,1,10,34
-Arachosia,merc east archer,0,Common,2,2,10,134
+Arachosia,merc east archer,0,Common,2,2,10,131
 Arachosia,merc eastern infantry,0,Common,3,2,10,124
 Arachosia,merc greek hoplites,0,Veteran,1,0,10,80
 Arachosia,merc median cavalry,0,Veteran,1,1,10,32
 Arachosia,merc parthian camel riders,0,Veteran,1,1,10,13
 Arachosia,merc parthian camel riders,2,Elite,1,0,10,13
 Arachosia,merc east camel cataphract,0,Elite,1,0,10,9
-Aria,merc east archer,0,Common,2,2,10,134
+Aria,merc east archer,0,Common,2,2,10,131
 Aria,merc eastern infantry,0,Common,3,2,10,124
 Aria,merc east horse archer,0,Veteran,1,1,10,38
 Aria,merc median cavalry,0,Veteran,1,1,10,32
 Aria,merc parthian camel riders,0,Veteran,1,0,10,13
 Aria,merc parthian camel riders,2,Elite,1,0,10,13
 Aria,merc east camel cataphract,0,Elite,1,0,10,9
-Armenia,merc east archer,0,Common,2,1,10,134
+Armenia,merc east archer,0,Common,2,1,10,131
 Armenia,merc eastern infantry,0,Common,3,3,10,124
 Armenia,merc greek hoplites,0,Veteran,1,0,10,80
 Armenia,merc east heavy infantry,2,Elite,1,1,10,45
 Armenia,merc east heavy infantry,0,Veteran,2,1,10,45
 Armenia,merc east heavy cataphract,0,Elite,1,1,10,41
-Assyria,merc east archer,0,Veteran,2,1,10,134
+Assyria,merc east archer,0,Veteran,2,1,10,131
 Assyria,merc greek hoplites,2,Veteran,1,1,10,80
 Assyria,merc peltast,0,Common,2,1,10,60
 Assyria,merc east heavy infantry,0,Common,2,1,10,45
@@ -108,14 +108,14 @@ Athens,merc cretan archers,0,Elite,1,1,14,21
 Athens,merc hypaspists,2,Elite,1,0,14,20
 Athens,merc greek pikemen,0,Veteran,1,0,14,10
 Athens,merc greek crossbowmen,0,Veteran,1,0,14,4
-Azania,merc east archer,0,Common,2,1,10,134
+Azania,merc east archer,0,Common,2,1,10,131
 Azania,merc libyan infantry,2,Veteran,1,0,10,77
 Azania,merc libyan infantry,0,Common,2,1,10,77
-Azania,merc egyptian infantry,0,Common,2,1,10,80
+Azania,merc egyptian infantry,0,Common,2,1,10,79
 Azania,merc bedouin,0,Veteran,1,1,10,18
 Azania,merc egyptian chariot,0,Elite,1,0,10,17
 Azania,merc bedouin archers,0,Veteran,1,1,10,13
-Babylonia,merc east archer,0,Common,2,1,12,134
+Babylonia,merc east archer,0,Common,2,1,12,131
 Babylonia,merc greek hoplites,2,Veteran,1,1,12,80
 Babylonia,merc peltast,0,Common,2,1,12,60
 Babylonia,merc east heavy infantry,0,Common,3,2,12,45
@@ -123,7 +123,7 @@ Babylonia,merc elephants,0,Special,1,0,12,34
 Babylonia,merc syrian archer,0,Elite,1,1,12,52
 Babylonia,merc armoured syrian elephant,0,Special,1,0,12,6
 Babylonia,merc east scythed chariot,0,Elite,1,0,12,5
-Baktria,merc east archer,0,Common,2,2,12,134
+Baktria,merc east archer,0,Common,2,2,12,131
 Baktria,merc eastern infantry,0,Common,3,2,12,124
 Baktria,merc greek hoplites,4,Elite,1,1,12,80
 Baktria,merc east heavy infantry,0,Veteran,2,1,12,45
@@ -136,14 +136,14 @@ Baleares,merc balearic slingers,5,Elite,1,0,10,23
 Baleares,merc balearic slingers,2,Veteran,2,1,10,23
 Baleares,merc balearic slingers,0,Common,4,2,10,23
 Baltic Germany,merc barbarian infantry,0,Common,3,2,8,141
-Baltic Germany,merc barb archer,2,Common,2,1,8,95
+Baltic Germany,merc barb archer,2,Common,2,1,8,97
 Baltic Germany,merc warband spear german,0,Veteran,1,1,8,26
 Baltic Germany,merc barb wardogs,0,Elite,1,1,8,13
 Baltic Germany,merc barb berserker,0,Special,1,0,8,8
-Barbaria,merc east archer,0,Common,2,1,12,134
+Barbaria,merc east archer,0,Common,2,1,12,131
 Barbaria,merc libyan infantry,0,Common,2,2,12,77
 Barbaria,merc greek elephant small,0,Special,1,1,12,48
-Barbaria,merc egyptian infantry,0,Common,3,1,12,80
+Barbaria,merc egyptian infantry,0,Common,3,1,12,79
 Barbaria,merc arab cavalry,0,Veteran,1,1,12,24
 Barbaria,merc bedouin,0,Veteran,1,1,12,18
 Barbaria,merc egyptian chariot,0,Elite,1,0,12,17
@@ -166,11 +166,11 @@ Black Sea Colonies,merc rhodian slingers,0,Elite,1,0,10,26
 Black Sea Colonies,merc thracian militia cavalry,0,Veteran,2,1,10,22
 Black Sea Colonies,merc hypaspists,0,Veteran,1,1,10,20
 Bohemia,merc barbarian infantry,0,Common,2,1,12,141
-Bohemia,merc barb archer,0,Common,2,1,12,95
+Bohemia,merc barb archer,0,Common,2,1,12,97
 Bohemia,merc barbarian cavalry,2,Veteran,1,1,12,72
 Bohemia,merc barbarian cavalry,0,Common,2,1,12,72
-Bohemia,merc barb naked fanatics,2,Elite,1,0,12,58
-Bohemia,merc barb naked fanatics,0,Veteran,1,0,12,58
+Bohemia,merc barb naked fanatics,2,Elite,1,0,12,60
+Bohemia,merc barb naked fanatics,0,Veteran,1,0,12,60
 Bohemia,merc warband sword,2,Elite,1,0,12,38
 Bohemia,merc warband sword,0,Veteran,1,0,12,38
 Bohemia,merc warband spear german,0,Veteran,1,1,12,26
@@ -187,13 +187,13 @@ Bosporus,merc hypaspists,0,Veteran,1,1,14,20
 Bosporus,merc barb scythian hoplite,0,Veteran,2,2,14,19
 Bretagne,merc barbarian infantry,2,Veteran,1,1,8,141
 Bretagne,merc barbarian infantry,0,Common,2,1,8,141
-Bretagne,merc barb archer,0,Common,3,2,8,95
-Bretagne,merc barb naked fanatics,0,Veteran,1,1,8,58
+Bretagne,merc barb archer,0,Common,3,2,8,97
+Bretagne,merc barb naked fanatics,0,Veteran,1,1,8,60
 Bretagne,merc warband sword,0,Veteran,1,0,8,38
 Caledonia,merc barbarian infantry,1,Common,2,1,10,141
 Caledonia,merc barbarian infantry,4,Veteran,1,1,10,141
-Caledonia,merc barb archer,0,Veteran,2,1,10,95
-Caledonia,merc barb naked fanatics,1,Veteran,2,1,10,58
+Caledonia,merc barb archer,0,Veteran,2,1,10,97
+Caledonia,merc barb naked fanatics,1,Veteran,2,1,10,60
 Caledonia,merc warband sword,1,Veteran,1,1,10,38
 Caledonia,merc barb wardogs,0,Veteran,1,1,10,13
 Caledonia,merc barb chariot heavy briton,0,Elite,1,0,10,7
@@ -204,7 +204,7 @@ Cantabria,merc spanish infantry,0,Common,2,1,10,34
 Cantabria,merc carthaginian infantry,0,Common,2,1,10,34
 Cantabria,merc carthaginian medium cavalry,0,Veteran,1,1,10,33
 Cantabria,merc barb wardogs,0,Veteran,1,1,10,13
-Cappadocia,merc east archer,0,Veteran,1,1,10,134
+Cappadocia,merc east archer,0,Veteran,1,1,10,131
 Cappadocia,merc eastern infantry,0,Common,3,2,10,124
 Cappadocia,merc east heavy infantry,2,Veteran,1,1,10,45
 Cappadocia,merc east heavy cataphract,2,Elite,1,0,10,41
@@ -215,7 +215,7 @@ Carthage,merc greek hoplites,2,Veteran,1,0,18,80
 Carthage,merc libyan infantry,2,Common,2,2,18,77
 Carthage,merc barbarian cavalry,2,Elite,1,0,18,72
 Carthage,merc peltast,0,Common,2,1,18,60
-Carthage,merc barb naked fanatics,0,Veteran,1,1,18,58
+Carthage,merc barb naked fanatics,0,Veteran,1,1,18,60
 Carthage,merc greek elephant small,0,Elite,1,0,18,48
 Carthage,merc numidian cavalry,0,Common,2,1,18,35
 Carthage,merc carthaginian infantry,2,Veteran,2,1,18,34
@@ -224,34 +224,34 @@ Carthage,merc elephants,0,Special,1,0,18,34
 Carthage,merc carthaginian medium cavalry,0,Veteran,1,1,18,33
 Carthage,merc balearic slingers,0,Veteran,1,1,18,23
 Carthage,merc cretan archers,0,Elite,1,0,18,21
-Cedi,merc east archer,4,Common,2,1,8,134
+Cedi,merc east archer,4,Common,2,1,8,131
 Cedi,merc syrian archer,0,Veteran,2,1,8,52
-Cedi,merc egyptian infantry,5,Elite,1,0,8,80
+Cedi,merc egyptian infantry,5,Elite,1,0,8,79
 Cedi,merc eastern infantry,3,Veteran,1,1,8,124
 Cedi,merc eastern infantry,0,Common,1,1,8,124
 Cedi,merc elephants,0,Elite,1,1,8,34
 Celtiberia,merc barbarian infantry,0,Common,3,2,12,141
-Celtiberia,merc barb archer,0,Veteran,2,1,12,95
+Celtiberia,merc barb archer,0,Veteran,2,1,12,97
 Celtiberia,merc barbarian cavalry,2,Veteran,1,1,12,72
-Celtiberia,merc barb naked fanatics,2,Elite,1,0,12,58
+Celtiberia,merc barb naked fanatics,2,Elite,1,0,12,60
 Celtiberia,merc spanish infantry,5,Elite,1,0,12,34
 Celtiberia,merc spanish infantry,2,Veteran,2,1,12,34
 Celtiberia,merc carthaginian infantry,0,Common,2,1,12,34
 Central Alps,merc barbarian infantry,0,Common,2,1,10,141
-Central Alps,merc barb archer,0,Veteran,2,2,10,95
+Central Alps,merc barb archer,0,Veteran,2,2,10,97
 Central Alps,merc barbarian cavalry,0,Veteran,1,1,10,72
-Central Alps,merc barb naked fanatics,2,Elite,1,1,10,58
+Central Alps,merc barb naked fanatics,2,Elite,1,1,10,60
 Central Alps,merc warband sword,0,Veteran,1,1,10,38
 Central Alps,merc warband spear german,0,Veteran,2,2,10,26
 Central Alps,merc barb wardogs,0,Veteran,1,1,10,13
 Central Anatolia,merc eastern infantry,0,Common,3,2,10,124
 Central Anatolia,merc greek hoplites,0,Veteran,1,1,10,80
 Central Anatolia,merc barbarian cavalry,0,Veteran,1,1,10,72
-Central Anatolia,merc barb naked fanatics,0,Veteran,2,1,10,58
+Central Anatolia,merc barb naked fanatics,0,Veteran,2,1,10,60
 Central Anatolia,merc east heavy infantry,0,Veteran,1,1,10,45
 Central Anatolia,merc thracian,0,Veteran,1,1,10,32
 Central Anatolia,merc syrian archer,0,Elite,1,0,10,52
-Central Arabia,merc east archer,0,Common,2,1,10,134
+Central Arabia,merc east archer,0,Common,2,1,10,131
 Central Arabia,merc arab cavalry,0,Common,2,1,10,24
 Central Arabia,merc bedouin,2,Veteran,1,1,10,18
 Central Arabia,merc bedouin,0,Common,2,2,10,18
@@ -261,13 +261,13 @@ Central Arabia,merc east camel cataphract,0,Elite,1,0,10,9
 Central Britain,merc barbarian infantry,3,Veteran,1,1,10,141
 Central Britain,merc barbarian infantry,0,Common,2,1,10,141
 Central Britain,merc barbarian cavalry,0,Veteran,1,1,10,72
-Central Britain,merc barb naked fanatics,0,Veteran,1,1,10,58
-Central Britain,merc barb naked fanatics,2,Elite,1,0,10,58
+Central Britain,merc barb naked fanatics,0,Veteran,1,1,10,60
+Central Britain,merc barb naked fanatics,2,Elite,1,0,10,60
 Central Britain,merc warband sword,1,Veteran,2,1,10,38
 Central Britain,merc barb chariot heavy briton,0,Elite,2,1,10,7
 Central Gangetic Plain,merc syrian archer,0,Veteran,2,1,14,52
-Central Gangetic Plain,merc east archer,3,Common,3,2,14,134
-Central Gangetic Plain,merc egyptian infantry,2,Veteran,2,1,14,80
+Central Gangetic Plain,merc east archer,3,Common,3,2,14,131
+Central Gangetic Plain,merc egyptian infantry,2,Veteran,2,1,14,79
 Central Gangetic Plain,merc eastern infantry,3,Veteran,1,1,14,124
 Central Gangetic Plain,merc eastern infantry,0,Common,2,1,14,124
 Central Gangetic Plain,merc greek elephant small,0,Elite,2,1,14,48
@@ -275,29 +275,29 @@ Central Gangetic Plain,merc elephants,0,Special,1,1,14,34
 Central Gangetic Plain,merc armoured syrian elephant,0,Special,1,1,14,6
 Central Gaul,merc barbarian infantry,2,Veteran,1,1,14,141
 Central Gaul,merc barbarian infantry,0,Common,2,2,14,141
-Central Gaul,merc barb archer,0,Veteran,2,1,14,95
+Central Gaul,merc barb archer,0,Veteran,2,1,14,97
 Central Gaul,merc barbarian cavalry,5,Elite,1,0,14,72
 Central Gaul,merc barbarian cavalry,2,Veteran,1,1,14,72
 Central Gaul,merc barbarian cavalry,0,Common,1,1,14,72
-Central Gaul,merc barb naked fanatics,2,Elite,1,0,14,58
-Central Gaul,merc barb naked fanatics,0,Veteran,1,1,14,58
+Central Gaul,merc barb naked fanatics,2,Elite,1,0,14,60
+Central Gaul,merc barb naked fanatics,0,Veteran,1,1,14,60
 Central Gaul,merc warband sword,0,Veteran,2,1,14,38
 Central Gaul,merc warband sword,3,Elite,1,0,14,38
 Central Gaul,merc barb wardogs,0,Veteran,1,1,14,13
 Central Germany,merc barbarian infantry,0,Common,2,1,10,141
-Central Germany,merc barb archer,0,Veteran,2,1,10,95
+Central Germany,merc barb archer,0,Veteran,2,1,10,97
 Central Germany,merc barbarian cavalry,0,Common,1,1,10,72
 Central Germany,merc warband sword,0,Veteran,1,1,10,38
 Central Germany,merc warband spear german,2,Veteran,1,0,10,26
 Central Germany,merc warband spear german,0,Common,2,1,10,26
 Central Germany,merc barb berserker,0,Special,1,0,10,8
-Central Hindu Kush,merc east archer,0,Common,3,2,10,134
+Central Hindu Kush,merc east archer,0,Common,3,2,10,131
 Central Hindu Kush,merc eastern infantry,3,Veteran,1,1,10,124
 Central Hindu Kush,merc eastern infantry,0,Common,3,2,10,124
 Central Hindu Kush,merc east horse archer,2,Elite,1,0,10,38
 Central Hindu Kush,merc median cavalry,0,Veteran,1,0,10,32
 Central Hindu Kush,merc parthian camel riders,0,Veteran,1,0,10,13
-Central Iran,merc east archer,0,Common,3,2,10,134
+Central Iran,merc east archer,0,Common,3,2,10,131
 Central Iran,merc east horse archer,2,Veteran,2,0,10,38
 Central Iran,merc east horse archer,0,Common,2,2,10,38
 Central Iran,merc median cavalry,0,Common,2,2,10,32
@@ -319,7 +319,7 @@ Central Steppe,merc horse archers,0,Common,3,2,8,77
 Central Steppe,merc sarmatian cavalry,2,Veteran,1,0,8,36
 Central Steppe,merc sarmatian cavalry,5,Elite,1,0,8,36
 Central Steppe,merc sarmatian cavalry,0,Veteran,2,1,8,36
-Chorasmia,merc east archer,0,Common,2,2,10,134
+Chorasmia,merc east archer,0,Common,2,2,10,131
 Chorasmia,merc eastern infantry,0,Common,2,2,10,124
 Chorasmia,merc east heavy infantry,3,Veteran,1,1,10,45
 Chorasmia,merc east heavy cataphract,2,Elite,1,0,10,41
@@ -332,7 +332,7 @@ Cilicia,merc cilician pirate,2,Veteran,2,1,10,23
 Cilicia,merc cilician pirate,0,Common,3,2,10,23
 Cilicia,merc cretan archers,0,Elite,1,0,10,21
 Cilicia,merc syrian archer,0,Veteran,1,1,10,52
-Coastal Georgia,merc east archer,0,Common,1,1,8,134
+Coastal Georgia,merc east archer,0,Common,1,1,8,131
 Coastal Georgia,merc eastern infantry,0,Common,2,2,8,124
 Coastal Georgia,merc greek hoplites,0,Veteran,1,1,8,80
 Coastal Georgia,merc peltast,0,Common,2,1,8,60
@@ -353,7 +353,7 @@ Crete,merc cretan archers,0,Common,3,2,10,21
 Crete,merc hypaspists,0,Veteran,1,1,10,20
 Cyeneum,merc libyan infantry,2,Veteran,2,1,10,77
 Cyeneum,merc libyan infantry,0,Common,2,2,10,77
-Cyeneum,merc egyptian infantry,0,Common,4,2,10,80
+Cyeneum,merc egyptian infantry,0,Common,4,2,10,79
 Cyeneum,merc greek elephant small,0,Special,1,1,10,48
 Cyeneum,merc egyptian chariot,0,Elite,1,1,10,17
 Cyprus,merc greek hoplites,0,Veteran,2,1,8,80
@@ -364,7 +364,7 @@ Cyprus,merc cretan archers,0,Elite,1,0,8,21
 Cyrenaica,merc greek hoplites,0,Veteran,1,1,12,80
 Cyrenaica,merc libyan infantry,0,Common,4,2,12,77
 Cyrenaica,merc peltast,0,Veteran,2,2,12,60
-Cyrenaica,merc egyptian infantry,0,Common,2,1,12,80
+Cyrenaica,merc egyptian infantry,0,Common,2,1,12,79
 Cyrenaica,merc rhodian slingers,0,Elite,1,0,12,26
 Cyrenaica,merc cretan archers,0,Elite,1,0,12,21
 Cyrenaica,merc hypaspists,0,Elite,1,0,12,20
@@ -381,62 +381,62 @@ Danube Scythia,merc thracian militia cavalry,0,Veteran,2,1,10,22
 Danube Scythia,merc bastarnae,2,Elite,1,0,10,10
 Danube Scythia,merc bastarnae,0,Veteran,1,1,10,10
 Denmark,merc barbarian infantry,0,Common,3,2,8,141
-Denmark,merc barb archer,0,Veteran,2,1,8,95
+Denmark,merc barb archer,0,Veteran,2,1,8,97
 Denmark,merc warband spear german,0,Veteran,1,1,8,26
 Denmark,merc barb wardogs,0,Veteran,1,1,8,13
 Denmark,merc barb berserker,2,Special,1,0,8,8
 East Alps,merc barbarian infantry,0,Common,3,2,10,141
-East Alps,merc barb archer,0,Veteran,2,1,10,95
-East Alps,merc barb naked fanatics,0,Elite,1,0,10,58
+East Alps,merc barb archer,0,Veteran,2,1,10,97
+East Alps,merc barb naked fanatics,0,Elite,1,0,10,60
 East Alps,merc warband falx,0,Veteran,2,1,10,34
 East Alps,merc warband spear german,0,Veteran,2,1,10,26
 East Cisalpine Gaul,merc barbarian infantry,0,Common,3,2,10,141
-East Cisalpine Gaul,merc barb archer,0,Veteran,2,1,10,95
+East Cisalpine Gaul,merc barb archer,0,Veteran,2,1,10,97
 East Cisalpine Gaul,merc greek hoplites,0,Elite,1,1,10,80
 East Cisalpine Gaul,merc barbarian cavalry,0,Veteran,1,1,10,72
-East Cisalpine Gaul,merc barb naked fanatics,0,Veteran,1,1,10,58
+East Cisalpine Gaul,merc barb naked fanatics,0,Veteran,1,1,10,60
 East Cisalpine Gaul,merc illyrian,2,Veteran,1,1,10,25
 East Cisalpine Gaul,merc italian cavalry,2,Elite,1,0,10,7
 East Gaul,merc barbarian infantry,0,Common,3,2,10,141
-East Gaul,merc barb archer,0,Veteran,2,1,10,95
+East Gaul,merc barb archer,0,Veteran,2,1,10,97
 East Gaul,merc barbarian cavalry,0,Common,1,1,10,72
-East Gaul,merc barb naked fanatics,5,Elite,1,0,10,58
-East Gaul,merc barb naked fanatics,2,Veteran,1,1,10,58
+East Gaul,merc barb naked fanatics,5,Elite,1,0,10,60
+East Gaul,merc barb naked fanatics,2,Veteran,1,1,10,60
 East Gaul,merc warband sword,0,Veteran,2,1,10,38
 East Germany,merc barbarian infantry,0,Common,3,2,10,141
-East Germany,merc barb archer,0,Common,3,2,10,95
+East Germany,merc barb archer,0,Common,3,2,10,97
 East Germany,merc barbarian cavalry,0,Veteran,1,1,10,72
-East Germany,merc barb naked fanatics,2,Veteran,1,1,10,58
+East Germany,merc barb naked fanatics,2,Veteran,1,1,10,60
 East Germany,merc warband spear german,0,Veteran,2,1,10,26
 East Libya,merc libyan infantry,2,Veteran,1,1,8,77
 East Libya,merc libyan infantry,0,Common,3,2,8,77
-East Libya,merc egyptian infantry,0,Common,2,1,8,80
+East Libya,merc egyptian infantry,0,Common,2,1,8,79
 East Libya,merc carthaginian medium cavalry,0,Veteran,1,1,8,33
 East Libya,merc egyptian chariot,0,Elite,1,0,8,17
-Eastern Arabia,merc east archer,0,Common,2,1,10,134
+Eastern Arabia,merc east archer,0,Common,2,1,10,131
 Eastern Arabia,merc eastern infantry,0,Common,1,1,10,124
 Eastern Arabia,merc arab cavalry,0,Common,2,2,10,24
 Eastern Arabia,merc bedouin,2,Veteran,1,0,10,18
 Eastern Arabia,merc bedouin,0,Common,1,1,10,18
 Eastern Arabia,merc bedouin archers,0,Veteran,2,1,10,13
 Eastern Arabia,merc east camel cataphract,0,Elite,1,0,10,9
-Eastern Desert,merc east archer,0,Common,2,1,10,134
+Eastern Desert,merc east archer,0,Common,2,1,10,131
 Eastern Desert,merc libyan infantry,0,Common,3,2,10,77
-Eastern Desert,merc egyptian infantry,0,Common,4,2,10,80
+Eastern Desert,merc egyptian infantry,0,Common,4,2,10,79
 Eastern Desert,merc egyptian chariot,0,Elite,1,1,10,17
 Egypt Desert,merc libyan infantry,2,Veteran,1,1,8,77
 Egypt Desert,merc libyan infantry,0,Common,3,2,8,77
-Egypt Desert,merc egyptian infantry,0,Common,2,1,8,80
+Egypt Desert,merc egyptian infantry,0,Common,2,1,8,79
 Egypt Desert,merc egyptian chariot,0,Elite,2,1,8,17
 Egypt Libya,merc libyan infantry,2,Veteran,1,1,8,77
 Egypt Libya,merc libyan infantry,0,Common,4,2,8,77
-Egypt Libya,merc egyptian infantry,0,Common,2,1,8,80
+Egypt Libya,merc egyptian infantry,0,Common,2,1,8,79
 Egypt Libya,merc egyptian chariot,0,Elite,1,0,8,17
-Emporion,merc barb archer,0,Veteran,1,1,12,95
+Emporion,merc barb archer,0,Veteran,1,1,12,97
 Emporion,merc greek hoplites,0,Veteran,1,1,12,80
 Emporion,merc barbarian cavalry,0,Common,2,1,12,72
 Emporion,merc peltast,0,Common,2,2,12,60
-Emporion,merc barb naked fanatics,0,Veteran,1,1,12,58
+Emporion,merc barb naked fanatics,0,Veteran,1,1,12,60
 Emporion,merc spanish infantry,0,Veteran,1,1,12,34
 Emporion,merc carthaginian infantry,0,Common,2,1,12,34
 Emporion,merc carthaginian medium cavalry,0,Veteran,1,1,12,33
@@ -453,7 +453,7 @@ Far Alania,merc horse archers,0,Common,3,2,8,77
 Far Alania,merc sarmatian cavalry,2,Elite,1,0,8,36
 Far Alania,merc sarmatian cavalry,0,Veteran,1,1,8,36
 Far Alania,merc barb wardogs,0,Veteran,1,1,8,13
-Ferghana,merc east archer,0,Common,2,2,8,134
+Ferghana,merc east archer,0,Common,2,2,8,131
 Ferghana,merc eastern infantry,0,Common,2,2,8,124
 Ferghana,merc east heavy infantry,3,Veteran,2,1,8,45
 Ferghana,merc east heavy cataphract,2,Elite,1,0,8,41
@@ -461,13 +461,13 @@ Ferghana,merc east heavy cataphract,0,Veteran,1,1,8,41
 Gaetulia,merc numidian cavalry,2,Veteran,2,1,8,35
 Gaetulia,merc numidian cavalry,0,Common,4,2,8,35
 Gaetulia,merc carthaginian medium cavalry,0,Veteran,2,1,8,33
-Galatia,merc east archer,2,Veteran,1,1,16,134
+Galatia,merc east archer,2,Veteran,1,1,16,131
 Galatia,merc barbarian infantry,2,Common,3,2,16,141
-Galatia,merc barb archer,2,Common,2,1,16,95
+Galatia,merc barb archer,2,Common,2,1,16,97
 Galatia,merc barbarian cavalry,5,Veteran,1,0,16,72
 Galatia,merc barbarian cavalry,2,Common,2,2,16,72
-Galatia,merc barb naked fanatics,5,Elite,1,1,16,58
-Galatia,merc barb naked fanatics,2,Veteran,2,1,16,58
+Galatia,merc barb naked fanatics,5,Elite,1,1,16,60
+Galatia,merc barb naked fanatics,2,Veteran,2,1,16,60
 Galatia,merc warband sword,2,Veteran,2,1,16,38
 Galatia,merc warband sword,5,Elite,1,0,16,38
 Galatia,merc thracian,0,Veteran,1,1,16,32
@@ -483,7 +483,7 @@ Garamantia,merc numidian cavalry,0,Common,2,2,10,35
 Garamantia,merc carthaginian medium cavalry,0,Veteran,1,0,10,33
 Garamantia,merc egyptian chariot,0,Elite,2,1,10,17
 Gates of Heracles,merc barbarian cavalry,0,Elite,1,0,12,72
-Gates of Heracles,merc barb naked fanatics,0,Veteran,1,1,12,58
+Gates of Heracles,merc barb naked fanatics,0,Veteran,1,1,12,60
 Gates of Heracles,merc greek elephant small,0,Special,1,0,12,48
 Gates of Heracles,merc numidian cavalry,2,Veteran,1,1,12,35
 Gates of Heracles,merc numidian cavalry,0,Common,2,2,12,35
@@ -491,7 +491,7 @@ Gates of Heracles,merc carthaginian infantry,0,Common,2,1,12,34
 Gates of Heracles,merc spanish infantry,0,Veteran,2,2,12,34
 Gates of Heracles,merc carthaginian medium cavalry,0,Veteran,1,1,12,33
 Gates of Heracles,merc balearic slingers,0,Elite,1,1,12,23
-Gedrosia,merc east archer,0,Common,2,2,10,134
+Gedrosia,merc east archer,0,Common,2,2,10,131
 Gedrosia,merc eastern infantry,0,Common,2,2,10,124
 Gedrosia,merc east heavy infantry,0,Veteran,1,1,10,45
 Gedrosia,merc median cavalry,2,Veteran,1,0,10,32
@@ -504,15 +504,15 @@ Hadhramut,merc bedouin,2,Elite,1,0,8,18
 Hadhramut,merc bedouin,0,Veteran,2,2,8,18
 Hadhramut,merc bedouin archers,0,Veteran,1,1,8,13
 Hibernia,merc barbarian infantry,0,Common,2,1,6,141
-Hibernia,merc barb archer,0,Veteran,1,0,6,95
-Hibernia,merc barb naked fanatics,0,Elite,1,1,6,58
+Hibernia,merc barb archer,0,Veteran,1,0,6,97
+Hibernia,merc barb naked fanatics,0,Elite,1,1,6,60
 Hibernia,merc warband sword,0,Elite,1,0,6,38
 Hibernia,merc barb wardogs,0,Veteran,1,1,6,13
 Himalayan Valley,merc barbarian infantry,0,Common,2,2,8,141
-Himalayan Valley,merc barb archer,3,Common,2,1,8,95
+Himalayan Valley,merc barb archer,3,Common,2,1,8,97
 Himalayan Valley,merc syrian archer,0,Veteran,1,0,8,52
-Himalayan Valley,merc barb naked fanatics,2,Elite,1,0,8,58
-Himalayan Valley,merc barb naked fanatics,0,Veteran,1,1,8,58
+Himalayan Valley,merc barb naked fanatics,2,Elite,1,0,8,60
+Himalayan Valley,merc barb naked fanatics,0,Veteran,1,1,8,60
 Himalayan Valley,merc greek elephant small,0,Elite,1,1,8,48
 Holy Land,merc peltast,0,Common,2,2,10,60
 Holy Land,merc east heavy infantry,0,Veteran,1,1,10,45
@@ -521,18 +521,18 @@ Holy Land,merc rhodian slingers,0,Elite,1,0,10,26
 Holy Land,merc arab cavalry,0,Veteran,1,1,10,24
 Holy Land,merc cilician pirate,0,Veteran,3,2,10,23
 Holy Land,merc bedouin,0,Veteran,1,0,10,18
-Hyrcania,merc east archer,0,Common,2,1,10,134
+Hyrcania,merc east archer,0,Common,2,1,10,131
 Hyrcania,merc eastern infantry,0,Common,2,1,10,124
 Hyrcania,merc east heavy infantry,0,Veteran,1,1,10,45
 Hyrcania,merc east heavy cataphract,0,Elite,1,1,10,41
 Hyrcania,merc east horse archer,0,Veteran,2,1,10,38
 Hyrcania,merc median cavalry,0,Veteran,2,1,10,32
-Iberia,merc east archer,0,Common,2,1,8,134
+Iberia,merc east archer,0,Common,2,1,8,131
 Iberia,merc eastern infantry,0,Common,2,2,8,124
 Iberia,merc east horse archer,2,Veteran,1,1,8,38
 Iberia,merc east horse archer,0,Common,2,2,8,38
 Iberia,merc sarmatian cavalry,0,Elite,1,0,8,36
-Imeroskopeion,merc barb archer,0,Veteran,1,1,10,95
+Imeroskopeion,merc barb archer,0,Veteran,1,1,10,97
 Imeroskopeion,merc greek hoplites,0,Veteran,1,1,10,80
 Imeroskopeion,merc peltast,0,Common,2,1,10,60
 Imeroskopeion,merc spanish infantry,0,Veteran,2,1,10,34
@@ -540,11 +540,11 @@ Imeroskopeion,merc carthaginian infantry,0,Common,2,1,10,34
 Imeroskopeion,merc carthaginian medium cavalry,0,Veteran,1,1,10,33
 Imeroskopeion,merc balearic slingers,0,Elite,1,0,10,23
 India Cape,merc syrian archer,0,Veteran,2,0,8,52
-India Cape,merc east archer,3,Common,2,1,8,134
-India Cape,merc egyptian infantry,3,Veteran,1,1,8,80
-India Cape,merc eastern infantry,0,Common,2,1,8,124
+India Cape,merc barb archer,3,Common,2,1,8,97
+India Cape,merc barb naked fanatics,0,Veteran,1,1,8,60
+India Cape,merc barbarian infantry,0,Common,2,1,8,141
 India Cape,merc greek elephant small,0,Elite,1,1,8,48
-Indian Desert,merc east archer,0,Common,2,1,6,134
+Indian Desert,merc east archer,0,Common,2,1,6,131
 Indian Desert,merc eastern infantry,3,Veteran,1,1,6,124
 Indian Desert,merc greek elephant small,0,Special,1,0,6,48
 Indian Desert,merc parthian camel riders,0,Veteran,1,1,6,13
@@ -574,11 +574,11 @@ Inner Syria,merc east scythed chariot,0,Elite,1,0,12,5
 Kalinga,merc barbarian infantry,2,Veteran,1,1,10,141
 Kalinga,merc barbarian infantry,0,Common,2,2,10,141
 Kalinga,merc syrian archer,2,Veteran,2,1,10,52
-Kalinga,merc barb archer,3,Common,3,1,10,95
-Kalinga,merc barb naked fanatics,0,Veteran,1,1,10,58
+Kalinga,merc barb archer,3,Common,3,1,10,97
+Kalinga,merc barb naked fanatics,0,Veteran,1,1,10,60
 Kalinga,merc greek elephant small,0,Elite,1,1,10,48
 Lobetania,merc barbarian infantry,0,Common,2,0,10,141
-Lobetania,merc barb archer,0,Veteran,1,1,10,95
+Lobetania,merc barb archer,0,Veteran,1,1,10,97
 Lobetania,merc barbarian cavalry,0,Common,1,1,10,72
 Lobetania,merc spanish infantry,2,Veteran,1,1,10,34
 Lobetania,merc spanish infantry,0,Common,2,1,10,34
@@ -588,15 +588,15 @@ Lower Egypt,merc greek hoplites,0,Veteran,1,0,10,80
 Lower Egypt,merc libyan infantry,2,Veteran,1,1,10,77
 Lower Egypt,merc libyan infantry,0,Common,4,2,10,77
 Lower Egypt,merc greek elephant small,0,Special,1,1,10,48
-Lower Egypt,merc egyptian infantry,0,Common,2,1,10,80
+Lower Egypt,merc egyptian infantry,0,Common,2,1,10,79
 Lower Egypt,merc elephants,0,Special,1,0,10,34
 Lower Gangetic Plain,merc syrian archer,2,Veteran,3,1,12,52
-Lower Gangetic Plain,merc east archer,3,Common,2,1,12,134
-Lower Gangetic Plain,merc egyptian infantry,0,Veteran,3,2,12,80
+Lower Gangetic Plain,merc east archer,3,Common,2,1,12,131
+Lower Gangetic Plain,merc egyptian infantry,0,Veteran,3,2,12,79
 Lower Gangetic Plain,merc eastern infantry,0,Common,1,1,12,124
 Lower Gangetic Plain,merc greek elephant small,0,Elite,2,1,12,48
 Lower Gangetic Plain,merc elephants,0,Special,1,1,12,34
-Lusitania,merc east archer,0,Veteran,1,1,10,134
+Lusitania,merc east archer,0,Veteran,1,1,10,131
 Lusitania,merc barbarian cavalry,0,Common,1,1,10,72
 Lusitania,merc spanish infantry,5,Elite,1,0,10,34
 Lusitania,merc spanish infantry,2,Veteran,1,1,10,34
@@ -620,7 +620,7 @@ Magna Graecia,merc samnite,2,Veteran,1,1,12,14
 Magna Graecia,merc samnite,0,Common,2,1,12,14
 Magna Graecia,merc italian cavalry,2,Elite,1,0,12,7
 Magna Graecia,merc greek crossbowmen,0,Veteran,1,0,12,4
-Margiana,merc east archer,0,Common,2,1,10,134
+Margiana,merc east archer,0,Common,2,1,10,131
 Margiana,merc eastern infantry,0,Common,3,2,10,124
 Margiana,merc east heavy infantry,2,Elite,1,0,10,45
 Margiana,merc east heavy infantry,0,Veteran,1,1,10,45
@@ -632,12 +632,12 @@ Massaesylia,merc numidian cavalry,5,Elite,1,1,10,35
 Massaesylia,merc numidian cavalry,0,Common,3,1,10,35
 Massaesylia,merc carthaginian medium cavalry,0,Veteran,2,1,10,33
 Massaesylia,merc balearic slingers,0,Elite,1,0,10,23
-Massalia,merc barb archer,0,Veteran,2,1,14,95
+Massalia,merc barb archer,0,Veteran,2,1,14,97
 Massalia,merc greek hoplites,2,Veteran,1,1,14,80
 Massalia,merc greek hoplites,0,Common,2,1,14,80
 Massalia,merc barbarian cavalry,2,Common,2,1,14,72
 Massalia,merc peltast,0,Common,2,1,14,60
-Massalia,merc barb naked fanatics,0,Veteran,1,1,14,58
+Massalia,merc barb naked fanatics,0,Veteran,1,1,14,60
 Massalia,merc warband sword,0,Veteran,2,1,14,38
 Massalia,merc balearic slingers,0,Veteran,1,1,14,23
 Massalia,merc cretan archers,0,Elite,1,0,14,21
@@ -646,7 +646,7 @@ Mauretania,merc libyan infantry,0,Common,3,2,8,77
 Mauretania,merc numidian cavalry,2,Veteran,1,1,8,35
 Mauretania,merc numidian cavalry,0,Common,2,2,8,35
 Mauretania,merc carthaginian medium cavalry,0,Veteran,1,1,8,33
-Media,merc east archer,0,Common,2,1,12,134
+Media,merc east archer,0,Common,2,1,12,131
 Media,merc eastern infantry,0,Common,2,1,12,124
 Media,merc greek hoplites,0,Veteran,1,1,12,80
 Media,merc east heavy infantry,2,Elite,1,0,12,45
@@ -654,7 +654,7 @@ Media,merc east heavy infantry,0,Veteran,1,1,12,45
 Media,merc east heavy cataphract,0,Elite,1,0,12,41
 Media,merc median cavalry,0,Common,3,2,12,32
 Media,merc median cavalry,2,Veteran,1,0,12,32
-Media Atropatene,merc east archer,0,Veteran,2,1,12,134
+Media Atropatene,merc east archer,0,Veteran,2,1,12,131
 Media Atropatene,merc eastern infantry,0,Common,2,1,12,124
 Media Atropatene,merc east heavy infantry,2,Elite,1,0,12,45
 Media Atropatene,merc east heavy infantry,0,Veteran,1,1,12,45
@@ -663,11 +663,11 @@ Media Atropatene,merc east horse archer,0,Veteran,1,1,12,38
 Media Atropatene,merc median cavalry,0,Common,2,1,12,32
 Media Atropatene,merc median cavalry,2,Veteran,1,1,12,32
 Media Atropatene,merc median cavalry,5,Elite,1,0,12,32
-Meroe,merc east archer,2,Elite,1,1,10,134
-Meroe,merc east archer,0,Veteran,2,1,10,134
+Meroe,merc east archer,2,Elite,1,1,10,131
+Meroe,merc east archer,0,Veteran,2,1,10,131
 Meroe,merc libyan infantry,0,Common,2,2,10,77
 Meroe,merc greek elephant small,0,Elite,1,1,10,48
-Meroe,merc egyptian infantry,0,Common,2,1,10,80
+Meroe,merc egyptian infantry,0,Common,2,1,10,79
 Meroe,merc elephants,0,Special,1,0,10,34
 Meroe,merc egyptian chariot,0,Elite,1,0,10,17
 Mongolia,merc east heavy cataphract,5,Elite,1,0,10,41
@@ -676,7 +676,7 @@ Mongolia,merc east heavy cataphract,0,Common,2,1,10,41
 Mongolia,merc east horse archer,2,Veteran,1,1,10,38
 Mongolia,merc east horse archer,0,Common,3,2,10,38
 Mongolia,merc barb scythian hoplite,0,Veteran,2,1,10,19
-Nabatea,merc east archer,0,Veteran,1,1,10,134
+Nabatea,merc east archer,0,Veteran,1,1,10,131
 Nabatea,merc eastern infantry,0,Common,2,1,10,124
 Nabatea,merc arab cavalry,2,Veteran,1,1,10,24
 Nabatea,merc arab cavalry,0,Common,3,2,10,24
@@ -685,7 +685,7 @@ Nabatea,merc bedouin archers,0,Veteran,1,0,10,13
 Nabatea,merc east camel cataphract,0,Elite,1,0,10,9
 Narbo,merc barbarian infantry,2,Veteran,1,1,10,141
 Narbo,merc barbarian infantry,0,Common,2,1,10,141
-Narbo,merc barb archer,0,Veteran,2,1,10,95
+Narbo,merc barb archer,0,Veteran,2,1,10,97
 Narbo,merc greek hoplites,0,Veteran,1,1,10,80
 Narbo,merc barbarian cavalry,0,Veteran,2,1,10,72
 Narbo,merc warband sword,2,Veteran,1,1,10,38
@@ -700,7 +700,7 @@ New Carthage,merc balearic slingers,0,Elite,1,0,12,23
 Nigritania,merc libyan infantry,2,Veteran,2,1,10,77
 Nigritania,merc libyan infantry,0,Common,2,1,10,77
 Nigritania,merc greek elephant small,0,Elite,1,1,10,48
-Nigritania,merc egyptian infantry,0,Common,3,1,10,80
+Nigritania,merc egyptian infantry,0,Common,3,1,10,79
 Nigritania,merc elephants,0,Special,1,1,10,34
 Nigritania,cheat oliphants,9,Unicorn,1,0,10,2
 North African Coast,merc greek hoplites,2,Elite,1,0,12,80
@@ -713,42 +713,42 @@ North African Coast,merc carthaginian medium cavalry,2,Elite,1,1,12,33
 North African Coast,merc carthaginian medium cavalry,0,Veteran,2,1,12,33
 North African Coast,merc balearic slingers,0,Elite,1,0,12,23
 North Agathrysia,merc barbarian infantry,0,Common,3,2,10,141
-North Agathrysia,merc barb archer,0,Common,3,2,10,95
+North Agathrysia,merc barb archer,0,Common,3,2,10,97
 North Agathrysia,merc horse archers,2,Veteran,1,0,10,77
 North Agathrysia,merc horse archers,0,Common,2,2,10,77
 North Agathrysia,merc barbarian cavalry,0,Veteran,1,1,10,72
 North Avanti,merc syrian archer,0,Veteran,2,0,10,52
-North Avanti,merc east archer,3,Common,3,1,10,134
-North Avanti,merc egyptian infantry,0,Veteran,2,1,10,80
+North Avanti,merc east archer,3,Common,3,1,10,131
+North Avanti,merc egyptian infantry,0,Veteran,2,1,10,79
 North Avanti,merc eastern infantry,0,Common,1,1,10,124
 North Avanti,merc greek elephant small,0,Elite,1,1,10,48
 North Avanti,merc elephants,0,Elite,1,1,10,34
 North Belgae,merc barbarian infantry,0,Common,2,1,12,141
-North Belgae,merc barb archer,0,Veteran,2,1,12,95
+North Belgae,merc barb archer,0,Veteran,2,1,12,97
 North Belgae,merc barbarian cavalry,2,Veteran,1,1,12,72
 North Belgae,merc barbarian cavalry,0,Common,2,1,12,72
-North Belgae,merc barb naked fanatics,2,Elite,1,0,12,58
-North Belgae,merc barb naked fanatics,0,Veteran,1,1,12,58
+North Belgae,merc barb naked fanatics,2,Elite,1,0,12,60
+North Belgae,merc barb naked fanatics,0,Veteran,1,1,12,60
 North Belgae,merc warband sword,0,Veteran,1,1,12,38
 North Belgae,merc warband sword,3,Elite,1,0,12,38
 North Belgae,merc barb chariot heavy briton,0,Elite,1,0,12,7
 North Caucasus,merc barbarian infantry,0,Common,1,1,12,141
-North Caucasus,merc barb archer,2,Veteran,3,1,12,95
+North Caucasus,merc barb archer,2,Veteran,3,1,12,97
 North Caucasus,merc horse archers,2,Veteran,2,1,12,77
 North Caucasus,merc horse archers,0,Common,3,2,12,77
 North Caucasus,merc sarmatian cavalry,2,Elite,1,0,12,36
 North Caucasus,merc sarmatian cavalry,0,Veteran,1,1,12,36
 North Caucasus,merc barb scythian hoplite,2,Veteran,1,1,12,19
 North Dacia,merc barbarian infantry,0,Common,2,1,8,141
-North Dacia,merc barb archer,0,Veteran,1,1,8,95
+North Dacia,merc barb archer,0,Veteran,1,1,8,97
 North Dacia,merc barbarian cavalry,0,Veteran,1,1,8,72
 North Dacia,merc warband falx,2,Elite,1,1,8,34
 North Dacia,merc warband falx,0,Veteran,3,2,8,34
 North Gaul,merc barbarian infantry,2,Veteran,1,1,10,141
 North Gaul,merc barbarian infantry,0,Common,3,2,10,141
-North Gaul,merc barb archer,0,Common,2,1,10,95
+North Gaul,merc barb archer,0,Common,2,1,10,97
 North Gaul,merc barbarian cavalry,0,Common,2,1,10,72
-North Gaul,merc barb naked fanatics,0,Elite,2,1,10,58
+North Gaul,merc barb naked fanatics,0,Elite,2,1,10,60
 North Greece,merc greek hoplites,0,Common,2,2,10,80
 North Greece,merc peltast,0,Common,2,2,10,60
 North Greece,merc sarissa cavalry,0,Veteran,2,1,10,27
@@ -756,7 +756,7 @@ North Greece,merc rhodian slingers,0,Elite,1,0,10,26
 North Greece,merc cretan archers,0,Elite,1,0,10,21
 North Greece,merc hypaspists,0,Veteran,1,1,10,20
 North Greece,merc greek pikemen,0,Veteran,1,1,10,10
-North Hindu Kush,merc east archer,0,Common,3,2,10,134
+North Hindu Kush,merc east archer,0,Common,3,2,10,131
 North Hindu Kush,merc eastern infantry,3,Veteran,1,1,10,124
 North Hindu Kush,merc eastern infantry,0,Common,3,2,10,124
 North Hindu Kush,merc east heavy infantry,2,Elite,1,0,10,45
@@ -767,26 +767,26 @@ North Illyria,merc greek hoplites,0,Elite,1,1,8,80
 North Illyria,merc barbarian cavalry,0,Veteran,1,1,8,72
 North Illyria,merc warband falx,0,Veteran,2,1,8,34
 North Illyria,merc illyrian,0,Veteran,2,2,8,25
-North Moesia,merc east archer,0,Veteran,1,1,12,134
+North Moesia,merc east archer,0,Veteran,1,1,12,131
 North Moesia,merc barbarian cavalry,0,Veteran,1,1,12,72
 North Moesia,merc warband falx,0,Common,2,1,12,34
 North Moesia,merc thracian,0,Common,3,2,12,32
 North Moesia,merc illyrian,0,Veteran,2,1,12,25
 North Moesia,merc thracian militia cavalry,0,Veteran,2,1,12,22
 North Moesia,merc bastarnae,0,Veteran,1,1,12,10
-North Pannonia,merc east archer,0,Veteran,2,1,10,134
+North Pannonia,merc east archer,0,Veteran,2,1,10,131
 North Pannonia,merc barbarian infantry,2,Veteran,1,1,10,141
 North Pannonia,merc barbarian infantry,0,Common,2,2,10,141
 North Pannonia,merc barbarian cavalry,0,Veteran,1,1,10,72
 North Pannonia,merc warband falx,0,Common,4,2,10,34
 North Plateau,merc syrian archer,2,Veteran,1,0,8,52
-North Plateau,merc east archer,3,Common,2,1,8,134
-North Plateau,merc egyptian infantry,0,Veteran,1,1,8,80
+North Plateau,merc east archer,3,Common,2,1,8,131
+North Plateau,merc egyptian infantry,0,Veteran,1,1,8,79
 North Plateau,merc eastern infantry,0,Common,2,2,8,124
 North Plateau,merc greek elephant small,0,Elite,1,1,8,48
 North Plateau,merc elephants,0,Special,1,1,8,34
 North Rhine,merc barbarian infantry,0,Common,2,2,10,141
-North Rhine,merc barb archer,0,Veteran,2,1,10,95
+North Rhine,merc barb archer,0,Veteran,2,1,10,97
 North Rhine,merc barbarian cavalry,2,Veteran,1,0,10,72
 North Rhine,merc barbarian cavalry,0,Common,1,1,10,72
 North Rhine,merc warband sword,0,Veteran,1,0,10,38
@@ -798,7 +798,7 @@ North Sakastan,merc horse archers,0,Common,3,2,8,77
 North Sakastan,merc east heavy cataphract,2,Elite,1,0,8,41
 North Sakastan,merc sarmatian cavalry,0,Veteran,2,1,8,36
 North Spain,merc barbarian infantry,0,Common,3,2,10,141
-North Spain,merc barb archer,0,Veteran,1,1,10,95
+North Spain,merc barb archer,0,Veteran,1,1,10,97
 North Spain,merc barbarian cavalry,0,Veteran,1,1,10,72
 North Spain,merc spanish infantry,5,Elite,1,0,10,34
 North Spain,merc spanish infantry,2,Veteran,1,1,10,34
@@ -811,7 +811,7 @@ North Tocharia,merc east heavy cataphract,0,Veteran,2,1,10,41
 North Tocharia,merc barb scythian hoplite,0,Common,2,1,10,19
 North Tocharia,merc barb scythian hoplite,2,Veteran,1,0,10,19
 North Tocharia,merc parthian camel riders,0,Veteran,1,0,10,13
-Northwest Germany,merc east archer,2,Veteran,1,1,10,134
+Northwest Germany,merc east archer,2,Veteran,1,1,10,131
 Northwest Germany,merc barbarian infantry,2,Veteran,1,1,10,141
 Northwest Germany,merc barbarian infantry,0,Common,2,1,10,141
 Northwest Germany,merc barbarian cavalry,0,Common,1,1,10,72
@@ -821,7 +821,7 @@ Northwest Germany,merc barb berserker,0,Special,1,0,10,8
 Nubia,merc libyan infantry,2,Veteran,1,1,10,77
 Nubia,merc libyan infantry,0,Common,2,1,10,77
 Nubia,merc greek elephant small,0,Elite,1,1,10,48
-Nubia,merc egyptian infantry,0,Common,4,2,10,80
+Nubia,merc egyptian infantry,0,Common,4,2,10,79
 Nubia,merc elephants,0,Special,1,1,10,34
 Nubia,merc egyptian chariot,0,Elite,1,0,10,17
 Numidia,merc greek elephant small,0,Elite,1,1,10,48
@@ -853,8 +853,8 @@ Parthia,merc east horse archer,2,Elite,1,0,10,38
 Parthia,merc east horse archer,0,Veteran,1,1,10,38
 Parthia,merc median cavalry,2,Veteran,2,1,10,32
 Patalene,merc syrian archer,0,Veteran,1,1,10,52
-Patalene,merc east archer,3,Common,2,1,10,134
-Patalene,merc egyptian infantry,0,Veteran,1,1,10,80
+Patalene,merc east archer,3,Common,2,1,10,131
+Patalene,merc egyptian infantry,0,Veteran,1,1,10,79
 Patalene,merc eastern infantry,0,Common,3,2,10,124
 Patalene,merc greek hoplites,0,Veteran,1,0,10,80
 Patalene,merc greek elephant small,0,Elite,1,0,10,48
@@ -888,7 +888,7 @@ Phoenicia,merc cilician pirate,0,Common,2,2,10,23
 Phrygia,merc barbarian infantry,0,Common,2,2,10,141
 Phrygia,merc greek hoplites,0,Veteran,2,1,10,80
 Phrygia,merc barbarian cavalry,0,Veteran,1,1,10,72
-Phrygia,merc barb naked fanatics,0,Veteran,1,1,10,58
+Phrygia,merc barb naked fanatics,0,Veteran,1,1,10,60
 Phrygia,merc thracian,0,Common,2,2,10,32
 Phrygia,merc sarissa cavalry,0,Veteran,1,1,10,27
 Phrygia,merc thracian militia cavalry,0,Veteran,1,0,10,22
@@ -910,17 +910,17 @@ Propontis,merc cretan archers,0,Elite,1,0,14,21
 Propontis,merc hypaspists,0,Veteran,2,1,14,20
 Propontis,merc bastarnae,0,Elite,1,0,14,10
 Propontis,merc greek pikemen,0,Elite,1,1,14,10
-Puntland,merc east archer,2,Elite,1,1,12,134
-Puntland,merc east archer,0,Veteran,2,1,12,134
+Puntland,merc east archer,2,Elite,1,1,12,131
+Puntland,merc east archer,0,Veteran,2,1,12,131
 Puntland,merc libyan infantry,0,Common,2,1,12,77
 Puntland,merc greek elephant small,0,Elite,1,0,12,48
-Puntland,merc egyptian infantry,0,Common,3,2,12,80
+Puntland,merc egyptian infantry,0,Common,3,2,12,79
 Puntland,merc elephants,0,Special,1,0,12,34
 Puntland,merc arab cavalry,0,Veteran,1,1,12,24
 Puntland,merc egyptian chariot,0,Elite,1,0,12,17
 Purus,merc syrian archer,0,Veteran,2,1,12,52
-Purus,merc east archer,3,Common,2,1,12,134
-Purus,merc egyptian infantry,0,Veteran,2,1,12,80
+Purus,merc east archer,3,Common,2,1,12,131
+Purus,merc egyptian infantry,0,Veteran,2,1,12,79
 Purus,merc eastern infantry,0,Common,2,1,12,124
 Purus,merc greek hoplites,0,Veteran,1,0,12,80
 Purus,merc greek elephant small,0,Elite,1,1,12,48
@@ -943,7 +943,7 @@ Royal Scythia,merc horse archers,0,Common,3,2,10,77
 Royal Scythia,merc sarmatian cavalry,2,Elite,1,0,10,36
 Royal Scythia,merc sarmatian cavalry,0,Veteran,1,1,10,36
 Royal Scythia,merc barb scythian hoplite,0,Veteran,2,1,10,19
-Saba,merc east archer,0,Common,2,1,10,134
+Saba,merc east archer,0,Common,2,1,10,131
 Saba,merc eastern infantry,0,Common,2,1,10,124
 Saba,merc arab cavalry,2,Veteran,1,1,10,24
 Saba,merc arab cavalry,0,Common,2,2,10,24
@@ -957,30 +957,30 @@ Sarmatia,merc sarmatian cavalry,5,Elite,1,0,10,36
 Sarmatia,merc sarmatian cavalry,0,Veteran,2,1,10,36
 Sarmatia,merc barb scythian hoplite,0,Veteran,2,1,10,19
 Satiyaputa Coast,merc syrian archer,2,Veteran,2,1,10,52
-Satiyaputa Coast,merc east archer,3,Common,2,1,10,134
-Satiyaputa Coast,merc egyptian infantry,0,Veteran,2,1,10,80
+Satiyaputa Coast,merc east archer,3,Common,2,1,10,131
+Satiyaputa Coast,merc egyptian infantry,0,Veteran,2,1,10,79
 Satiyaputa Coast,merc eastern infantry,0,Common,2,2,10,124
 Satiyaputa Coast,merc greek elephant small,0,Elite,1,1,10,48
 Satiyaputa Coast,merc elephants,0,Elite,1,0,10,34
 Saurashtra,merc syrian archer,2,Veteran,2,0,12,52
-Saurashtra,merc east archer,3,Common,3,2,12,134
-Saurashtra,merc egyptian infantry,0,Veteran,2,1,12,80
+Saurashtra,merc east archer,3,Common,3,2,12,131
+Saurashtra,merc egyptian infantry,0,Veteran,2,1,12,79
 Saurashtra,merc eastern infantry,0,Common,3,2,12,124
 Saurashtra,merc greek elephant small,0,Elite,1,1,12,48
 Saurashtra,merc elephants,0,Elite,1,0,12,34
-Scandinavia,merc east archer,0,Veteran,2,1,8,134
+Scandinavia,merc east archer,0,Veteran,2,1,8,131
 Scandinavia,merc barbarian infantry,0,Common,2,1,8,141
 Scandinavia,merc warband spear german,0,Veteran,1,1,8,26
 Scandinavia,merc barb berserker,0,Elite,2,1,8,8
 Scandinavia,merc barb berserker,2,Special,1,0,8,8
 Scordiscia,merc barbarian infantry,0,Common,3,2,10,141
-Scordiscia,merc barb archer,0,Veteran,2,1,10,95
+Scordiscia,merc barb archer,0,Veteran,2,1,10,97
 Scordiscia,merc barbarian cavalry,0,Veteran,1,1,10,72
-Scordiscia,merc barb naked fanatics,2,Elite,1,0,10,58
-Scordiscia,merc barb naked fanatics,0,Veteran,1,1,10,58
+Scordiscia,merc barb naked fanatics,2,Elite,1,0,10,60
+Scordiscia,merc barb naked fanatics,0,Veteran,1,1,10,60
 Scordiscia,merc warband falx,0,Veteran,1,1,10,34
 Scordiscia,merc illyrian,0,Veteran,1,1,10,25
-Serica,merc east archer,0,Common,2,2,12,134
+Serica,merc east archer,0,Common,2,2,12,131
 Serica,merc east heavy cataphract,5,Elite,1,0,12,41
 Serica,merc east heavy cataphract,2,Veteran,1,1,12,41
 Serica,merc east horse archer,0,Common,3,2,12,38
@@ -1004,20 +1004,20 @@ Siraces,merc sarmatian cavalry,2,Elite,1,0,8,36
 Siraces,merc sarmatian cavalry,0,Veteran,1,1,8,36
 Siraces,merc barb scythian hoplite,0,Veteran,1,1,8,19
 Sivi,merc syrian archer,2,Veteran,1,1,10,52
-Sivi,merc east archer,3,Common,2,1,10,134
-Sivi,merc egyptian infantry,0,Veteran,2,1,10,80
+Sivi,merc east archer,3,Common,2,1,10,131
+Sivi,merc egyptian infantry,0,Veteran,2,1,10,79
 Sivi,merc eastern infantry,0,Common,2,2,10,124
 Sivi,merc greek hoplites,0,Veteran,1,0,10,80
 Sivi,merc greek elephant small,0,Elite,1,1,10,48
 Sivi,merc elephants,0,Special,1,0,10,34
-Sogdiana,merc east archer,0,Common,3,2,12,134
+Sogdiana,merc east archer,0,Common,3,2,12,131
 Sogdiana,merc eastern infantry,0,Common,2,2,12,124
 Sogdiana,merc east heavy infantry,2,Elite,1,0,12,45
 Sogdiana,merc east heavy infantry,0,Veteran,1,1,12,45
 Sogdiana,merc east heavy cataphract,2,Elite,1,1,12,41
 Sogdiana,merc east heavy cataphract,0,Veteran,2,1,12,41
 Sogdiana,merc median cavalry,0,Veteran,2,1,12,32
-Sophene,merc east archer,0,Common,2,1,10,134
+Sophene,merc east archer,0,Common,2,1,10,131
 Sophene,merc eastern infantry,0,Common,4,3,10,124
 Sophene,merc greek hoplites,2,Elite,1,0,10,80
 Sophene,merc greek hoplites,0,Veteran,1,1,10,80
@@ -1025,55 +1025,55 @@ Sophene,merc east heavy infantry,0,Veteran,1,1,10,45
 Sophene,merc east heavy cataphract,0,Elite,1,0,10,41
 South Agathrysia,merc barbarian infantry,2,Veteran,1,1,10,141
 South Agathrysia,merc barbarian infantry,0,Common,3,2,10,141
-South Agathrysia,merc barb archer,0,Veteran,2,1,10,95
+South Agathrysia,merc barb archer,0,Veteran,2,1,10,97
 South Agathrysia,merc horse archers,0,Veteran,1,1,10,77
 South Agathrysia,merc barbarian cavalry,0,Common,1,1,10,72
 South Agathrysia,merc warband falx,0,Common,2,1,10,34
-South Aksum,merc east archer,0,Veteran,2,1,10,134
+South Aksum,merc east archer,0,Veteran,2,1,10,131
 South Aksum,merc libyan infantry,2,Veteran,1,1,10,77
 South Aksum,merc libyan infantry,0,Common,2,1,10,77
 South Aksum,merc greek elephant small,0,Elite,1,1,10,48
-South Aksum,merc egyptian infantry,0,Common,2,1,10,80
+South Aksum,merc egyptian infantry,0,Common,2,1,10,79
 South Aksum,merc elephants,0,Special,1,0,10,34
 South Aksum,merc egyptian chariot,0,Elite,1,0,10,17
-South Avanti,merc barb naked fanatics,0,Veteran,1,1,10,58
-South Avanti,merc barbarian infantry,0,Common,2,2,10,141
+South Avanti,merc egyptian infantry,0,Veteran,2,1,10,79
+South Avanti,merc eastern infantry,0,Common,2,2,10,124
 South Avanti,merc syrian archer,2,Veteran,1,0,10,52
-South Avanti,merc barb archer,3,Common,3,1,10,95
+South Avanti,merc east archer,3,Common,2,1,10,131
 South Avanti,merc greek elephant small,0,Elite,2,1,10,48
 South Avanti,merc elephants,0,Elite,1,0,10,34
-South Belgae,merc east archer,0,Veteran,2,1,14,134
+South Belgae,merc east archer,0,Veteran,2,1,14,131
 South Belgae,merc barbarian infantry,0,Common,2,1,14,141
 South Belgae,merc barbarian cavalry,2,Veteran,1,1,14,72
 South Belgae,merc barbarian cavalry,0,Common,2,1,14,72
-South Belgae,merc barb naked fanatics,2,Elite,1,1,14,58
-South Belgae,merc barb naked fanatics,0,Veteran,2,1,14,58
+South Belgae,merc barb naked fanatics,2,Elite,1,1,14,60
+South Belgae,merc barb naked fanatics,0,Veteran,2,1,14,60
 South Belgae,merc warband sword,2,Elite,1,1,14,38
 South Belgae,merc warband sword,0,Veteran,2,1,14,38
 South Belgae,merc barb chariot heavy briton,0,Elite,1,0,14,7
 South Britain,merc barbarian infantry,0,Common,2,1,10,141
-South Britain,merc barb archer,0,Veteran,1,0,10,95
+South Britain,merc barb archer,0,Veteran,1,0,10,97
 South Britain,merc barbarian cavalry,0,Veteran,1,1,10,72
-South Britain,merc barb naked fanatics,0,Veteran,1,1,10,58
-South Britain,merc barb naked fanatics,2,Elite,1,0,10,58
+South Britain,merc barb naked fanatics,0,Veteran,1,1,10,60
+South Britain,merc barb naked fanatics,2,Elite,1,0,10,60
 South Britain,merc warband sword,0,Veteran,2,1,10,38
 South Britain,merc barb wardogs,0,Veteran,1,0,10,13
 South Britain,merc barb chariot heavy briton,0,Elite,1,0,10,7
 South Dacia,merc barbarian infantry,0,Common,2,1,10,141
-South Dacia,merc barb archer,0,Common,1,0,10,95
+South Dacia,merc barb archer,0,Common,1,0,10,97
 South Dacia,merc barbarian cavalry,0,Veteran,1,1,10,72
 South Dacia,merc warband falx,0,Common,3,2,10,34
 South Dacia,merc thracian,0,Veteran,2,1,10,32
 South Dacia,merc bastarnae,0,Elite,1,1,10,10
 South Gaul,merc barbarian infantry,0,Common,3,2,10,141
-South Gaul,merc barb archer,0,Veteran,2,1,10,95
+South Gaul,merc barb archer,0,Veteran,2,1,10,97
 South Gaul,merc barbarian cavalry,0,Common,2,1,10,72
-South Gaul,merc barb naked fanatics,0,Veteran,2,1,10,58
+South Gaul,merc barb naked fanatics,0,Veteran,2,1,10,60
 South Gaul,merc warband sword,0,Veteran,1,0,10,38
 South Germany,merc barbarian infantry,0,Common,3,2,10,141
-South Germany,merc barb archer,0,Common,2,1,10,95
+South Germany,merc barb archer,0,Common,2,1,10,97
 South Germany,merc barbarian cavalry,0,Veteran,1,1,10,72
-South Germany,merc barb naked fanatics,0,Veteran,1,1,10,58
+South Germany,merc barb naked fanatics,0,Veteran,1,1,10,60
 South Germany,merc warband sword,2,Elite,1,0,10,38
 South Germany,merc warband spear german,0,Veteran,2,1,10,26
 South Illyria,merc greek hoplites,0,Veteran,2,1,10,80
@@ -1089,21 +1089,21 @@ South Moesia,merc illyrian,0,Veteran,2,1,10,25
 South Moesia,merc thracian militia cavalry,0,Veteran,1,0,10,22
 South Moesia,merc bastarnae,0,Veteran,1,0,10,10
 South Pannonia,merc barbarian infantry,0,Common,2,1,10,141
-South Pannonia,merc barb archer,0,Common,2,1,10,95
+South Pannonia,merc barb archer,0,Common,2,1,10,97
 South Pannonia,merc barbarian cavalry,0,Veteran,1,1,10,72
 South Pannonia,merc warband falx,0,Veteran,3,2,10,34
 South Pannonia,merc warband spear german,0,Veteran,1,0,10,26
 South Pannonia,merc illyrian,0,Veteran,1,1,10,25
 South Plateau,merc syrian archer,2,Veteran,2,1,10,52
-South Plateau,merc east archer,3,Common,3,1,10,134
-South Plateau,merc egyptian infantry,0,Veteran,1,1,10,80
+South Plateau,merc east archer,3,Common,3,1,10,131
+South Plateau,merc egyptian infantry,0,Veteran,1,1,10,79
 South Plateau,merc eastern infantry,0,Common,2,1,10,124
 South Plateau,merc greek elephant small,0,Elite,1,0,10,48
 South Plateau,merc elephants,0,Elite,1,0,10,34
 South Rhine,merc barbarian infantry,0,Common,3,2,10,141
-South Rhine,merc barb archer,0,Common,2,1,10,95
+South Rhine,merc barb archer,0,Common,2,1,10,97
 South Rhine,merc barbarian cavalry,0,Veteran,1,0,10,72
-South Rhine,merc barb naked fanatics,0,Veteran,1,1,10,58
+South Rhine,merc barb naked fanatics,0,Veteran,1,1,10,60
 South Rhine,merc warband spear german,0,Veteran,2,1,10,26
 South Rhine,merc barb wardogs,0,Veteran,1,1,10,13
 South Sakastan,merc horse archers,5,Elite,1,0,8,77
@@ -1111,7 +1111,7 @@ South Sakastan,merc horse archers,2,Veteran,2,1,8,77
 South Sakastan,merc horse archers,0,Common,3,2,8,77
 South Sakastan,merc east heavy cataphract,2,Elite,1,0,8,41
 South Sakastan,merc east heavy cataphract,0,Veteran,1,1,8,41
-South Tocharia,merc east archer,0,Common,2,1,12,134
+South Tocharia,merc east archer,0,Common,2,1,12,131
 South Tocharia,merc east heavy infantry,0,Common,1,1,12,45
 South Tocharia,merc east heavy cataphract,2,Elite,1,0,12,41
 South Tocharia,merc east heavy cataphract,0,Veteran,3,2,12,41
@@ -1126,7 +1126,7 @@ Southern Anatolia,merc cilician pirate,0,Common,2,1,10,23
 Southern Anatolia,merc thracian militia cavalry,0,Veteran,1,1,10,22
 Southern Anatolia,merc cretan archers,0,Elite,1,0,10,21
 Southern Anatolia,merc hypaspists,0,Veteran,1,1,10,20
-Susiana,merc east archer,0,Common,2,1,12,134
+Susiana,merc east archer,0,Common,2,1,12,131
 Susiana,merc eastern infantry,0,Common,2,1,12,124
 Susiana,merc greek hoplites,2,Elite,1,1,12,80
 Susiana,merc peltast,0,Common,1,1,12,60
@@ -1147,14 +1147,14 @@ Syria,merc armoured syrian elephant,2,Special,1,0,16,6
 Syria,merc east scythed chariot,0,Elite,1,0,16,5
 Taprobane,merc barbarian infantry,0,Common,2,2,10,141
 Taprobane,merc syrian archer,2,Veteran,2,1,10,52
-Taprobane,merc barb archer,3,Common,2,1,10,95
-Taprobane,merc barb naked fanatics,0,Veteran,2,1,10,58
+Taprobane,merc barb archer,3,Common,2,1,10,97
+Taprobane,merc barb naked fanatics,0,Veteran,2,1,10,60
 Taprobane,merc greek elephant small,0,Elite,1,1,10,48
 Taprobane,merc elephants,0,Elite,1,0,10,34
 Taxila,merc syrian archer,5,Elite,1,0,14,52
 Taxila,merc syrian archer,2,Veteran,2,1,14,52
-Taxila,merc east archer,3,Veteran,2,1,14,134
-Taxila,merc egyptian infantry,0,Veteran,2,1,14,80
+Taxila,merc east archer,3,Veteran,2,1,14,131
+Taxila,merc egyptian infantry,0,Veteran,2,1,14,79
 Taxila,merc eastern infantry,0,Common,2,1,14,124
 Taxila,merc greek hoplites,0,Elite,1,0,14,80
 Taxila,merc greek elephant small,0,Elite,1,1,14,48
@@ -1170,13 +1170,13 @@ Thrace,merc hypaspists,0,Veteran,1,1,12,20
 Thrace,merc bastarnae,2,Elite,1,0,12,10
 Thrace,merc bastarnae,0,Veteran,1,1,12,10
 Tondainadu,merc syrian archer,2,Veteran,1,0,10,52
-Tondainadu,merc east archer,3,Common,3,2,10,134
-Tondainadu,merc egyptian infantry,0,Veteran,2,1,10,80
+Tondainadu,merc barb archer,3,Common,3,2,10,97
+Tondainadu,merc barb naked fanatics,0,Veteran,2,1,10,60
 Tondainadu,merc eastern infantry,0,Common,2,1,10,124
 Tondainadu,merc greek elephant small,0,Elite,1,1,10,48
 Tondainadu,merc elephants,0,Elite,1,0,10,34
 Turdetania,merc barbarian infantry,0,Common,2,1,12,141
-Turdetania,merc barb archer,0,Common,2,1,12,95
+Turdetania,merc barb archer,0,Common,2,1,12,97
 Turdetania,merc barbarian cavalry,0,Common,1,1,12,72
 Turdetania,merc spanish infantry,2,Veteran,1,1,12,34
 Turdetania,merc spanish infantry,0,Common,2,1,12,34
@@ -1187,7 +1187,7 @@ Tylis,merc barbarian infantry,0,Veteran,1,1,14,141
 Tylis,merc barbarian cavalry,5,Elite,1,1,14,72
 Tylis,merc barbarian cavalry,2,Veteran,1,1,14,72
 Tylis,merc barbarian cavalry,0,Common,2,2,14,72
-Tylis,merc barb naked fanatics,0,Common,1,1,14,58
+Tylis,merc barb naked fanatics,0,Common,1,1,14,60
 Tylis,merc warband sword,0,Veteran,2,1,14,38
 Tylis,merc warband falx,0,Veteran,1,1,14,34
 Tylis,merc thracian,2,Veteran,2,1,14,32
@@ -1201,60 +1201,60 @@ Upper Egypt,merc greek hoplites,0,Veteran,1,0,10,80
 Upper Egypt,merc libyan infantry,2,Veteran,1,1,10,77
 Upper Egypt,merc libyan infantry,0,Common,2,1,10,77
 Upper Egypt,merc greek elephant small,0,Elite,1,1,10,48
-Upper Egypt,merc egyptian infantry,0,Common,3,2,10,80
+Upper Egypt,merc egyptian infantry,0,Common,3,2,10,79
 Upper Egypt,merc elephants,0,Special,1,0,10,34
 Upper Egypt,merc egyptian chariot,0,Elite,1,0,10,17
 Upper Gangetic Plain,merc syrian archer,2,Veteran,2,1,12,52
-Upper Gangetic Plain,merc east archer,3,Common,2,1,12,134
-Upper Gangetic Plain,merc egyptian infantry,0,Veteran,3,2,12,80
+Upper Gangetic Plain,merc east archer,3,Common,2,1,12,131
+Upper Gangetic Plain,merc egyptian infantry,0,Veteran,3,2,12,79
 Upper Gangetic Plain,merc eastern infantry,0,Common,3,2,12,124
 Upper Gangetic Plain,merc greek elephant small,0,Elite,1,1,12,48
 Upper Gangetic Plain,merc elephants,0,Elite,1,0,12,34
-Van,merc east archer,0,Veteran,2,1,10,134
+Van,merc east archer,0,Veteran,2,1,10,131
 Van,merc eastern infantry,0,Common,3,3,10,124
 Van,merc greek hoplites,0,Veteran,1,1,10,80
 Van,merc east heavy infantry,0,Veteran,3,2,10,45
 Van,merc east heavy cataphract,0,Elite,1,0,10,41
 Venedia,merc barbarian infantry,2,Veteran,1,1,8,141
 Venedia,merc barbarian infantry,0,Common,2,1,8,141
-Venedia,merc barb archer,2,Veteran,1,1,8,95
-Venedia,merc barb archer,0,Common,3,2,8,95
+Venedia,merc barb archer,2,Veteran,1,1,8,97
+Venedia,merc barb archer,0,Common,3,2,8,97
 Venedia,merc warband spear german,0,Elite,1,0,8,26
 Vettonia,merc barbarian infantry,0,Common,2,0,12,141
-Vettonia,merc barb archer,0,Common,2,1,12,95
+Vettonia,merc barb archer,0,Common,2,1,12,97
 Vettonia,merc barbarian cavalry,0,Common,1,1,12,72
 Vettonia,merc spanish infantry,2,Veteran,1,1,12,34
 Vettonia,merc spanish infantry,0,Common,2,1,12,34
 Vettonia,merc carthaginian infantry,0,Common,3,2,12,34
 Vettonia,merc carthaginian medium cavalry,0,Veteran,1,0,12,33
 Wales,merc barbarian infantry,0,Common,2,1,8,141
-Wales,merc barb archer,0,Veteran,2,1,8,95
-Wales,merc barb naked fanatics,0,Veteran,1,1,8,58
-Wales,merc barb naked fanatics,2,Veteran,1,1,8,58
+Wales,merc barb archer,0,Veteran,2,1,8,97
+Wales,merc barb naked fanatics,0,Veteran,1,1,8,60
+Wales,merc barb naked fanatics,2,Veteran,1,1,8,60
 Wales,merc warband sword,5,Elite,1,0,8,38
 Wales,merc barb chariot heavy briton,0,Elite,1,0,8,7
 West Agathyrsia,merc barbarian infantry,2,Veteran,1,1,10,141
 West Agathyrsia,merc barbarian infantry,0,Common,2,1,10,141
-West Agathyrsia,merc barb archer,0,Common,2,2,10,95
+West Agathyrsia,merc barb archer,0,Common,2,2,10,97
 West Agathyrsia,merc warband falx,2,Veteran,1,1,10,34
 West Agathyrsia,merc warband falx,0,Common,3,2,10,34
 West Agathyrsia,merc warband spear german,0,Veteran,1,0,10,26
 West Cisalpine Gaul,merc barbarian infantry,0,Common,3,2,10,141
-West Cisalpine Gaul,merc barb archer,0,Common,2,2,10,95
+West Cisalpine Gaul,merc barb archer,0,Common,2,2,10,97
 West Cisalpine Gaul,merc barbarian cavalry,2,Elite,1,0,10,72
 West Cisalpine Gaul,merc barbarian cavalry,0,Veteran,1,1,10,72
-West Cisalpine Gaul,merc barb naked fanatics,0,Veteran,2,1,10,58
-West Cisalpine Gaul,merc barb naked fanatics,2,Elite,1,0,10,58
+West Cisalpine Gaul,merc barb naked fanatics,0,Veteran,2,1,10,60
+West Cisalpine Gaul,merc barb naked fanatics,2,Elite,1,0,10,60
 West Gaul,merc barbarian infantry,0,Common,2,1,10,141
-West Gaul,merc barb archer,0,Common,2,1,10,95
+West Gaul,merc barb archer,0,Common,2,1,10,97
 West Gaul,merc barbarian cavalry,0,Veteran,1,1,10,72
-West Gaul,merc barb naked fanatics,0,Veteran,2,1,10,58
+West Gaul,merc barb naked fanatics,0,Veteran,2,1,10,60
 West Gaul,merc warband sword,0,Veteran,2,1,10,38
 West Gaul,merc barb wardogs,0,Veteran,1,1,10,13
 West Germany,merc barbarian infantry,2,Veteran,1,1,10,141
 West Germany,merc barbarian infantry,0,Common,2,1,10,141
-West Germany,merc barb archer,0,Veteran,3,2,10,95
-West Germany,merc barb naked fanatics,2,Elite,1,0,10,58
+West Germany,merc barb archer,0,Veteran,3,2,10,97
+West Germany,merc barb naked fanatics,2,Elite,1,0,10,60
 West Germany,merc warband sword,0,Veteran,1,0,10,38
 West Germany,merc warband spear german,0,Veteran,2,1,10,26
 West Libya,merc greek hoplites,0,Elite,1,0,8,80
@@ -1262,7 +1262,7 @@ West Libya,merc libyan infantry,5,Elite,1,0,8,77
 West Libya,merc libyan infantry,2,Veteran,2,1,8,77
 West Libya,merc libyan infantry,0,Common,3,2,8,77
 West Libya,merc carthaginian medium cavalry,0,Veteran,1,1,8,33
-Western Arabia,merc east archer,0,Common,1,1,10,134
+Western Arabia,merc east archer,0,Common,1,1,10,131
 Western Arabia,merc eastern infantry,0,Common,1,1,10,124
 Western Arabia,merc arab cavalry,0,Common,3,2,10,24
 Western Arabia,merc bedouin,2,Veteran,1,0,10,18
@@ -1270,8 +1270,8 @@ Western Arabia,merc bedouin,0,Common,1,1,10,18
 Western Arabia,merc bedouin archers,0,Veteran,2,1,10,13
 Western Arabia,merc east camel cataphract,0,Elite,1,0,10,9
 Yaudheya,merc syrian archer,2,Veteran,2,1,10,52
-Yaudheya,merc east archer,3,Common,2,1,10,134
-Yaudheya,merc egyptian infantry,0,Veteran,2,1,10,80
+Yaudheya,merc east archer,3,Common,2,1,10,131
+Yaudheya,merc egyptian infantry,0,Veteran,2,1,10,79
 Yaudheya,merc eastern infantry,0,Common,2,1,10,124
 Yaudheya,merc greek elephant small,0,Elite,1,1,10,48
 Yaudheya,merc elephants,0,Elite,1,0,10,34
