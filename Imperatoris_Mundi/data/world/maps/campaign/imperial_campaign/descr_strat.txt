@@ -5082,7 +5082,7 @@ relative 	Arminius, 	Herlinda,		Ariogaisus,	Hariulfus,	Ricburgis,	end
 relative 	Ariogaisus, 	Thusnelda,		Vannius,	Amalberga,	Othelhildis,	end
 relative 	Hariulfus, 	Aurinia,		Sesithacus,	Biua,	Carolus,	end
 
-faction	greek_cities, balanced_smith
+faction	greek_cities, sailor_napoleon
 denari	5000
 
 settlement

@@ -33,7 +33,7 @@ start_date	-272 summer
 end_date	14 summer
 
 brigand_spawn_value 10
-pirate_spawn_value 20
+pirate_spawn_value 10
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of landmarks section <<<<
@@ -26624,9 +26624,9 @@ unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
 unit		merc barb scythian hoplite				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
-unit		east archer				exp 2 armour 0 weapon_lvl 0
+unit		merc greek crossbowmen				exp 2 armour 0 weapon_lvl 0
+unit		merc greek crossbowmen				exp 2 armour 0 weapon_lvl 0
+unit		merc greek crossbowmen				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
 unit		merc east heavy cataphract				exp 2 armour 0 weapon_lvl 0
@@ -26646,11 +26646,11 @@ unit		merc barb scythian hoplite				exp 9 armour 3 weapon_lvl 3
 unit		merc barb scythian hoplite				exp 9 armour 3 weapon_lvl 3
 unit		merc barb scythian hoplite				exp 9 armour 3 weapon_lvl 3
 unit		merc barb scythian hoplite				exp 9 armour 3 weapon_lvl 3
-unit		east archer				exp 9 armour 3 weapon_lvl 3
-unit		east archer				exp 9 armour 3 weapon_lvl 3
-unit		east archer				exp 9 armour 3 weapon_lvl 3
-unit		east archer				exp 9 armour 3 weapon_lvl 3
-unit		east archer				exp 9 armour 3 weapon_lvl 3
+unit		merc greek crossbowmen				exp 9 armour 3 weapon_lvl 3
+unit		merc greek crossbowmen				exp 9 armour 3 weapon_lvl 3
+unit		merc greek crossbowmen				exp 9 armour 3 weapon_lvl 3
+unit		merc greek crossbowmen				exp 9 armour 3 weapon_lvl 3
+unit		merc greek crossbowmen				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
 unit		merc east heavy cataphract				exp 9 armour 3 weapon_lvl 3
